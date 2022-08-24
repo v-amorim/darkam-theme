@@ -32,5 +32,5 @@ def zipfolder(foldername, target_dir):
             zipobj.write(fn, fn[rootlen:])
 
 
-zipfolder("VTheme", "./Theme")
+zipfolder("viniam-theme", "./Theme")
 sys.exit()
