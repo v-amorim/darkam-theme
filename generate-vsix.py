@@ -3,34 +3,37 @@ import os
 import sys
 
 
-def zipfolder(foldername, target_dir):
+def zipfolder(filename, target_dir):
     """
-    Zip a folder and its contents.
+    Zip the contents of an entire folder (with that folder included
+    in the archive). Empty subfolders will be included in the archive
+    as well.
 
     Parameters
     ----------
-    foldername : str
-        The name of the folder to be zipped.
+    filename : str
+        The name of the zip file.
     target_dir : str
-        The path to the folder to be zipped.
+        The path of the folder to be zipped.
 
     Returns
     -------
     None
+        Nothing is returned.
 
     Examples
     --------
-    >>> zipfolder("my_folder", "path/to/my_folder")
-    None
+    >>> zipfolder("myzipfile", "myfolder")
 
     """
-    zipobj = zipfile.ZipFile(f"{foldername}.vsix", "w", zipfile.ZIP_DEFLATED)
+    extension = "vsix"
+    zipobj = zipfile.ZipFile(f"{filename}.{extension}", "w", zipfile.ZIP_DEFLATED)
     rootlen = len(target_dir) + 1
     for base, _dirs, files in os.walk(target_dir):
         for file in files:
             fn = os.path.join(base, file)
             zipobj.write(fn, fn[rootlen:])
+    return sys.exit()
 
 
 zipfolder("darkam-theme-v1.0.0", "./Theme")
-sys.exit()
