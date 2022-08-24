@@ -88,6 +88,14 @@
         "foreground": "#c9d1d9"
       }
     },
+
+    {
+      "scope": "variable.other.readwrite",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#fdfafd"
+      }
+    },
     {
       "scope": "markup.italic",
       "settings": {
@@ -189,7 +197,7 @@
     {
       "scope": ["string", "string punctuation.section.embedded source"],
       "settings": {
-        "foreground": "#a4f4fa"
+        "foreground": "#a5d6ff"
       }
     },
     {
