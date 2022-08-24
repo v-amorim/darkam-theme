@@ -1,4 +1,4 @@
-# Darkam
+# Darkam Theme
 
 A theme extension for [Visual Studio Code](https://code.visualstudio.com) based on **Github Dark** theme.
 
@@ -6,7 +6,7 @@ A theme extension for [Visual Studio Code](https://code.visualstudio.com) based 
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/viniam/VSCode-Theme-Extension)
+See [CHANGELOG.md](hhttps://github.com/viniam/vscode-theme-tester)
 
 ## Description
 
@@ -23,6 +23,6 @@ See [CHANGELOG.md](https://github.com/viniam/VSCode-Theme-Extension)
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/viniam/VSCode-Theme-Extension/main/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/viniam/vscode-theme-tester/main/screenshot.png)
 
 **Enjoy!**

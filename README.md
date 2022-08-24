@@ -1,4 +1,4 @@
-# Darkam
+# Darkam Theme
 
 A theme extension for [Visual Studio Code](https://code.visualstudio.com) based on **Github Dark** theme.
 

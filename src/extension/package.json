@@ -1,5 +1,5 @@
 {
-  "name": "vscode-theme-darkam",
+  "name": "vscode-darkam-theme",
   "displayName": "Darkam Theme",
   "description": "A theme extension for VS Code based on Github Dark theme",
   "version": "1.0.0",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rokoroku/vscode-theme-darcula"
+    "url": "https://github.com/viniam/vscode-theme-tester"
   },
   "engines": {
     "vscode": "*"
@@ -21,9 +21,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Darkam",
+        "label": "Darkam Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkam.json"
+        "path": "./themes/darkam-theme.json"
       }
     ]
   }
