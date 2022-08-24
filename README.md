@@ -1,2 +1,3 @@
-# VSCode Theme Extension
- My own VSCode Theme
+# VSCode Darkam Theme Extension
+
+My own VSCode Theme

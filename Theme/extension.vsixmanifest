@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="vscode-theme-darcula" Version="1.2.3" Publisher="rokoroku"/>
-    <DisplayName>Darcula Theme</DisplayName>
-    <Description xml:space="preserve">A theme extension for VS Code based on Darcula theme from Jetbrains IDEs</Description>
-    <Tags>theme,color-theme</Tags>
+    <Identity Language="en-US" Id="vscode-theme-darkam" Version="1.0.0" Publisher="viniam"/>
+    <DisplayName>Darkam Theme</DisplayName>
+    <Description xml:space="preserve">A theme extension for VS Code based on Github Dark theme</Description>
+    <Tags>theme,color-theme,dark</Tags>
     <Categories>Themes</Categories>
     <GalleryFlags>Public</GalleryFlags>
     <Badges></Badges>
@@ -15,10 +15,10 @@
       <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
       <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
       
-        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/rokoroku/vscode-theme-darcula" />
-        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/rokoroku/vscode-theme-darcula" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/viniam/VSCode-Theme-Extension" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/viniam/VSCode-Theme-Extension" />
         
-          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/rokoroku/vscode-theme-darcula" />
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/viniam/VSCode-Theme-Extension" />
         
       
       
