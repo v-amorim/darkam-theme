@@ -103,7 +103,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#a5d6ff"
+        "foreground": "#88f1f9"
       }
     },
     {
@@ -446,21 +446,21 @@
       "name": "Classes",
       "scope": "entity.name.type.namespace",
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff8353"
       }
     },
     {
       "name": "Classes",
       "scope": "support.class, entity.name.type.class",
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff8353"
       }
     },
     {
       "name": "Class name",
       "scope": "entity.name.class.identifier.namespace.type",
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff8353"
       }
     },
     {
@@ -471,7 +471,7 @@
         "variable.other.class.ts"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff8353"
       }
     },
     {
@@ -485,7 +485,7 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff8353"
       }
     },
     {
@@ -533,6 +533,13 @@
       "scope": "meta.function.decorator.python",
       "settings": {
         "foreground": "#d2a8ff"
+      }
+    },
+    {
+      "name": "punctuation.definition",
+      "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
+      "settings": {
+        "foreground": "#ac88f9"
       }
     }
   ],
