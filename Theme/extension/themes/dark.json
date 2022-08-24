@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "variable.constant": {
-      "foreground": "#ffa666"
+      "foreground": "#5cffa3"
     },
     "variable.defaultLibrary": {
       "foreground": "#f07178"
@@ -49,7 +49,7 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#ffa666"
+        "foreground": "#5cffa3"
       }
     },
     {
@@ -316,7 +316,7 @@
         "variable.other.class.ts"
       ],
       "settings": {
-        "foreground": "#ff8353"
+        "foreground": "#f08b7e"
       }
     },
     {
