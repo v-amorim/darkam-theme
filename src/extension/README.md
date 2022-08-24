@@ -6,7 +6,7 @@ A theme extension for [Visual Studio Code](https://code.visualstudio.com) based 
 
 ## Changelog
 
-See [CHANGELOG.md](hhttps://github.com/viniam/vscode-theme-tester)
+See [CHANGELOG.md](https://github.com/viniam/darkam-theme)
 
 ## Description
 
