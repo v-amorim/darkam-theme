@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "variable.constant": {
-      "foreground": "#7ef0ca"
+      "foreground": "#7ef091"
     },
     "variable.defaultLibrary": {
       "foreground": "#f07178"
@@ -48,14 +48,27 @@
       "scope": [
         "constant",
         "constant.character.format.placeholder.other.python",
-        "constant.numeric",
-        "entity.name.constant",
         "entity.other.inherited-class.python",
-        "variable.other.constant",
         "variable.other.enummember",
-        "variable.other.property"
+        "variable.other.property",
+        "entity.name.tag",
+        "markup.quote",
+        "support.class.component",
+        "support.type.property-name.json"
       ],
       "settings": {
+        "foreground": "#7ef091"
+      }
+    },
+    {
+      "name": "Markup and Diff",
+      "scope": [
+        "markup.inserted",
+        "meta.diff.header.to-file",
+        "punctuation.definition.inserted"
+      ],
+      "settings": {
+        "background": "#04260f",
         "foreground": "#7ef091"
       }
     },
@@ -81,10 +94,28 @@
         "punctuation.definition.list.begin.markdown",
         "variable.parameter.function.language.python",
         "variable.parameter.function.python",
-        "variable.language.special.self.python"
+        "variable.language.special.self.python",
+        "meta.function-call.python"
       ],
       "settings": {
         "foreground": "#c3f8cb"
+      }
+    },
+    {
+      "name": [
+        "Language variables",
+        "Namespaces",
+        "Type Name",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "scope": [
+        "entity.name.namespace",
+        "entity.name.type",
+        "variable.language",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#f07ea4"
       }
     },
     {
@@ -104,7 +135,10 @@
       }
     },
     {
-      "name": "Python Declared Functions",
+      "name": [
+        "Python Declared Functions",
+        "Attribute IDs"
+      ],
       "scope": [
         "entity.name.function.python",
         "support.variable.magic.python",
@@ -112,7 +146,9 @@
         "entity.name.section",
         "keyword.other.special-method",
         "meta.require",
-        "variable.function"
+        "variable.function",
+        "support.function.any-method",
+        "entity.other.attribute-name.id"
       ],
       "settings": {
         "foreground": "#ca7ef0"
@@ -133,10 +169,242 @@
       }
     },
     {
-      "name": "Python test",
+      "name": "Meta Diff Range",
+      "scope": "meta.diff.range",
+      "settings": {
+        "foreground": "#ca7ef0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Changed",
       "scope": [
-        "variable.function"
+        "markup.changed",
+        "punctuation.definition.changed"
       ],
+      "settings": {
+        "background": "#5a1e02",
+        "foreground": "#ffa657"
+      }
+    },
+    {
+      "name": "No noticible changes",
+      "scope": [
+        "meta.block",
+        "meta.embedded.expression",
+        "meta.jsx.children",
+        "meta.object.member",
+        "meta.tag.attributes",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "storage.type.java",
+        "variable.parameter.function"
+      ],
+      "settings": {
+        "foreground": "#c9d1d9"
+      }
+    },
+    {
+      "name": "Variable Read Write",
+      "scope": "variable.other.readwrite",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f5eef5"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#c9d1d9"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#c9d1d9"
+      }
+    },
+    {
+      "name": "Markup Underline",
+      "scope": [
+        "markup.underline"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markup Strikethrough",
+      "scope": [
+        "markup.strikethrough"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Markup Heading",
+      "scope": [
+        "markup.heading entity.name",
+        "markup.heading",
+        "meta.separator"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#79c0ff"
+      }
+    },
+    {
+      "name": "Markup Ignored/Untracked",
+      "scope": [
+        "markup.ignored",
+        "markup.untracked"
+      ],
+      "settings": {
+        "foreground": "#161b22",
+        "background": "#79c0ff"
+      }
+    },
+    {
+      "name": [
+        "Keywords",
+        "Symbols"
+      ],
+      "scope": [
+        "keyword",
+        "punctuation.section.embedded",
+        "storage",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#ff7b72"
+      }
+    },
+    {
+      "name": "Python Keywords",
+      "scope": [
+        "markup.inline.raw",
+        "meta.diff.header",
+        "meta.module-reference",
+        "meta.output",
+        "meta.property-name",
+        "string variable",
+        "support",
+        "support.constant",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#ff72b0"
+      }
+    },
+    {
+      "name": "Carriage Return",
+      "scope": "carriage-return",
+      "settings": {
+        "fontStyle": "italic underline",
+        "background": "#ff7b72",
+        "foreground": "#f0f6fc",
+        "content": "^M"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "string punctuation.section.embedded source"
+      ],
+      "settings": {
+        "foreground": "#a5d6ff"
+      }
+    },
+    {
+      "name": "String Quotes",
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "#faa4c9"
+      }
+    },
+    {
+      "name": "Unmatched Bracket",
+      "scope": [
+        "brackethighlighter.unmatched",
+        "message.error"
+      ],
+      "settings": {
+        "foreground": "#ffa198"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid.broken",
+        "invalid.deprecated",
+        "invalid.illegal",
+        "invalid.unimplemented"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffa198"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": [
+        "markup.deleted",
+        "meta.diff.header.from-file",
+        "punctuation.definition.deleted"
+      ],
+      "settings": {
+        "background": "#490202",
+        "foreground": "#ffa198"
+      }
+    },
+    {
+      "name": "Regex",
+      "scope": [
+        "source.regexp",
+        "string.regexp constant.character.escape",
+        "string.regexp source.ruby.embedded",
+        "string.regexp string.regexp.arbitrary-repitition",
+        "string.regexp.character-class"
+      ],
+      "settings": {
+        "foreground": "#a5d6ff"
+      }
+    },
+    {
+      "name": "Link",
+      "scope": [
+        "constant.other.reference.link",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#ffa198",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markup Link",
+      "scope": [
+        "markup.underline.link"
+      ],
+      "settings": {
+        "foreground": "#72bfff",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Testing Scope",
+      "scope": [],
       "settings": {
         "foreground": "#f8e750"
       }
