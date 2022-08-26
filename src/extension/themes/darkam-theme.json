@@ -206,9 +206,9 @@
       "scope": [
         "keyword",
         "punctuation.section.embedded",
+        "punctuation.separator.method.ruby",
         "storage",
-        "storage.type",
-        "punctuation.separator.method.ruby"
+        "storage.type"
       ],
       "settings": {
         "foreground": "#ff7b72"
@@ -217,6 +217,8 @@
     {
       "name": "Python Keywords",
       "scope": [
+        "constant.language.ruby",
+        "entity.name.function.js",
         "markup.inline.raw",
         "meta.diff.header",
         "meta.module-reference",
@@ -224,11 +226,8 @@
         "meta.property-name",
         "string variable",
         "support.constant",
-        "support.variable",
-        "meta.function-call.arguments.python",
-        "constant.language.ruby",
-        "entity.name.function.js",
-        "support.function.builtin.python"
+        "support.function.builtin.python",
+        "support.variable"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -244,11 +243,11 @@
     {
       "name": "String Quotes",
       "scope": [
+        "punctuation.definition.markdown",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
         "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json",
-        "punctuation.definition.markdown"
+        "punctuation.support.type.property-name.end.json"
       ],
       "settings": {
         "foreground": "#faa4c9"
@@ -286,11 +285,12 @@
     {
       "name": ["Constant Parameters"],
       "scope": [
-        "variable.parameter.function.language.python",
-        "variable.language.special.self.python",
-        "meta.fstring.python",
         "entity.other.inherited-class",
-        "variable.other.block.ruby"
+        "meta.fstring.python",
+        "meta.function-call.arguments.python",
+        "variable.language.special.self.python",
+        "variable.other.block.ruby",
+        "variable.parameter.function.language.python"
       ],
       "settings": {
         "foreground": "#ffc272"
@@ -299,8 +299,8 @@
     {
       "name": ["Language variables", "Namespaces", "Type Name"],
       "scope": [
-        "entity.name.namespace",
         "constant.other.symbol.hashkey.ruby",
+        "entity.name.namespace",
         "variable.language.this.js"
       ],
       "settings": {
@@ -309,7 +309,7 @@
     },
     {
       "name": "Read Write Variable (default variables)",
-      "scope": ["variable.other.readwrite", "variable.parameter.js"],
+      "scope": ["variable.parameter.js", "variable.other.readwrite"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#f5eef5"
@@ -318,11 +318,12 @@
     {
       "name": ["Declared Functions", "Attribute IDs"],
       "scope": [
-        "meta.function-call.generic.python",
+        "entity.name.function.python",
         "markup.heading",
+        "meta.function-call.generic.python",
         "punctuation.definition.heading",
-        "support.function.magic.python",
         "support.function.kernel.ruby",
+        "support.function.magic.python",
         "variable.other.object.property.js"
       ],
       "settings": {
@@ -331,7 +332,7 @@
     },
     {
       "name": ["Imported Functions", "Attributes"],
-      "scope": ["meta.attribute.python", "entity.name.function.ruby"],
+      "scope": ["entity.name.function.ruby", "meta.attribute.python"],
       "settings": {
         "foreground": "#82aaff"
       }
@@ -340,9 +341,9 @@
       "name": "Classes",
       "scope": [
         "entity.name.type.class.python",
+        "support.class.ruby",
         "variable.other.class.js",
-        "variable.other.class.ts",
-        "support.class.ruby"
+        "variable.other.class.ts"
       ],
       "settings": {
         "foreground": "#f0917e"
