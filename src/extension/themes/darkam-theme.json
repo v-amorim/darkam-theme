@@ -258,7 +258,6 @@
         "punctuation.section.function.lambda.begin.python",
         "punctuation.section.function.lambda.end.python",
         "punctuation.separator",
-        "punctuation.separator.arguments.python",
         "punctuation.separator.colon.python",
         "punctuation.separator.dict.python",
         "punctuation.separator.element.python",
@@ -276,7 +275,8 @@
       "name": "Arguments Punctuation",
       "scope": [
         "punctuation.definition.arguments.begin.python",
-        "punctuation.definition.arguments.end.python"
+        "punctuation.definition.arguments.end.python",
+        "punctuation.separator.arguments.python"
       ],
       "settings": {
         "fontStyle": "bold",
