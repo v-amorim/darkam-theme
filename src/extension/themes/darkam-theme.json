@@ -287,7 +287,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "entity.name.constant"],
       "settings": {
-        "foreground": "#F0BC7E"
+        "foreground": "#ffc272"
       }
     },
     {
@@ -318,14 +318,13 @@
       "scope": [
         "entity.other.inherited-class",
         "meta.fstring.python",
-        "meta.function-call.arguments.python",
         "variable.language.special.self.python",
         "variable.other.block.ruby",
         "variable.parameter",
         "variable.parameter.function.language.python"
       ],
       "settings": {
-        "foreground": "#f0bc7e"
+        "foreground": "#ff98ba"
       }
     },
     {
@@ -357,7 +356,8 @@
         "punctuation.definition.heading",
         "support.function.kernel.ruby",
         "support.function.magic.python",
-        "variable.other.object.property.js"
+        "variable.other.object.property.js",
+        "meta.function-call.arguments.python"
       ],
       "settings": {
         "foreground": "#d388f0"
