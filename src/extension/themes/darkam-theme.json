@@ -232,8 +232,7 @@
         "support.function.builtin.python",
         "support.variable",
         "punctuation.definition.list.begin.markdown",
-        "punctuation.definition.list.end.markdown",
-        "markup.list.numbered.markdown"
+        "punctuation.definition.list.end.markdown"
       ],
       "settings": {
         "foreground": "#ff72b0"
