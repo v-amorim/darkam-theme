@@ -13,10 +13,6 @@
       "foreground": "#e83974",
       "fontStyle": "italic"
     },
-    "variable": {
-      "foreground": "#f5eef5",
-      "fontStyle": "italic"
-    },
     "property.declaration": {
       "foreground": "#f5eef5"
     }
@@ -231,7 +227,8 @@
         "support.variable",
         "meta.function-call.arguments.python",
         "constant.language.ruby",
-        "entity.name.function.js"
+        "entity.name.function.js",
+        "support.function.builtin.python"
       ],
       "settings": {
         "foreground": "#ff72b0"
