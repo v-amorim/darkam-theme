@@ -317,7 +317,6 @@
         "entity.other.inherited-class",
         "meta.fstring.python",
         "meta.function-call.arguments.python",
-        "source.python",
         "variable.language.special.self.python",
         "variable.other.block.ruby",
         "variable.parameter",
