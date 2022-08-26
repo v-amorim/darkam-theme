@@ -195,6 +195,7 @@
         "brackethighlighter.tag",
         "comment",
         "punctuation.definition.comment",
+        "punctuation.definition.tag.xml",
         "string.comment"
       ],
       "settings": {
@@ -205,8 +206,10 @@
       "name": ["Keywords", "Symbols"],
       "scope": [
         "keyword",
+        "meta.tag.xml",
         "punctuation.section.embedded",
         "punctuation.separator.method.ruby",
+        "punctuation.separator.namespace.xml",
         "storage",
         "storage.type"
       ],
@@ -301,6 +304,7 @@
       "scope": [
         "constant.other.symbol.hashkey.ruby",
         "entity.name.namespace",
+        "entity.other.attribute-name.namespace.xml",
         "variable.language.this.js"
       ],
       "settings": {
@@ -332,7 +336,12 @@
     },
     {
       "name": ["Imported Functions", "Attributes"],
-      "scope": ["entity.name.function.ruby", "meta.attribute.python"],
+      "scope": [
+        "entity.name.function.ruby",
+        "entity.other.attribute-name.localname.xml",
+        "entity.other.attribute-name.xml",
+        "meta.attribute.python"
+      ],
       "settings": {
         "foreground": "#82aaff"
       }
