@@ -232,7 +232,8 @@
         "support.function.builtin.python",
         "support.variable",
         "punctuation.definition.list.begin.markdown",
-        "punctuation.definition.list.end.markdown"
+        "punctuation.definition.list.end.markdown",
+        "constant.language.json"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -299,7 +300,6 @@
         "punctuation.separator.arguments.python",
         "support.class.component",
         "support.type.exception.python",
-        "support.type.property-name.json",
         "variable.other.enummember"
       ],
       "settings": {
@@ -369,7 +369,8 @@
         "entity.name.function.ruby",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
-        "meta.attribute.python"
+        "meta.attribute.python",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#82aaff"
