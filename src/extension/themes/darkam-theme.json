@@ -211,7 +211,8 @@
         "punctuation.separator.method.ruby",
         "punctuation.separator.namespace.xml",
         "storage",
-        "storage.type"
+        "storage.type",
+        "punctuation.definition.constant.hashkey.ruby"
       ],
       "settings": {
         "foreground": "#ff7b72"
@@ -220,7 +221,6 @@
     {
       "name": "Python Keywords",
       "scope": [
-        "constant.language.ruby",
         "entity.name.function.js",
         "markup.inline.raw",
         "meta.diff.header",
@@ -233,7 +233,8 @@
         "support.variable",
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.list.end.markdown",
-        "constant.language.json"
+        "constant.language.json",
+        "constant.language.symbol.ruby"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -300,7 +301,8 @@
         "punctuation.separator.arguments.python",
         "support.class.component",
         "support.type.exception.python",
-        "variable.other.enummember"
+        "variable.other.enummember",
+        "constant.language.boolean.ruby"
       ],
       "settings": {
         "foreground": "#7ef091"
@@ -321,7 +323,8 @@
         "variable.language.special.self.python",
         "variable.other.block.ruby",
         "variable.parameter",
-        "variable.parameter.function.language.python"
+        "variable.parameter.function.language.python",
+        "constant.language.symbol.hashkey.ruby"
       ],
       "settings": {
         "foreground": "#ff98ba"
@@ -330,10 +333,10 @@
     {
       "name": ["Language variables", "Namespaces", "Type Name"],
       "scope": [
-        "constant.other.symbol.hashkey.ruby",
         "entity.name.namespace",
         "entity.other.attribute-name.namespace.xml",
-        "variable.language.this.js"
+        "variable.language.this.js",
+        "entity.name.function.ruby"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -357,7 +360,8 @@
         "support.function.kernel.ruby",
         "support.function.magic.python",
         "variable.other.object.property.js",
-        "meta.function-call.arguments.python"
+        "meta.function-call.arguments.python",
+        "support.class.ruby"
       ],
       "settings": {
         "foreground": "#d388f0"
@@ -366,7 +370,6 @@
     {
       "name": ["Imported Functions", "Attributes"],
       "scope": [
-        "entity.name.function.ruby",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
         "meta.attribute.python",
@@ -380,7 +383,6 @@
       "name": "Classes",
       "scope": [
         "entity.name.type.class.python",
-        "support.class.ruby",
         "variable.other.class.js",
         "variable.other.class.ts"
       ],
