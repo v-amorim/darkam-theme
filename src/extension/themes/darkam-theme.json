@@ -212,7 +212,8 @@
         "punctuation.separator.namespace.xml",
         "storage",
         "storage.type",
-        "punctuation.definition.constant.hashkey.ruby"
+        "punctuation.definition.constant.hashkey.ruby",
+        "punctuation.separator.variable.ruby"
       ],
       "settings": {
         "foreground": "#ff7b72"
