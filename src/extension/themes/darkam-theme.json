@@ -204,7 +204,13 @@
     },
     {
       "name": ["Keywords", "Symbols"],
-      "scope": ["keyword", "meta.tag.xml", "storage", "storage.type"],
+      "scope": [
+        "keyword",
+        "meta.tag.xml",
+        "storage",
+        "storage.type",
+        "meta.selector.qss"
+      ],
       "settings": {
         "foreground": "#ff7b72"
       }
@@ -238,7 +244,9 @@
         "punctuation.separator.element.python",
         "punctuation.separator.arguments.python",
         "punctuation.separator.parameters.python",
-        "punctuation.separator"
+        "punctuation.separator",
+        "entity.name.type.qss",
+        "meta.selector.css"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -341,7 +349,9 @@
         "variable.other.block.ruby",
         "variable.parameter.function.language.python",
         "variable.parameter.function-call.python",
-        "constant.language.symbol.hashkey.ruby"
+        "constant.language.symbol.hashkey.ruby",
+        "support.constant.property-value.css",
+        "support.constant.property-value.qss"
       ],
       "settings": {
         "foreground": "#ff98ba"
@@ -379,7 +389,9 @@
         "variable.other.object.property.js",
         "meta.function-call.arguments.python",
         "support.class.ruby",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "support.type.property-name.css",
+        "support.type.property-name.qss"
       ],
       "settings": {
         "foreground": "#d388f0"
