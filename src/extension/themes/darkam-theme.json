@@ -213,7 +213,8 @@
         "storage",
         "storage.type",
         "punctuation.definition.constant.hashkey.ruby",
-        "punctuation.separator.variable.ruby"
+        "punctuation.separator.variable.ruby",
+        "punctuation.separator.period.python"
       ],
       "settings": {
         "foreground": "#ff7b72"
@@ -264,9 +265,6 @@
         "punctuation.separator",
         "punctuation.separator.colon.python",
         "punctuation.separator.dict.python",
-        "punctuation.separator.element.python",
-        "punctuation.separator.parameters.python",
-        "punctuation.separator.period.python",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json"
@@ -300,7 +298,6 @@
         "constant.language.python",
         "entity.name.tag",
         "markup.quote",
-        "punctuation.separator.arguments.python",
         "support.class.component",
         "support.type.exception.python",
         "variable.other.enummember",
@@ -324,8 +321,8 @@
         "meta.fstring.python",
         "variable.language.special.self.python",
         "variable.other.block.ruby",
-        "variable.parameter",
         "variable.parameter.function.language.python",
+        "variable.parameter.function-call.python",
         "constant.language.symbol.hashkey.ruby"
       ],
       "settings": {
@@ -375,7 +372,10 @@
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
         "meta.attribute.python",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "punctuation.separator.element.python",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.parameters.python"
       ],
       "settings": {
         "foreground": "#82aaff"
@@ -386,7 +386,8 @@
       "scope": [
         "entity.name.type.class.python",
         "variable.other.class.js",
-        "variable.other.class.ts"
+        "variable.other.class.ts",
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#f0917e"
