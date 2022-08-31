@@ -204,22 +204,48 @@
     },
     {
       "name": ["Keywords", "Symbols"],
-      "scope": [
-        "keyword",
-        "meta.tag.xml",
-        "punctuation.section.embedded",
-        "punctuation.separator.method.ruby",
-        "punctuation.separator.namespace.xml",
-        "storage",
-        "storage.type",
-        "punctuation.definition.constant.hashkey.ruby",
-        "punctuation.separator.variable.ruby",
-        "punctuation.separator.period.python"
-      ],
+      "scope": ["keyword", "meta.tag.xml", "storage", "storage.type"],
       "settings": {
         "foreground": "#ff7b72"
       }
     },
+    {
+      "name": ["Symbols"],
+      "scope": [
+        "punctuation.definition.constant.hashkey.ruby",
+        "punctuation.section.class.begin.python",
+        "punctuation.section.class.begin.python",
+        "punctuation.section.embedded",
+        "punctuation.section.embedded",
+        "punctuation.section.function.begin.python",
+        "punctuation.section.function.end.python",
+        "punctuation.section.function.lambda.begin.python",
+        "punctuation.section.function.lambda.end.python",
+        "punctuation.separator.method.ruby",
+        "punctuation.separator.namespace.xml",
+        "punctuation.separator.period.python",
+        "punctuation.separator.variable.ruby",
+        "punctuation.separator.object.ruby"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ff7b72"
+      }
+    },
+    {
+      "name": ["Alternative Symbols"],
+      "scope": [
+        "punctuation.separator.element.python",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.parameters.python",
+        "punctuation.separator"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#82aaff"
+      }
+    },
+
     {
       "name": "Python Keywords",
       "scope": [
@@ -236,8 +262,7 @@
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.list.end.markdown",
         "constant.language.json",
-        "constant.language.symbol.ruby",
-        "punctuation.separator.object.ruby"
+        "constant.language.symbol.ruby"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -256,13 +281,6 @@
         "punctuation.definition.markdown",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
-        "punctuation.section.class.begin.python",
-        "punctuation.section.class.begin.python",
-        "punctuation.section.function.begin.python",
-        "punctuation.section.function.end.python",
-        "punctuation.section.function.lambda.begin.python",
-        "punctuation.section.function.lambda.end.python",
-        "punctuation.separator",
         "punctuation.separator.colon.python",
         "punctuation.separator.dict.python",
         "punctuation.separator.semicolon.python",
@@ -360,7 +378,8 @@
         "support.function.magic.python",
         "variable.other.object.property.js",
         "meta.function-call.arguments.python",
-        "support.class.ruby"
+        "support.class.ruby",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#d388f0"
@@ -371,11 +390,7 @@
       "scope": [
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
-        "meta.attribute.python",
-        "support.type.property-name.json",
-        "punctuation.separator.element.python",
-        "punctuation.separator.arguments.python",
-        "punctuation.separator.parameters.python"
+        "meta.attribute.python"
       ],
       "settings": {
         "foreground": "#82aaff"
