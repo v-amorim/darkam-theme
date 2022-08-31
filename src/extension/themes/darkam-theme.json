@@ -223,8 +223,6 @@
         "punctuation.section.class.begin.python",
         "punctuation.section.embedded",
         "punctuation.section.embedded",
-        "punctuation.section.function.begin.python",
-        "punctuation.section.function.end.python",
         "punctuation.section.function.lambda.begin.python",
         "punctuation.section.function.lambda.end.python",
         "punctuation.separator.method.ruby",
@@ -246,7 +244,13 @@
         "punctuation.separator.parameters.python",
         "punctuation.separator",
         "entity.name.type.qss",
-        "meta.selector.css"
+        "meta.selector.css",
+        "entity.name.tag.css",
+        "punctuation.terminator.rule.css",
+        "storage.type.function.js",
+        "punctuation.separator.colon.python",
+        "punctuation.section.function.begin.python",
+        "punctuation.section.function.end.python"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -270,7 +274,8 @@
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.list.end.markdown",
         "constant.language.json",
-        "constant.language.symbol.ruby"
+        "constant.language.symbol.ruby",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -289,7 +294,6 @@
         "punctuation.definition.markdown",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
-        "punctuation.separator.colon.python",
         "punctuation.separator.dict.python",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
@@ -391,7 +395,8 @@
         "support.class.ruby",
         "support.type.property-name.json",
         "support.type.property-name.css",
-        "support.type.property-name.qss"
+        "support.type.property-name.qss",
+        "entity.name.tag.html"
       ],
       "settings": {
         "foreground": "#d388f0"
