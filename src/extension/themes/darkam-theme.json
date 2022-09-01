@@ -349,7 +349,7 @@
     },
     {
       "name": "Parameter",
-      "scope": ["variable.parameter"],
+      "scope": ["variable.parameter.function.language.special.self.python"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#2fba89"
@@ -431,7 +431,7 @@
         "variable.other.class.ts"
       ],
       "settings": {
-        "foreground": "#f0917e"
+        "foreground": "#fdb1a2"
       }
     },
     {
