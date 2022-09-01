@@ -334,7 +334,8 @@
         "support.class.component",
         "support.type.exception.python",
         "variable.other.enummember",
-        "constant.language.boolean.ruby"
+        "constant.language.boolean.ruby",
+        "variable.parameter.function.language.python"
       ],
       "settings": {
         "foreground": "#7ef091"
@@ -361,7 +362,6 @@
         "entity.other.inherited-class",
         "meta.fstring.python",
         "variable.other.block.ruby",
-        "variable.parameter.function.language.python",
         "variable.parameter.function-call.python",
         "constant.language.symbol.hashkey.ruby",
         "support.constant.property-value.css",
