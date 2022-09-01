@@ -15,6 +15,9 @@
     },
     "property.declaration": {
       "foreground": "#f5eef5"
+    },
+    "selfParameter": {
+      "foreground": "#7ef091"
     }
   },
   "tokenColors": [
@@ -345,11 +348,18 @@
       }
     },
     {
+      "name": "Parameter",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#2fba89"
+      }
+    },
+    {
       "name": ["Constant Parameters"],
       "scope": [
         "entity.other.inherited-class",
         "meta.fstring.python",
-        "variable.language.special.self.python",
         "variable.other.block.ruby",
         "variable.parameter.function.language.python",
         "variable.parameter.function-call.python",
@@ -418,8 +428,7 @@
       "scope": [
         "entity.name.type.class.python",
         "variable.other.class.js",
-        "variable.other.class.ts",
-        "variable.parameter"
+        "variable.other.class.ts"
       ],
       "settings": {
         "foreground": "#f0917e"
