@@ -317,7 +317,11 @@
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "entity.name.constant"],
+      "scope": [
+        "constant.numeric",
+        "entity.name.constant",
+        "meta.attribute.size.html"
+      ],
       "settings": {
         "foreground": "#ffc272"
       }
