@@ -317,11 +317,7 @@
     },
     {
       "name": "Numbers",
-      "scope": [
-        "constant.numeric",
-        "entity.name.constant",
-        "meta.attribute.size.html"
-      ],
+      "scope": ["constant.numeric", "entity.name.constant"],
       "settings": {
         "foreground": "#ffc272"
       }
@@ -379,7 +375,8 @@
         "entity.name.namespace",
         "entity.other.attribute-name.namespace.xml",
         "variable.language.this.js",
-        "entity.name.function.ruby"
+        "entity.name.function.ruby",
+        "string.unquoted.html"
       ],
       "settings": {
         "foreground": "#fdbaf2"
