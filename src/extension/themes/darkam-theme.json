@@ -143,7 +143,11 @@
     },
     {
       "name": "Links",
-      "scope": ["constant.other.reference.link", "string.other.link"],
+      "scope": [
+        "constant.other.reference.link",
+        "string.other.link",
+        "markup.underline.link.latex"
+      ],
       "settings": {
         "foreground": "#ffa198",
         "fontStyle": "underline"
@@ -209,7 +213,8 @@
         "meta.tag.xml",
         "storage",
         "storage.type",
-        "meta.selector.qss"
+        "meta.selector.qss",
+        "support.function.be.latex"
       ],
       "settings": {
         "foreground": "#ff7b72"
@@ -376,7 +381,8 @@
         "entity.other.attribute-name.namespace.xml",
         "variable.language.this.js",
         "entity.name.function.ruby",
-        "string.unquoted.html"
+        "string.unquoted.html",
+        "support.function.general.tex"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -404,7 +410,9 @@
         "support.type.property-name.json",
         "support.type.property-name.css",
         "support.type.property-name.qss",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "support.function.url.latex",
+        "support.function.general.latex"
       ],
       "settings": {
         "foreground": "#d388f0"
