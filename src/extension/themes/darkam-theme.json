@@ -234,7 +234,8 @@
         "punctuation.separator.namespace.xml",
         "punctuation.separator.period.python",
         "punctuation.separator.variable.ruby",
-        "punctuation.separator.object.ruby"
+        "punctuation.separator.object.ruby",
+        "punctuation.definition.equals.colon"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -255,7 +256,8 @@
         "storage.type.function.js",
         "punctuation.separator.colon.python",
         "punctuation.section.function.begin.python",
-        "punctuation.section.function.end.python"
+        "punctuation.section.function.end.python",
+        "punctuation.ahk"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -338,7 +340,8 @@
         "support.type.exception.python",
         "variable.other.enummember",
         "constant.language.boolean.ruby",
-        "meta.function-call.arguments.python"
+        "meta.function-call.arguments.python",
+        "constant.language.ahk"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -356,6 +359,13 @@
       "scope": ["variable.parameter.function.language.special.self.python"],
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#7ef0ca"
+      }
+    },
+    {
+      "name": "AHK Hotkeys Line",
+      "scope": ["entity.name.function.label.ahk"],
+      "settings": {
         "foreground": "#7ef0ca"
       }
     },
@@ -382,7 +392,8 @@
         "variable.language.this.js",
         "entity.name.function.ruby",
         "string.unquoted.html",
-        "support.function.general.tex"
+        "support.function.general.tex",
+        "punctuation.definition.variable.percent.ahk"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -412,7 +423,8 @@
         "support.type.property-name.qss",
         "entity.name.tag.html",
         "support.function.url.latex",
-        "support.function.general.latex"
+        "support.function.general.latex",
+        "support.function.ahk"
       ],
       "settings": {
         "foreground": "#d388f0"
@@ -423,7 +435,8 @@
       "scope": [
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
-        "meta.attribute.python"
+        "meta.attribute.python",
+        "entity.name.function.ahk"
       ],
       "settings": {
         "foreground": "#82aaff"
