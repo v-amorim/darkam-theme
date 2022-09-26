@@ -339,7 +339,6 @@
         "support.class.component",
         "support.type.exception.python",
         "variable.other.enummember",
-        "constant.language.boolean.ruby",
         "meta.function-call.arguments.python",
         "constant.language.ahk"
       ],
