@@ -348,6 +348,13 @@
       }
     },
     {
+      "name": ["Ruby Boolean"],
+      "scope": ["constant.language.boolean.ruby"],
+      "settings": {
+        "foreground": "#7ef091"
+      }
+    },
+    {
       "name": "Uppercase Contants",
       "scope": ["constant.other.caps.python"],
       "settings": {
