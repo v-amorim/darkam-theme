@@ -379,6 +379,13 @@
       }
     },
     {
+      "name": "@",
+      "scope": ["punctuation.definition.decorator.python"],
+      "settings": {
+        "foreground": "#7ef0ca"
+      }
+    },
+    {
       "name": ["Constant Parameters"],
       "scope": [
         "entity.other.inherited-class",
