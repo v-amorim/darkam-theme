@@ -375,7 +375,7 @@
       "name": "AHK Hotkeys Line",
       "scope": ["entity.name.function.label.ahk"],
       "settings": {
-        "foreground": "#7ef0ca"
+        "foreground": "#FDB1A2"
       }
     },
     {
