@@ -375,14 +375,14 @@
       "name": "AHK Hotkeys Line",
       "scope": ["entity.name.function.label.ahk"],
       "settings": {
-        "foreground": "#FDB1A2"
+        "foreground": "#7ef0ca"
       }
     },
     {
       "name": "@",
       "scope": ["punctuation.definition.decorator.python"],
       "settings": {
-        "foreground": "#7ef0ca"
+        "foreground": "#FDB1A2"
       }
     },
     {
