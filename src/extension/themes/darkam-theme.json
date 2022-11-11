@@ -13,8 +13,11 @@
       "foreground": "#e83974",
       "fontStyle": "italic"
     },
-    "property.declaration": {
+    "string.regexp.quoted.multi.python.function": {
       "foreground": "#f5eef5"
+    },
+    "property": {
+      "foreground": "#82aaff"
     }
   },
   "tokenColors": [
