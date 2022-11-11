@@ -382,7 +382,7 @@
       "name": "@",
       "scope": ["punctuation.definition.decorator.python"],
       "settings": {
-        "foreground": "#FDB1A2"
+        "fontStyle": "bold"
       }
     },
     {
