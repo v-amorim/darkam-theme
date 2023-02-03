@@ -18,6 +18,15 @@
     },
     "property": {
       "foreground": "#82aaff"
+    },
+    "builtinConstant": {
+      "foreground": "#e83974"
+    },
+    "parameter": {
+      "foreground": "#ffab70"
+    },
+    "class.typeHint": {
+      "foreground": "#FF72B0"
     }
   },
   "tokenColors": [
@@ -220,7 +229,7 @@
         "support.function.be.latex"
       ],
       "settings": {
-        "foreground": "#ff7b72"
+        "foreground": "#F97583"
       }
     },
     {
@@ -321,7 +330,6 @@
         "punctuation.definition.arguments.end.python"
       ],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#f0d388"
       }
     },
@@ -329,7 +337,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "entity.name.constant"],
       "settings": {
-        "foreground": "#ffc272"
+        "foreground": "#79B8FF"
       }
     },
     {
