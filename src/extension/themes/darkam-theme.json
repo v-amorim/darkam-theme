@@ -30,6 +30,10 @@
     },
     "class.typeHint.builtin": {
       "foreground": "#FF72B0"
+    },
+    "selfParameter": {
+      "fontStyle": "italic",
+      "foreground": "#7ef0ca"
     }
   },
   "tokenColors": [
