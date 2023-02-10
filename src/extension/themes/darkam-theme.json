@@ -26,6 +26,9 @@
       "foreground": "#ffab70"
     },
     "class.typeHint": {
+      "foreground": "#FDB1A2"
+    },
+    "class.typeHint.builtin": {
       "foreground": "#FF72B0"
     }
   },
