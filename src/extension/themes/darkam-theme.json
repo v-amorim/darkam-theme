@@ -485,6 +485,13 @@
       }
     },
     {
+      "name": "Magic Fuctions",
+      "scope": ["support.function.magic.python"],
+      "settings": {
+        "foreground": "#79c0ff"
+      }
+    },
+    {
       "name": "Testing Scope",
       "scope": [
         "dsadsaaaaaaaaaaaaaaaaaaaaaaaaaa",
