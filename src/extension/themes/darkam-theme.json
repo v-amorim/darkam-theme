@@ -25,7 +25,7 @@
     "parameter": {
       "foreground": "#FDB1A2"
     },
-    "class.typeHint": {
+    "class": {
       "foreground": "#f69bdc"
     },
     "class.typeHint.builtin": {
