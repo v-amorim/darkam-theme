@@ -23,7 +23,7 @@
       "foreground": "#e83974"
     },
     "parameter": {
-      "foreground": "#f088eb"
+      "foreground": "#f199ed"
     },
     "class.typeHint": {
       "foreground": "#FDB1A2"
@@ -279,8 +279,7 @@
         "punctuation.ahk"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#82aaff"
+        "foreground": "#95c8ff"
       }
     },
 
@@ -382,8 +381,8 @@
       "name": "Self Parameter",
       "scope": ["variable.parameter.function.language.special.self.python"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#7ef0ca"
+        "fontStyle": "bold, italic",
+        "foreground": "#79c0ff"
       }
     },
     {
