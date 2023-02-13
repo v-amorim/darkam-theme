@@ -23,10 +23,10 @@
       "foreground": "#e83974"
     },
     "parameter": {
-      "foreground": "#f199ed"
+      "foreground": "#FDB1A2"
     },
     "class.typeHint": {
-      "foreground": "#FDB1A2"
+      "foreground": "#f69bdc"
     },
     "class.typeHint.builtin": {
       "foreground": "#FF72B0"
@@ -480,7 +480,7 @@
         "variable.other.class.ts"
       ],
       "settings": {
-        "foreground": "#fdb1a2"
+        "foreground": "#f69bdc"
       }
     },
     {
