@@ -23,7 +23,7 @@
       "foreground": "#e83974"
     },
     "parameter": {
-      "foreground": "#ffab70"
+      "foreground": "#f088eb"
     },
     "class.typeHint": {
       "foreground": "#FDB1A2"
@@ -32,8 +32,8 @@
       "foreground": "#FF72B0"
     },
     "selfParameter": {
-      "fontStyle": "italic",
-      "foreground": "#7ef0ca"
+      "fontStyle": "bold, italic",
+      "foreground": "#79c0ff"
     }
   },
   "tokenColors": [
