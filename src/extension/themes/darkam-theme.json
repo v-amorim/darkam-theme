@@ -254,7 +254,8 @@
         "punctuation.separator.period.python",
         "punctuation.separator.variable.ruby",
         "punctuation.separator.object.ruby",
-        "punctuation.definition.equals.colon"
+        "punctuation.definition.equals.colon",
+        "punctuation.accessor.js"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -272,7 +273,6 @@
         "meta.selector.css",
         "entity.name.tag.css",
         "punctuation.terminator.rule.css",
-        "storage.type.function.js",
         "punctuation.separator.colon.python",
         "punctuation.section.function.begin.python",
         "punctuation.section.function.end.python",
@@ -286,7 +286,6 @@
     {
       "name": "Python Keywords",
       "scope": [
-        "entity.name.function.js",
         "markup.inline.raw",
         "meta.diff.header",
         "meta.module-reference",
@@ -301,7 +300,9 @@
         "constant.language.json",
         "constant.language.symbol.ruby",
         "entity.other.attribute-name.html",
-        "support.type.python"
+        "support.type.python",
+        "entity.name.type.js",
+        "storage.type.function.js"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -357,7 +358,9 @@
         "support.type.exception.python",
         "variable.other.enummember",
         "meta.function-call.arguments.python",
-        "constant.language.ahk"
+        "constant.language.ahk",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -454,7 +457,8 @@
         "entity.name.tag.html",
         "support.function.url.latex",
         "support.function.general.latex",
-        "support.function.ahk"
+        "support.function.ahk",
+        "entity.name.function.js"
       ],
       "settings": {
         "foreground": "#d388f0"
@@ -466,7 +470,8 @@
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
         "meta.attribute.python",
-        "entity.name.function.ahk"
+        "entity.name.function.ahk",
+        "variable.other.property.js"
       ],
       "settings": {
         "foreground": "#82aaff"
@@ -481,6 +486,13 @@
       ],
       "settings": {
         "foreground": "#f69bdc"
+      }
+    },
+    {
+      "name": "Extendscript undefined",
+      "scope": ["constant.language.undefined.js", "meta.object.member.js"],
+      "settings": {
+        "foreground": "#fdb1a2"
       }
     },
     {

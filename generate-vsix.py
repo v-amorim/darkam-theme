@@ -36,4 +36,4 @@ def zipfolder(filename, target_dir):
     return sys.exit()
 
 
-zipfolder("darkam-theme-v1.7.3", "./src")
+zipfolder("darkam-theme-v1.8.0", "./src")
