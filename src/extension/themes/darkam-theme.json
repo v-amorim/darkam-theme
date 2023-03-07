@@ -233,7 +233,9 @@
         "storage",
         "storage.type",
         "meta.selector.qss",
-        "support.function.be.latex"
+        "support.function.be.latex",
+        "punctuation.accessor.js",
+        "punctuation.terminator.statement.js"
       ],
       "settings": {
         "foreground": "#F97583"
@@ -254,8 +256,7 @@
         "punctuation.separator.period.python",
         "punctuation.separator.variable.ruby",
         "punctuation.separator.object.ruby",
-        "punctuation.definition.equals.colon",
-        "punctuation.accessor.js"
+        "punctuation.definition.equals.colon"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -426,7 +427,8 @@
         "entity.name.function.ruby",
         "string.unquoted.html",
         "support.function.general.tex",
-        "punctuation.definition.variable.percent.ahk"
+        "punctuation.definition.variable.percent.ahk",
+        "variable.other.object.property.js"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -449,7 +451,6 @@
         "punctuation.definition.heading",
         "support.function.kernel.ruby",
         "support.function.magic.python",
-        "variable.other.object.property.js",
         "support.class.ruby",
         "support.type.property-name.json",
         "support.type.property-name.css",
