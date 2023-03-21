@@ -214,8 +214,7 @@
         "meta.selector.qss",
         "support.function.be.latex",
         "punctuation.accessor.js",
-        "punctuation.terminator.statement.js",
-        "punctuation.separator.dict.python"
+        "punctuation.terminator.statement.js"
       ],
       "settings": {
         "foreground": "#F97583"
@@ -412,7 +411,7 @@
     },
     {
       "name": "Read Write Variable (default variables)",
-      "scope": ["variable.parameter.js", "variable.other.readwrite"],
+      "scope": ["variable.parameter.js", "variable.other.readwrite", "punctuation.separator.dict.python"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#f8eaf8"
