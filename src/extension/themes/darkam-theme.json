@@ -214,7 +214,8 @@
         "meta.selector.qss",
         "support.function.be.latex",
         "punctuation.accessor.js",
-        "punctuation.terminator.statement.js"
+        "punctuation.terminator.statement.js",
+        "punctuation.separator.dict.python"
       ],
       "settings": {
         "foreground": "#F97583"
@@ -256,8 +257,7 @@
         "punctuation.separator.colon.python",
         "punctuation.section.function.begin.python",
         "punctuation.section.function.end.python",
-        "punctuation.ahk",
-        "punctuation.separator.dict.python"
+        "punctuation.ahk"
       ],
       "settings": {
         "foreground": "#95c8ff"
