@@ -403,7 +403,8 @@
         "string.unquoted.html",
         "support.function.general.tex",
         "punctuation.definition.variable.percent.ahk",
-        "variable.other.object.property.js"
+        "variable.other.object.property.js",
+        "punctuation.separator.dict.python"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -411,7 +412,7 @@
     },
     {
       "name": "Read Write Variable (default variables)",
-      "scope": ["variable.parameter.js", "variable.other.readwrite", "punctuation.separator.dict.python"],
+      "scope": ["variable.parameter.js", "variable.other.readwrite"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#f8eaf8"
