@@ -39,11 +39,7 @@
   "tokenColors": [
     {
       "name": "Markup and Diff",
-      "scope": [
-        "markup.inserted",
-        "meta.diff.header.to-file",
-        "punctuation.definition.inserted"
-      ],
+      "scope": ["markup.inserted", "meta.diff.header.to-file", "punctuation.definition.inserted"],
       "settings": {
         "background": "#04260f",
         "foreground": "#7ef091"
@@ -89,11 +85,7 @@
     },
     {
       "name": "Markup Heading",
-      "scope": [
-        "markup.heading entity.name",
-        "markup.heading",
-        "meta.separator"
-      ],
+      "scope": ["markup.heading entity.name", "markup.heading", "meta.separator"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#79c0ff"
@@ -124,12 +116,7 @@
     },
     {
       "name": "Invalid",
-      "scope": [
-        "invalid.broken",
-        "invalid.deprecated",
-        "invalid.illegal",
-        "invalid.unimplemented"
-      ],
+      "scope": ["invalid.broken", "invalid.deprecated", "invalid.illegal", "invalid.unimplemented"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffa198"
@@ -137,11 +124,7 @@
     },
     {
       "name": "Deleted",
-      "scope": [
-        "markup.deleted",
-        "meta.diff.header.from-file",
-        "punctuation.definition.deleted"
-      ],
+      "scope": ["markup.deleted", "meta.diff.header.from-file", "punctuation.definition.deleted"],
       "settings": {
         "background": "#490202",
         "foreground": "#ffa198"
@@ -162,11 +145,7 @@
     },
     {
       "name": "Links",
-      "scope": [
-        "constant.other.reference.link",
-        "string.other.link",
-        "markup.underline.link.latex"
-      ],
+      "scope": ["constant.other.reference.link", "string.other.link", "markup.underline.link.latex"],
       "settings": {
         "foreground": "#ffa198",
         "fontStyle": "underline"
@@ -277,7 +256,8 @@
         "punctuation.separator.colon.python",
         "punctuation.section.function.begin.python",
         "punctuation.section.function.end.python",
-        "punctuation.ahk"
+        "punctuation.ahk",
+        "punctuation.separator.dict.python"
       ],
       "settings": {
         "foreground": "#95c8ff"
@@ -322,7 +302,6 @@
         "punctuation.definition.markdown",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
-        "punctuation.separator.dict.python",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json"
@@ -333,10 +312,7 @@
     },
     {
       "name": "Arguments Punctuation",
-      "scope": [
-        "punctuation.definition.arguments.begin.python",
-        "punctuation.definition.arguments.end.python"
-      ],
+      "scope": ["punctuation.definition.arguments.begin.python", "punctuation.definition.arguments.end.python"],
       "settings": {
         "foreground": "#f0d388"
       }
@@ -480,11 +456,7 @@
     },
     {
       "name": "Classes",
-      "scope": [
-        "entity.name.type.class.python",
-        "variable.other.class.js",
-        "variable.other.class.ts"
-      ],
+      "scope": ["entity.name.type.class.python", "variable.other.class.js", "variable.other.class.ts"],
       "settings": {
         "foreground": "#f69bdc"
       }
