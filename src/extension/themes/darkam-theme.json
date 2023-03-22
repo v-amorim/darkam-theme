@@ -311,18 +311,27 @@
         "punctuation.definition.string.begin",
         "punctuation.definition.string.begin.python string.interpolated.python",
         "punctuation.definition.string.begin.python string.quoted.double.python",
+        "punctuation.definition.string.begin.python string.quoted.raw.single.python",
         "punctuation.definition.string.begin.python string.quoted.single.python",
         "punctuation.definition.string.end",
         "punctuation.definition.string.end.python string.interpolated.python",
         "punctuation.definition.string.end.python string.quoted.double.python",
+        "punctuation.definition.string.end.python string.quoted.raw.single.python",
         "punctuation.definition.string.end.python string.quoted.single.python",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json",
-        "storage.type.string.python"
+        "punctuation.support.type.property-name.end.json"
       ],
       "settings": {
         "foreground": "#faa4c9"
+      }
+    },
+    {
+      "name": "F/R-strings anotation",
+      "scope": ["storage.type.string.python"],
+      "settings": {
+        "foreground": "#ff6bab",
+        "fontStyle": "italic"
       }
     },
     {
