@@ -295,6 +295,7 @@
         "meta.function-call.arguments.python",
         "string punctuation.section.embedded source",
         "string",
+        "string.interpolated.python",
         "string.quoted.docstring.multi.python",
         "string.quoted.double.python",
         "string.quoted.single.python"
