@@ -290,7 +290,15 @@
     },
     {
       "name": "String",
-      "scope": ["string", "string punctuation.section.embedded source"],
+      "scope": [
+        "string punctuation.section.embedded source",
+        "meta.fstring.python",
+        "meta.function-call.arguments.python",
+        "string.quoted.docstring.multi.python",
+        "string.quoted.single.python",
+        "string.quoted.double.python",
+        "string"
+      ],
       "settings": {
         "foreground": "#a5cfff"
       }
@@ -303,7 +311,14 @@
         "punctuation.definition.string.end",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json"
+        "punctuation.support.type.property-name.end.json",
+        "punctuation.definition.string.begin.python string.interpolated.python",
+        "punctuation.definition.string.end.python string.interpolated.python",
+        "punctuation.definition.string.begin.python string.quoted.single.python",
+        "punctuation.definition.string.end.python string.quoted.single.python",
+        "punctuation.definition.string.begin.python string.quoted.double.python",
+        "punctuation.definition.string.end.python string.quoted.double.python",
+        "storage.type.string.python"
       ],
       "settings": {
         "foreground": "#faa4c9"
@@ -333,7 +348,6 @@
         "support.class.component",
         "support.type.exception.python",
         "variable.other.enummember",
-        "meta.function-call.arguments.python",
         "constant.language.ahk",
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.js"
@@ -382,7 +396,6 @@
       "name": ["Constant Parameters"],
       "scope": [
         "entity.other.inherited-class",
-        "meta.fstring.python",
         "variable.other.block.ruby",
         "variable.parameter.function-call.python",
         "constant.language.symbol.hashkey.ruby",
