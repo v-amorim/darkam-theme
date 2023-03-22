@@ -185,9 +185,8 @@
         "fontStyle": "bold"
       }
     },
-
     {
-      "name": "Comments",
+      "name": ["Code Annotations", "Code Markup"],
       "scope": [
         "brackethighlighter.angle",
         "brackethighlighter.curly",
@@ -205,7 +204,7 @@
       }
     },
     {
-      "name": ["Keywords", "Symbols"],
+      "name": ["Code Elements", "Code Constructs"],
       "scope": [
         "keyword",
         "meta.selector.qss",
@@ -221,7 +220,7 @@
       }
     },
     {
-      "name": ["Symbols"],
+      "name": ["Symbolic Punctuation", "Symbolic Separators"],
       "scope": [
         "punctuation.definition.constant.hashkey.ruby",
         "punctuation.definition.equals.colon",
@@ -243,7 +242,7 @@
       }
     },
     {
-      "name": ["Alternative Symbols"],
+      "name": "Miscellaneous Characters",
       "scope": [
         "entity.name.tag.css",
         "entity.name.type.qss",
@@ -262,9 +261,8 @@
         "foreground": "#95c8ff"
       }
     },
-
     {
-      "name": "Python Keywords",
+      "name": "Language Keywords and Symbols",
       "scope": [
         "constant.language.json",
         "constant.language.symbol.ruby",
@@ -289,7 +287,7 @@
       }
     },
     {
-      "name": "String",
+      "name": "String Literals",
       "scope": [
         "meta.fstring.python",
         "meta.function-call.arguments.python",
@@ -327,7 +325,7 @@
       }
     },
     {
-      "name": "F/R-strings anotation",
+      "name": ["Python F-Strings Annotation", "Python R-Strings Annotation"],
       "scope": ["storage.type.string.python"],
       "settings": {
         "foreground": "#ff6bab",
@@ -349,7 +347,7 @@
       }
     },
     {
-      "name": ["Contants after =", "Contants", "Numbers", "Parameters"],
+      "name": "Constant Values",
       "scope": [
         "constant.character.format.placeholder.other.python",
         "constant.language.ahk",
@@ -367,7 +365,7 @@
       }
     },
     {
-      "name": ["Ruby Boolean"],
+      "name": "Ruby Boolean",
       "scope": ["constant.language.boolean.ruby"],
       "settings": {
         "foreground": "#7ef091"
@@ -403,7 +401,7 @@
       }
     },
     {
-      "name": ["Constant Parameters"],
+      "name": "Symbolic and Constant Values",
       "scope": [
         "constant.language.symbol.hashkey.ruby",
         "entity.other.inherited-class",
@@ -417,7 +415,7 @@
       }
     },
     {
-      "name": ["Language variables", "Namespaces", "Type Name"],
+      "name": ["Entity Names", "Variable Names"],
       "scope": [
         "entity.name.function.ruby",
         "entity.name.namespace",
@@ -442,7 +440,7 @@
       }
     },
     {
-      "name": ["Declared Functions", "Attribute IDs"],
+      "name": ["Declared Functions", "Attributes"],
       "scope": [
         "entity.name.function.js",
         "entity.name.function.python",
@@ -465,7 +463,7 @@
       }
     },
     {
-      "name": ["Imported Functions", "Attributes"],
+      "name": ["Named Entities", "Attributes"],
       "scope": [
         "entity.name.function.ahk",
         "entity.other.attribute-name.localname.xml",
