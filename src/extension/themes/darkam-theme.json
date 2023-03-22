@@ -208,13 +208,13 @@
       "name": ["Keywords", "Symbols"],
       "scope": [
         "keyword",
+        "meta.selector.qss",
         "meta.tag.xml",
+        "punctuation.accessor.js",
+        "punctuation.terminator.statement.js",
         "storage",
         "storage.type",
-        "meta.selector.qss",
-        "support.function.be.latex",
-        "punctuation.accessor.js",
-        "punctuation.terminator.statement.js"
+        "support.function.be.latex"
       ],
       "settings": {
         "foreground": "#F97583"
@@ -224,6 +224,7 @@
       "name": ["Symbols"],
       "scope": [
         "punctuation.definition.constant.hashkey.ruby",
+        "punctuation.definition.equals.colon",
         "punctuation.section.class.begin.python",
         "punctuation.section.class.begin.python",
         "punctuation.section.embedded",
@@ -232,10 +233,9 @@
         "punctuation.section.function.lambda.end.python",
         "punctuation.separator.method.ruby",
         "punctuation.separator.namespace.xml",
-        "punctuation.separator.period.python",
-        "punctuation.separator.variable.ruby",
         "punctuation.separator.object.ruby",
-        "punctuation.definition.equals.colon"
+        "punctuation.separator.period.python",
+        "punctuation.separator.variable.ruby"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -245,18 +245,18 @@
     {
       "name": ["Alternative Symbols"],
       "scope": [
-        "punctuation.separator.element.python",
-        "punctuation.separator.arguments.python",
-        "punctuation.separator.parameters.python",
-        "punctuation.separator",
+        "entity.name.tag.css",
         "entity.name.type.qss",
         "meta.selector.css",
-        "entity.name.tag.css",
-        "punctuation.terminator.rule.css",
-        "punctuation.separator.colon.python",
+        "punctuation.ahk",
         "punctuation.section.function.begin.python",
         "punctuation.section.function.end.python",
-        "punctuation.ahk"
+        "punctuation.separator",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.colon.python",
+        "punctuation.separator.element.python",
+        "punctuation.separator.parameters.python",
+        "punctuation.terminator.rule.css"
       ],
       "settings": {
         "foreground": "#95c8ff"
@@ -266,23 +266,23 @@
     {
       "name": "Python Keywords",
       "scope": [
+        "constant.language.json",
+        "constant.language.symbol.ruby",
+        "entity.name.type.js",
+        "entity.other.attribute-name.html",
         "markup.inline.raw",
         "meta.diff.header",
         "meta.module-reference",
         "meta.output",
         "meta.property-name",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.list.end.markdown",
+        "storage.type.function.js",
         "string variable",
         "support.constant",
         "support.function.builtin.python",
-        "support.variable",
-        "punctuation.definition.list.begin.markdown",
-        "punctuation.definition.list.end.markdown",
-        "constant.language.json",
-        "constant.language.symbol.ruby",
-        "entity.other.attribute-name.html",
         "support.type.python",
-        "entity.name.type.js",
-        "storage.type.function.js"
+        "support.variable"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -291,13 +291,13 @@
     {
       "name": "String",
       "scope": [
-        "string punctuation.section.embedded source",
         "meta.fstring.python",
         "meta.function-call.arguments.python",
+        "string punctuation.section.embedded source",
+        "string",
         "string.quoted.docstring.multi.python",
-        "string.quoted.single.python",
         "string.quoted.double.python",
-        "string"
+        "string.quoted.single.python"
       ],
       "settings": {
         "foreground": "#a5cfff"
@@ -308,16 +308,16 @@
       "scope": [
         "punctuation.definition.markdown",
         "punctuation.definition.string.begin",
+        "punctuation.definition.string.begin.python string.interpolated.python",
+        "punctuation.definition.string.begin.python string.quoted.double.python",
+        "punctuation.definition.string.begin.python string.quoted.single.python",
         "punctuation.definition.string.end",
+        "punctuation.definition.string.end.python string.interpolated.python",
+        "punctuation.definition.string.end.python string.quoted.double.python",
+        "punctuation.definition.string.end.python string.quoted.single.python",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json",
-        "punctuation.definition.string.begin.python string.interpolated.python",
-        "punctuation.definition.string.end.python string.interpolated.python",
-        "punctuation.definition.string.begin.python string.quoted.single.python",
-        "punctuation.definition.string.end.python string.quoted.single.python",
-        "punctuation.definition.string.begin.python string.quoted.double.python",
-        "punctuation.definition.string.end.python string.quoted.double.python",
         "storage.type.string.python"
       ],
       "settings": {
@@ -342,15 +342,15 @@
       "name": ["Contants after =", "Contants", "Numbers", "Parameters"],
       "scope": [
         "constant.character.format.placeholder.other.python",
+        "constant.language.ahk",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js",
         "constant.language.python",
         "entity.name.tag",
         "markup.quote",
         "support.class.component",
         "support.type.exception.python",
-        "variable.other.enummember",
-        "constant.language.ahk",
-        "constant.language.boolean.false.js",
-        "constant.language.boolean.true.js"
+        "variable.other.enummember"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -395,12 +395,12 @@
     {
       "name": ["Constant Parameters"],
       "scope": [
-        "entity.other.inherited-class",
-        "variable.other.block.ruby",
-        "variable.parameter.function-call.python",
         "constant.language.symbol.hashkey.ruby",
+        "entity.other.inherited-class",
         "support.constant.property-value.css",
-        "support.constant.property-value.qss"
+        "support.constant.property-value.qss",
+        "variable.other.block.ruby",
+        "variable.parameter.function-call.python"
       ],
       "settings": {
         "foreground": "#ff98ba"
@@ -409,15 +409,15 @@
     {
       "name": ["Language variables", "Namespaces", "Type Name"],
       "scope": [
+        "entity.name.function.ruby",
         "entity.name.namespace",
         "entity.other.attribute-name.namespace.xml",
-        "variable.language.this.js",
-        "entity.name.function.ruby",
+        "punctuation.definition.variable.percent.ahk",
+        "punctuation.separator.dict.python",
         "string.unquoted.html",
         "support.function.general.tex",
-        "punctuation.definition.variable.percent.ahk",
-        "variable.other.object.property.js",
-        "punctuation.separator.dict.python"
+        "variable.language.this.js",
+        "variable.other.object.property.js"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -434,21 +434,21 @@
     {
       "name": ["Declared Functions", "Attribute IDs"],
       "scope": [
+        "entity.name.function.js",
         "entity.name.function.python",
+        "entity.name.tag.html",
         "markup.heading",
         "meta.function-call.generic.python",
         "punctuation.definition.heading",
+        "support.class.ruby",
+        "support.function.ahk",
+        "support.function.general.latex",
         "support.function.kernel.ruby",
         "support.function.magic.python",
-        "support.class.ruby",
-        "support.type.property-name.json",
-        "support.type.property-name.css",
-        "support.type.property-name.qss",
-        "entity.name.tag.html",
         "support.function.url.latex",
-        "support.function.general.latex",
-        "support.function.ahk",
-        "entity.name.function.js"
+        "support.type.property-name.css",
+        "support.type.property-name.json",
+        "support.type.property-name.qss"
       ],
       "settings": {
         "foreground": "#d388f0"
@@ -457,10 +457,10 @@
     {
       "name": ["Imported Functions", "Attributes"],
       "scope": [
+        "entity.name.function.ahk",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
         "meta.attribute.python",
-        "entity.name.function.ahk",
         "variable.other.property.js"
       ],
       "settings": {
@@ -491,9 +491,9 @@
     {
       "name": "Testing Scope",
       "scope": [
-        "dsadsaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "dsadsaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "dsadsaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        "scope.scope.scope.scope.scope.scope.test1",
+        "scope.scope.scope.scope.scope.scope.test2",
+        "scope.scope.scope.scope.scope.scope.test3"
       ],
       "settings": {
         "fontStyle": "bold",
