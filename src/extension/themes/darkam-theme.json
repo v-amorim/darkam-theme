@@ -210,6 +210,10 @@
         "meta.selector.qss",
         "meta.tag.xml",
         "punctuation.accessor.js",
+        "punctuation.eq.toml",
+        "punctuation.separator.key-value.ini",
+        "punctuation.separator.key-value.makefile",
+        "punctuation.separator.key-value.mapping.yaml",
         "punctuation.terminator.statement.js",
         "storage",
         "storage.type",
@@ -273,8 +277,10 @@
         "meta.module-reference",
         "meta.output",
         "meta.property-name",
+        "punctuation.definition.block.sequence.item.yaml",
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.list.end.markdown",
+        "punctuation.definition.variable.makefile",
         "storage.type.function.js",
         "string variable",
         "support.constant",
@@ -291,6 +297,10 @@
       "scope": [
         "meta.fstring.python",
         "meta.function-call.arguments.python",
+        "meta.group.batchfile",
+        "meta.scope.recipe.makefile",
+        "source.ini",
+        "source.makefile",
         "string punctuation.section.embedded source",
         "string",
         "string.interpolated.python",
@@ -353,7 +363,9 @@
         "constant.language.ahk",
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.js",
+        "constant.language.boolean.yaml",
         "constant.language.python",
+        "entity.name.function",
         "entity.name.tag",
         "markup.quote",
         "support.class.component",
@@ -433,15 +445,24 @@
     },
     {
       "name": "Read Write Variable (default variables)",
-      "scope": ["variable.parameter.js", "variable.other.readwrite"],
+      "scope": [
+        "constant.other.database-name.sql",
+        "entity.name.tag.yaml",
+        "keyword.other.definition.ini",
+        "support.type.property-name.toml",
+        "variable.other.makefile",
+        "variable.other.readwrite",
+        "variable.parameter.js"
+      ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f8eaf8"
+        "foreground": "#d388f0"
       }
     },
     {
       "name": ["Declared Functions", "Attributes"],
       "scope": [
+        "constant.other.table-name.sql",
         "entity.name.function.js",
         "entity.name.function.python",
         "entity.name.tag.html",
@@ -459,7 +480,7 @@
         "support.type.property-name.qss"
       ],
       "settings": {
-        "foreground": "#d388f0"
+        "foreground": "#b58ee8"
       }
     },
     {
@@ -477,7 +498,14 @@
     },
     {
       "name": "Classes",
-      "scope": ["entity.name.type.class.python", "variable.other.class.js", "variable.other.class.ts"],
+      "scope": [
+        "entity.name.function.target.makefile",
+        "entity.name.section.group-title.ini",
+        "entity.name.type.class.python",
+        "meta.table.toml",
+        "variable.other.class.js",
+        "variable.other.class.ts"
+      ],
       "settings": {
         "foreground": "#f69bdc"
       }
