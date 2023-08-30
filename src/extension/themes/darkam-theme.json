@@ -451,7 +451,6 @@
         "keyword.other.definition.ini",
         "support.type.property-name.toml",
         "variable.other.makefile",
-        "variable.other.readwrite",
         "variable.parameter.js"
       ],
       "settings": {
