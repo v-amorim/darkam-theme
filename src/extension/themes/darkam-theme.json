@@ -296,7 +296,6 @@
       "name": "String Literals",
       "scope": [
         "meta.fstring.python",
-        "meta.function-call.arguments.python",
         "meta.group.batchfile",
         "meta.scope.recipe.makefile",
         "source.ini",

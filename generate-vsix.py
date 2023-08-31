@@ -36,4 +36,4 @@ def zipfolder(version):
     sys.exit()
 
 
-zipfolder("2.1.1")
+zipfolder("2.1.2")
