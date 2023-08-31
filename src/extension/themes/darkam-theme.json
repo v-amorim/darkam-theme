@@ -3,6 +3,9 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "variable": {
+      "foreground": "#F8EAF8"
+    },
     "variable.constant": {
       "foreground": "#7ef091"
     },
@@ -11,6 +14,10 @@
     },
     "variable.readonly": {
       "foreground": "#e83974",
+      "fontStyle": "italic"
+    },
+    "variable.declaration": {
+      "foreground": "#F8EAF8",
       "fontStyle": "italic"
     },
     "string.regexp.quoted.multi.python.function": {
@@ -525,7 +532,7 @@
     {
       "name": "Testing Scope",
       "scope": [
-        "scope.scope.scope.scope.scope.scope.test1",
+        "fstring.variable",
         "scope.scope.scope.scope.scope.scope.test2",
         "scope.scope.scope.scope.scope.scope.test3"
       ],
