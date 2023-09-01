@@ -16,6 +16,10 @@
       "foreground": "#e83974",
       "fontStyle": "italic"
     },
+    "variable.declaration.readonly": {
+      "foreground": "#e83974",
+      "fontStyle": "italic"
+    },
     "variable.declaration": {
       "foreground": "#F8EAF8",
       "fontStyle": "italic"
