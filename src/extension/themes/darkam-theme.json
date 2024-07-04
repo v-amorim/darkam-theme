@@ -50,7 +50,11 @@
   "tokenColors": [
     {
       "name": "Markup and Diff",
-      "scope": ["markup.inserted", "meta.diff.header.to-file", "punctuation.definition.inserted"],
+      "scope": [
+        "markup.inserted",
+        "meta.diff.header.to-file",
+        "punctuation.definition.inserted"
+      ],
       "settings": {
         "background": "#04260f",
         "foreground": "#7ef091"
@@ -58,7 +62,10 @@
     },
     {
       "name": "Markup Changed",
-      "scope": ["markup.changed", "punctuation.definition.changed"],
+      "scope": [
+        "markup.changed",
+        "punctuation.definition.changed"
+      ],
       "settings": {
         "background": "#5a1e02",
         "foreground": "#ffa657"
@@ -82,21 +89,29 @@
     },
     {
       "name": "Markup Underline",
-      "scope": ["markup.underline"],
+      "scope": [
+        "markup.underline"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
     },
     {
       "name": "Markup Strikethrough",
-      "scope": ["markup.strikethrough"],
+      "scope": [
+        "markup.strikethrough"
+      ],
       "settings": {
         "fontStyle": "strikethrough"
       }
     },
     {
       "name": "Markup Heading",
-      "scope": ["markup.heading entity.name", "markup.heading", "meta.separator"],
+      "scope": [
+        "markup.heading entity.name",
+        "markup.heading",
+        "meta.separator"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#79c0ff"
@@ -104,7 +119,10 @@
     },
     {
       "name": "Markup Ignored/Untracked",
-      "scope": ["markup.ignored", "markup.untracked"],
+      "scope": [
+        "markup.ignored",
+        "markup.untracked"
+      ],
       "settings": {
         "foreground": "#161b22",
         "background": "#79c0ff"
@@ -112,7 +130,9 @@
     },
     {
       "name": "Markup Links",
-      "scope": ["markup.underline.link"],
+      "scope": [
+        "markup.underline.link"
+      ],
       "settings": {
         "foreground": "#72bfff",
         "fontStyle": "underline"
@@ -120,14 +140,22 @@
     },
     {
       "name": "Unmatched Bracket",
-      "scope": ["brackethighlighter.unmatched", "message.error"],
+      "scope": [
+        "brackethighlighter.unmatched",
+        "message.error"
+      ],
       "settings": {
         "foreground": "#ffa198"
       }
     },
     {
       "name": "Invalid",
-      "scope": ["invalid.broken", "invalid.deprecated", "invalid.illegal", "invalid.unimplemented"],
+      "scope": [
+        "invalid.broken",
+        "invalid.deprecated",
+        "invalid.illegal",
+        "invalid.unimplemented"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffa198"
@@ -135,7 +163,11 @@
     },
     {
       "name": "Deleted",
-      "scope": ["markup.deleted", "meta.diff.header.from-file", "punctuation.definition.deleted"],
+      "scope": [
+        "markup.deleted",
+        "meta.diff.header.from-file",
+        "punctuation.definition.deleted"
+      ],
       "settings": {
         "background": "#490202",
         "foreground": "#ffa198"
@@ -156,7 +188,11 @@
     },
     {
       "name": "Links",
-      "scope": ["constant.other.reference.link", "string.other.link", "markup.underline.link.latex"],
+      "scope": [
+        "constant.other.reference.link",
+        "string.other.link",
+        "markup.underline.link.latex"
+      ],
       "settings": {
         "foreground": "#ffa198",
         "fontStyle": "underline"
@@ -197,7 +233,10 @@
       }
     },
     {
-      "name": ["Code Annotations", "Code Markup"],
+      "name": [
+        "Code Annotations",
+        "Code Markup"
+      ],
       "scope": [
         "brackethighlighter.angle",
         "brackethighlighter.curly",
@@ -215,7 +254,10 @@
       }
     },
     {
-      "name": ["Code Elements", "Code Constructs"],
+      "name": [
+        "Code Elements",
+        "Code Constructs"
+      ],
       "scope": [
         "keyword",
         "meta.selector.qss",
@@ -235,7 +277,10 @@
       }
     },
     {
-      "name": ["Symbolic Punctuation", "Symbolic Separators"],
+      "name": [
+        "Symbolic Punctuation",
+        "Symbolic Separators"
+      ],
       "scope": [
         "punctuation.definition.constant.hashkey.ruby",
         "punctuation.definition.equals.colon",
@@ -347,8 +392,13 @@
       }
     },
     {
-      "name": ["Python F-Strings Annotation", "Python R-Strings Annotation"],
-      "scope": ["storage.type.string.python"],
+      "name": [
+        "Python F-Strings Annotation",
+        "Python R-Strings Annotation"
+      ],
+      "scope": [
+        "storage.type.string.python"
+      ],
       "settings": {
         "foreground": "#ff6bab",
         "fontStyle": "italic"
@@ -356,14 +406,20 @@
     },
     {
       "name": "Arguments Punctuation",
-      "scope": ["punctuation.definition.arguments.begin.python", "punctuation.definition.arguments.end.python"],
+      "scope": [
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python"
+      ],
       "settings": {
         "foreground": "#f0d388"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "entity.name.constant"],
+      "scope": [
+        "constant.numeric",
+        "entity.name.constant"
+      ],
       "settings": {
         "foreground": "#79B8FF"
       }
@@ -382,7 +438,8 @@
         "markup.quote",
         "support.class.component",
         "support.type.exception.python",
-        "variable.other.enummember"
+        "variable.other.enummember",
+        "constant.language.boolean.toml"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -390,21 +447,27 @@
     },
     {
       "name": "Ruby Boolean",
-      "scope": ["constant.language.boolean.ruby"],
+      "scope": [
+        "constant.language.boolean.ruby"
+      ],
       "settings": {
         "foreground": "#7ef091"
       }
     },
     {
       "name": "Uppercase Contants",
-      "scope": ["constant.other.caps.python"],
+      "scope": [
+        "constant.other.caps.python"
+      ],
       "settings": {
         "foreground": "#eb5084"
       }
     },
     {
       "name": "Self Parameter",
-      "scope": ["variable.parameter.function.language.special.self.python"],
+      "scope": [
+        "variable.parameter.function.language.special.self.python"
+      ],
       "settings": {
         "fontStyle": "bold, italic",
         "foreground": "#79c0ff"
@@ -412,14 +475,18 @@
     },
     {
       "name": "AHK Hotkeys Line",
-      "scope": ["entity.name.function.label.ahk"],
+      "scope": [
+        "entity.name.function.label.ahk"
+      ],
       "settings": {
         "foreground": "#7ef0ca"
       }
     },
     {
       "name": "@",
-      "scope": ["punctuation.definition.decorator.python"],
+      "scope": [
+        "punctuation.definition.decorator.python"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
@@ -439,7 +506,10 @@
       }
     },
     {
-      "name": ["Entity Names", "Variable Names"],
+      "name": [
+        "Entity Names",
+        "Variable Names"
+      ],
       "scope": [
         "entity.name.function.ruby",
         "entity.name.namespace",
@@ -471,7 +541,10 @@
       }
     },
     {
-      "name": ["Declared Functions", "Attributes"],
+      "name": [
+        "Declared Functions",
+        "Attributes"
+      ],
       "scope": [
         "constant.other.table-name.sql",
         "entity.name.function.js",
@@ -495,7 +568,10 @@
       }
     },
     {
-      "name": ["Named Entities", "Attributes"],
+      "name": [
+        "Named Entities",
+        "Attributes"
+      ],
       "scope": [
         "entity.name.function.ahk",
         "entity.other.attribute-name.localname.xml",
@@ -523,14 +599,19 @@
     },
     {
       "name": "Extendscript undefined",
-      "scope": ["constant.language.undefined.js", "meta.object.member.js"],
+      "scope": [
+        "constant.language.undefined.js",
+        "meta.object.member.js"
+      ],
       "settings": {
         "foreground": "#fdb1a2"
       }
     },
     {
       "name": "Magic Fuctions",
-      "scope": ["support.function.magic.python"],
+      "scope": [
+        "support.function.magic.python"
+      ],
       "settings": {
         "foreground": "#79c0ff"
       }
