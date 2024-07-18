@@ -43,6 +43,9 @@
     "method": {
       "foreground": "#F98DCD"
     },
+    "function": {
+      "foreground": "#FF72B0"
+    },
     "class.typeHint.builtin": {
       "foreground": "#FF72B0"
     },
