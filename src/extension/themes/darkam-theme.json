@@ -315,7 +315,8 @@
         "support.variable",
         "entity.name.function.ahk",
         "entity.name.function.python",
-        "meta.function-call.generic.python"
+        "meta.function-call.generic.python",
+        "entity.name.function.powershell"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -497,7 +498,8 @@
         "support.function.url.latex",
         "support.type.property-name.css",
         "support.type.property-name.json",
-        "support.type.property-name.qss"
+        "support.type.property-name.qss",
+        "support.function.powershell"
       ],
       "settings": {
         "foreground": "#b58ee8"
@@ -531,7 +533,7 @@
     },
     {
       "name": "Extendscript undefined",
-      "scope": [ "constant.language.undefined.js", "meta.object.member.js" ],
+      "scope": [ "constant.language.undefined.js", "meta.object.member.js", "meta.hashtable.assignment", "meta.group.simple.subexpression.powershell" ],
       "settings": {
         "foreground": "#fdb1a2"
       }

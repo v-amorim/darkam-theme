@@ -23,8 +23,9 @@ def zipfolder(version):
     root_folder = os.getcwd()
     old_versions_folder = os.path.join(root_folder, "old_versions")
     os.makedirs(old_versions_folder, exist_ok=True)
-    vsix_files = [f for f in os.listdir(root_folder) if f.endswith(
-        '.vsix') and f != f"darkam-theme-v{version}.{extension}"]
+    vsix_files = [
+        f for f in os.listdir(root_folder) if f.endswith(".vsix") and f != f"darkam-theme-v{version}.{extension}"
+    ]
     for old_vsix in vsix_files:
         os.rename(os.path.join(root_folder, old_vsix), os.path.join(old_versions_folder, old_vsix))
     zipobj = zipfile.ZipFile(f"darkam-theme-v{version}.{extension}", "w", zipfile.ZIP_DEFLATED)
@@ -36,4 +37,4 @@ def zipfolder(version):
     sys.exit()
 
 
-zipfolder("2.4.2")
+zipfolder("2.4.3")
