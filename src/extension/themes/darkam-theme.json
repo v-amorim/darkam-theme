@@ -37,7 +37,11 @@
       "foreground": "#FDB1A2"
     },
     "class": {
+      "fontStyle": "bold",
       "foreground": "#f69bdc"
+    },
+    "method": {
+      "foreground": "#F98DCD"
     },
     "class.typeHint.builtin": {
       "foreground": "#FF72B0"
@@ -189,12 +193,21 @@
     {
       "name": "Links",
       "scope": [
-        "constant.other.reference.link",
         "string.other.link",
         "markup.underline.link.latex"
       ],
       "settings": {
         "foreground": "#ffa198",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Constant Links",
+      "scope": [
+        "constant.other.reference.link"
+      ],
+      "settings": {
+        "foreground": "#FDBAF2",
         "fontStyle": "underline"
       }
     },
@@ -342,7 +355,10 @@
         "support.constant",
         "support.function.builtin.python",
         "support.type.python",
-        "support.variable"
+        "support.variable",
+        "entity.name.function.ahk",
+        "entity.name.function.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -405,16 +421,6 @@
       }
     },
     {
-      "name": "Arguments Punctuation",
-      "scope": [
-        "punctuation.definition.arguments.begin.python",
-        "punctuation.definition.arguments.end.python"
-      ],
-      "settings": {
-        "foreground": "#f0d388"
-      }
-    },
-    {
       "name": "Numbers",
       "scope": [
         "constant.numeric",
@@ -433,7 +439,6 @@
         "constant.language.boolean.true.js",
         "constant.language.boolean.yaml",
         "constant.language.python",
-        "entity.name.function",
         "entity.name.tag",
         "markup.quote",
         "support.class.component",
@@ -442,7 +447,7 @@
         "constant.language.boolean.toml"
       ],
       "settings": {
-        "foreground": "#ff72b0"
+        "foreground": "#E83974"
       }
     },
     {
@@ -466,7 +471,8 @@
     {
       "name": "Self Parameter",
       "scope": [
-        "variable.parameter.function.language.special.self.python"
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.self.python"
       ],
       "settings": {
         "fontStyle": "bold, italic",
@@ -548,10 +554,8 @@
       "scope": [
         "constant.other.table-name.sql",
         "entity.name.function.js",
-        "entity.name.function.python",
         "entity.name.tag.html",
         "markup.heading",
-        "meta.function-call.generic.python",
         "punctuation.definition.heading",
         "support.class.ruby",
         "support.function.ahk",
@@ -573,7 +577,6 @@
         "Attributes"
       ],
       "scope": [
-        "entity.name.function.ahk",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
         "meta.attribute.python",
@@ -688,12 +691,12 @@
     "editor.wordHighlightStrongBackground": "#6e76814d",
     "editor.wordHighlightStrongBorder": "#6e768199",
     "editorBracketHighlight.foreground1": "#79c0ff",
-    "editorBracketHighlight.foreground2": "#56d364",
+    "editorBracketHighlight.foreground2": "#b0dbb6",
     "editorBracketHighlight.foreground3": "#e3b341",
     "editorBracketHighlight.foreground4": "#ffa198",
     "editorBracketHighlight.foreground5": "#ff9bce",
     "editorBracketHighlight.foreground6": "#d2a8ff",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#8b949e",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
     "editorBracketMatch.background": "#3fb95040",
     "editorBracketMatch.border": "#3fb95099",
     "editorCursor.foreground": "#58a6ff",
