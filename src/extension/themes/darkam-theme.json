@@ -394,7 +394,8 @@
         "support.class.component",
         "support.type.exception.python",
         "variable.other.enummember",
-        "constant.language.boolean.toml"
+        "constant.language.boolean.toml",
+        "constant.language.powershell"
       ],
       "settings": {
         "foreground": "#E83974"
@@ -416,7 +417,11 @@
     },
     {
       "name": "Self Parameter",
-      "scope": [ "variable.parameter.function.language.special.self.python", "variable.language.special.self.python" ],
+      "scope": [ "variable.parameter.function.language.special.self.python", 
+      "variable.language.special.self.python",
+      "punctuation.definition.variable.powershell",
+      "support.variable.automatic.powershell"
+     ],
       "settings": {
         "fontStyle": "bold, italic",
         "foreground": "#79c0ff"
@@ -498,8 +503,7 @@
         "support.function.url.latex",
         "support.type.property-name.css",
         "support.type.property-name.json",
-        "support.type.property-name.qss",
-        "support.function.powershell"
+        "support.type.property-name.qss"
       ],
       "settings": {
         "foreground": "#b58ee8"
@@ -532,8 +536,24 @@
       }
     },
     {
+      "name": "Classes Methods",
+      "scope": [
+        "support.function.attribute.powershell",
+        "support.function.powershell"
+
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#f69bdc"
+      }
+    },
+    {
       "name": "Extendscript undefined",
-      "scope": [ "constant.language.undefined.js", "meta.object.member.js", "meta.hashtable.assignment", "meta.group.simple.subexpression.powershell" ],
+      "scope": [ "constant.language.undefined.js",
+        "meta.object.member.js",
+        "meta.hashtable.assignment",
+        "variable.parameter.attribute.powershell"
+      ],
       "settings": {
         "foreground": "#fdb1a2"
       }
@@ -551,6 +571,7 @@
         "fstring.variable",
         "scope.scope.scope.scope.scope.scope.test2",
         "scope.scope.scope.scope.scope.scope.test3"
+
       ],
       "settings": {
         "fontStyle": "bold",
