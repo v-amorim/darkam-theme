@@ -359,7 +359,8 @@
         "punctuation.definition.string.end.python string.quoted.single.python",
         "punctuation.separator.semicolon.python",
         "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json"
+        "punctuation.support.type.property-name.end.json",
+        "constant.character.escape.python"
       ],
       "settings": {
         "foreground": "#faa4c9"
@@ -417,11 +418,11 @@
     },
     {
       "name": "Self Parameter",
-      "scope": [ "variable.parameter.function.language.special.self.python", 
-      "variable.language.special.self.python",
-      "punctuation.definition.variable.powershell",
-      "support.variable.automatic.powershell"
-     ],
+      "scope": [ "variable.parameter.function.language.special.self.python",
+        "variable.language.special.self.python",
+        "punctuation.definition.variable.powershell",
+        "support.variable.automatic.powershell"
+      ],
       "settings": {
         "fontStyle": "bold, italic",
         "foreground": "#79c0ff"
