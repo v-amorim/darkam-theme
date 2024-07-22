@@ -243,7 +243,9 @@
         "punctuation.terminator.statement.js",
         "storage",
         "storage.type",
-        "support.function.be.latex"
+        "support.function.be.latex",
+        "support.function.builtin.shell",
+        "constant.other.option.dash.shell"
       ],
       "settings": {
         "foreground": "#F97583"
@@ -316,7 +318,9 @@
         "entity.name.function.ahk",
         "entity.name.function.python",
         "meta.function-call.generic.python",
-        "entity.name.function.powershell"
+        "entity.name.function.powershell",
+        "entity.name.function.shell",
+        "punctuation.definition.subshell.single.shell"
       ],
       "settings": {
         "foreground": "#ff72b0"
@@ -481,7 +485,8 @@
         "keyword.other.definition.ini",
         "support.type.property-name.toml",
         "variable.other.makefile",
-        "variable.parameter.js"
+        "variable.parameter.js",
+        "constant.other.option"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -530,7 +535,8 @@
         "entity.name.type.class.python",
         "meta.table.toml",
         "variable.other.class.js",
-        "variable.other.class.ts"
+        "variable.other.class.ts",
+        "entity.name.command.shell"
       ],
       "settings": {
         "foreground": "#f69bdc"
