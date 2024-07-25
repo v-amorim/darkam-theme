@@ -52,6 +52,9 @@
     "selfParameter": {
       "fontStyle": "bold, italic",
       "foreground": "#79c0ff"
+    },
+    "magicFunction": {
+      "foreground": "#79c0ff"
     }
   },
   "tokenColors": [
@@ -700,6 +703,10 @@
     "list.inactiveFocusBackground": "#388bfd26",
     "list.inactiveSelectionBackground": "#6e768166",
     "list.inactiveSelectionForeground": "#F8EAF8",
+    "minimap.foregroundOpacity": "#00000080",
+    "minimapSlider.background": "#a6c8df1b",
+    "minimapSlider.hoverBackground": "#a6c8df2c",
+    "minimapSlider.activeBackground": "#a6c8df3d",
     "notificationCenterHeader.background": "#161b22",
     "notificationCenterHeader.foreground": "#8b949e",
     "notifications.background": "#161b22",
