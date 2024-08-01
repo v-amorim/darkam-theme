@@ -13,11 +13,11 @@
       "foreground": "#f07178"
     },
     "variable.readonly": {
-      "foreground": "#c680c1",
+      "foreground": "#e08adb",
       "fontStyle": "italic"
     },
     "variable.declaration.readonly": {
-      "foreground": "#c680c1",
+      "foreground": "#e08adb",
       "fontStyle": "italic"
     },
     "variable.declaration": {
@@ -31,7 +31,7 @@
       "foreground": "#82AAFF"
     },
     "builtinConstant": {
-      "foreground": "#c680c1"
+      "foreground": "#e08adb"
     },
     "parameter": {
       "foreground": "#ffafaf"
@@ -44,10 +44,10 @@
       "foreground": "#698cff"
     },
     "function": {
-      "foreground": "#a9b7ff"
+      "foreground": "#a5a1e9"
     },
     "class.typeHint.builtin": {
-      "foreground": "#a9b7ff"
+      "foreground": "#a5a1e9"
     },
     "selfParameter": {
       "fontStyle": "bold, italic",
@@ -299,8 +299,6 @@
     {
       "name": "Language Keywords and Symbols",
       "scope": [
-        "constant.language.json",
-        "constant.language.symbol.ruby",
         "entity.name.type.js",
         "entity.other.attribute-name.html",
         "markup.inline.raw",
@@ -323,10 +321,11 @@
         "meta.function-call.generic.python",
         "entity.name.function.powershell",
         "entity.name.function.shell",
-        "punctuation.definition.subshell.single.shell"
+        "punctuation.definition.subshell.single.shell",
+        "punctuation.definition.link.description.begin.markdown"
       ],
       "settings": {
-        "foreground": "#a9b7ff"
+        "foreground": "#a5a1e9"
       }
     },
     {
@@ -403,10 +402,13 @@
         "support.type.exception.python",
         "variable.other.enummember",
         "constant.language.boolean.toml",
-        "constant.language.powershell"
+        "constant.language.powershell",
+        "constant.language.symbol.hashkey.ruby",
+        "constant.language.json",
+        "constant.language.symbol.ruby"
       ],
       "settings": {
-        "foreground": "#c680c1"
+        "foreground": "#e08adb"
       }
     },
     {
@@ -453,7 +455,6 @@
     {
       "name": "Symbolic and Constant Values",
       "scope": [
-        "constant.language.symbol.hashkey.ruby",
         "entity.other.inherited-class",
         "support.constant.property-value.css",
         "support.constant.property-value.qss",
@@ -528,7 +529,7 @@
         "variable.other.property.js"
       ],
       "settings": {
-        "foreground": "#89abf5"
+        "foreground": "#9cb6ed"
       }
     },
     {
@@ -630,7 +631,7 @@
     "dropdown.border": "#30363d",
     "dropdown.foreground": "#F8EAF8",
     "dropdown.listBackground": "#161b22",
-    "editor.background": "#0c0e17",
+    "editor.background": "#11131b",
     "editor.findMatchBackground": "#9e6a03",
     "editor.findMatchHighlightBackground": "#f2cc6080",
     "editor.focusedStackFrameHighlightBackground": "#2ea04366",
