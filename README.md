@@ -23,6 +23,5 @@ See [CHANGELOG.md](https://github.com/viniam/VSCode-Theme-Extension)
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/viniam/VSCode-Theme-Extension/main/screenshot.png)
 
 **Enjoy!**
