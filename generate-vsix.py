@@ -1,40 +1,34 @@
-import zipfile
-import os
 import sys
+import zipfile
+from pathlib import Path
 
 
-def zipfolder(version):
-    """
-    Zip the contents of an entire folder (with that folder included
-    in the archive). Empty subfolders will be included in the archive
-    as well.
+def move_old_versions(root_folder, old_versions_folder, versioned_file):
+    old_versions_folder.mkdir(parents=True, exist_ok=True)
+    for file in root_folder.glob("*.vsix"):
+        if file.name != versioned_file.name:
+            file.rename(old_versions_folder / file.name)
 
-    Parameters
-    ----------
-    version : str
-        The version number of the theme to be zipped.
 
-    Examples
-    --------
-    >>> zipfolder("2.0.2")
+def zip_folder(src_folder, output_file):
+    with zipfile.ZipFile(output_file, "w", zipfile.ZIP_DEFLATED) as zipobj:
+        for file in src_folder.rglob("*"):
+            if file.is_file():
+                zipobj.write(file, file.relative_to(src_folder))
 
-    """
+
+def zipfolder():
+    version = input("Enter the version number: ").strip()
     extension = "vsix"
-    root_folder = os.getcwd()
-    old_versions_folder = os.path.join(root_folder, "old_versions")
-    os.makedirs(old_versions_folder, exist_ok=True)
-    vsix_files = [
-        f for f in os.listdir(root_folder) if f.endswith(".vsix") and f != f"darkam-theme-v{version}.{extension}"
-    ]
-    for old_vsix in vsix_files:
-        os.rename(os.path.join(root_folder, old_vsix), os.path.join(old_versions_folder, old_vsix))
-    zipobj = zipfile.ZipFile(f"darkam-theme-v{version}.{extension}", "w", zipfile.ZIP_DEFLATED)
-    rootlen = len("./src") + 1
-    for base, _dirs, files in os.walk("./src"):
-        for file in files:
-            fn = os.path.join(base, file)
-            zipobj.write(fn, fn[rootlen:])
+    root_folder = Path.cwd()
+    old_versions_folder = root_folder / "old_versions"
+    versioned_file = root_folder / f"darkam-theme-v{version}.{extension}"
+
+    move_old_versions(root_folder, old_versions_folder, versioned_file)
+    zip_folder(root_folder / "src", versioned_file)
+    print(f"Created {versioned_file}")
     sys.exit()
 
 
-zipfolder("3.3.0")
+if __name__ == "__main__":
+    zipfolder()
