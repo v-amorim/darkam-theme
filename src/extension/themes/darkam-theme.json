@@ -226,7 +226,9 @@
         "comment",
         "punctuation.definition.comment",
         "punctuation.definition.tag.xml",
-        "string.comment"
+        "string.comment",
+        "fenced_code.block.language"
+
       ],
       "settings": {
         "foreground": "#aea4bf"
@@ -632,17 +634,18 @@
     "dropdown.foreground": "#F8EAF8",
     "dropdown.listBackground": "#161b22",
     "editor.background": "#11131b",
-    "editor.findMatchBackground": "#9e6a03",
-    "editor.findMatchHighlightBackground": "#f2cc6080",
+    "editor.findMatchBackground": "#5e9ffab7",
+    "editor.findMatchHighlightBackground": "#b67affda",
     "editor.focusedStackFrameHighlightBackground": "#2ea04366",
     "editor.foldBackground": "#6e76811a",
     "editor.foreground": "#F8EAF8",
     "editor.lineHighlightBackground": "#6e76811a",
     "editor.linkedEditingBackground": "#58a6ff12",
+    "editor.selectionBackground": "#5b86c199",
     "editor.selectionHighlightBackground": "#3fb95040",
     "editor.stackFrameHighlightBackground": "#bb800966",
-    "editor.wordHighlightBackground": "#6e768180",
-    "editor.wordHighlightBorder": "#6e768199",
+    "editor.wordHighlightBackground": "#ffffff03",
+    "editor.wordHighlightBorder": "#5b86c199",
     "editor.wordHighlightStrongBackground": "#6e76814d",
     "editor.wordHighlightStrongBorder": "#6e768199",
     "editorBracketHighlight.foreground1": "#79c0ff",
@@ -669,7 +672,7 @@
     "editorInlayHint.paramForeground": "#8b949e",
     "editorInlayHint.typeBackground": "#8b949e33",
     "editorInlayHint.typeForeground": "#8b949e",
-    "editorLineNumber.activeForeground": "#F8EAF8",
+    "editorLineNumber.activeForeground": "#c3cff8",
     "editorLineNumber.foreground": "#6e7681",
     "editorOverviewRuler.border": "#010409",
     "editorRuler.foreground": "#ff72af1e",
