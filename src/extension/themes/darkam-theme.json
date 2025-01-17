@@ -635,7 +635,7 @@
     "dropdown.listBackground": "#161b22",
     "editor.background": "#11131b",
     "editor.findMatchBackground": "#5e9ffab7",
-    "editor.findMatchHighlightBackground": "#b67affda",
+    "editor.findMatchHighlightBackground": "#d870a875",
     "editor.focusedStackFrameHighlightBackground": "#2ea04366",
     "editor.foldBackground": "#6e76811a",
     "editor.foreground": "#F8EAF8",
