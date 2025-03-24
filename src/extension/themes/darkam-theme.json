@@ -209,6 +209,7 @@
         "punctuation.definition.tag.end.html",
         "punctuation.separator.table.markdown",
         "support.type.exception.python",
+        "meta.function-call.generic.python",
         "variable.legacy.builtin.python"
       ],
       "settings": {
@@ -665,7 +666,6 @@
         "entity.name.tag.html",
         "entity.name.tag.localname.xml",
         "markup.heading",
-        "meta.function-call.generic.python",
         "punctuation.definition.heading",
         "support.class.ruby",
         "support.function.ahk",
