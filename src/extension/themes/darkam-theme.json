@@ -1,21 +1,8 @@
 {
   "name": "Darkam Theme",
   "type": "dark",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "semanticTokenColors": {
-    "variable": {
-      "foreground": "#F8EAF8"
-    },
-    "variable.declaration": {
-      "foreground": "#F8EAF8",
-      "fontStyle": "italic"
-    },
-    "variable.constant": {
-      "foreground": "#7ef091"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#f07178"
-    },
     "builtinConstant": {
       "foreground": "#e08adb"
     },
@@ -33,6 +20,23 @@
     "class.typeHint.builtin": {
       "foreground": "#a5a1e9"
     },
+    "function.declaration": {
+      "foreground": "#b0b9e5"
+    },
+    "class.declaration": {
+      "fontStyle": "bold",
+      "foreground": "#b0b9e5"
+    },
+    "method.declaration": {
+      "foreground": "#b0b9e5"
+    },
+    "selfParameter": {
+      "fontStyle": "bold italic",
+      "foreground": "#79c0ff"
+    },
+    "magicFunction.declaration": {
+      "foreground": "#79c0ff"
+    },
     "string.regexp.quoted.multi.python.function": {
       "foreground": "#f5eef5"
     },
@@ -49,12 +53,17 @@
     "method": {
       "foreground": "#698cff"
     },
-    "selfParameter": {
-      "fontStyle": "bold italic",
-      "foreground": "#79c0ff"
+    "operator": {
+      "foreground": "#ca5f71"
     },
-    "magicFunction": {
-      "foreground": "#79c0ff"
+    "variable.declaration": {
+      "fontStyle": "italic"
+    },
+    "variable.constant": {
+      "foreground": "#7ef091"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#f07178"
     }
   },
   "tokenColors": [
@@ -208,12 +217,12 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.separator.table.markdown",
-        "support.type.exception.python",
-        "meta.function-call.generic.python",
-        "variable.legacy.builtin.python"
+        "variable.legacy.builtin.python",
+        "support.function.builtin.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#7386d0"
+        "foreground": "#A5A1E9"
       }
     },
     {
@@ -233,7 +242,6 @@
         "entity.name.command.shell",
         "entity.name.function.target.makefile",
         "entity.name.section.group-title.ini",
-        "entity.name.type.class.python",
         "entity.other.inherited-class.python",
         "meta.function.python",
         "meta.table.toml",
@@ -241,6 +249,7 @@
         "support.function.powershell",
         "support.type.python",
         "variable.other.class.js",
+        "support.type.exception.python",
         "variable.other.class.ts"
       ],
       "settings": {
@@ -305,8 +314,7 @@
         "source.makefile",
         "source.ini",
         "meta.scope.recipe.makefile",
-        "meta.group.batchfile",
-        "meta.fstring.python"
+        "meta.group.batchfile"
       ],
       "settings": {
         "foreground": "#a5cfff"
@@ -385,8 +393,8 @@
       "name": "Diff Range Metadata Indicators",
       "scope": "meta.diff.range",
       "settings": {
-        "foreground": "#ca7ef0",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#ca7ef0"
       }
     },
     {
@@ -519,7 +527,7 @@
         "storage.type.number.python",
         "string variable",
         "support.constant",
-        "support.function.builtin.python",
+        "entity.name.type.class.python",
         "support.variable"
         // "meta.indexed-name.python", // check later
         // "meta.item-access.python", // check later
@@ -620,13 +628,12 @@
         "meta.class.inheritance.python",
         "meta.function-call.arguments.python",
         "meta.hashtable.assignment",
-        "meta.member.access.python",
         "meta.object.member.js",
         "variable.parameter.attribute.powershell",
         "variable.parameter.function.language.python"
       ],
       "settings": {
-        "foreground": "#FFAFAF"
+        "foreground": "#ffafaf"
       }
     },
     {
@@ -694,11 +701,25 @@
       }
     },
     {
+      "name": "Method Member Access",
+      "scope": [
+        "meta.member.access.python"
+      ],
+      "settings": {
+        "foreground": "#698cff"
+      }
+    },
+    {
       "name": "Testing Scope",
       "scope": [
         // "fstring.variable",
         // "scope.scope.scope.scope.scope.scope.test2",
         // "scope.scope.scope.scope.scope.scope.test3",
+        // "meta.attribute.python",
+        // "meta.member.access.python",
+        // "meta.function-call.arguments.python",
+        // "meta.function-call.python",
+        // "meta.member.access.python",
       ],
       "settings": {
         "fontStyle": "bold underline",
