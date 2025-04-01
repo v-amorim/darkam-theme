@@ -2,7 +2,7 @@
   "name": "vscode-darkam-theme",
   "displayName": "Darkam Theme",
   "description": "A theme extension for VS Code based on Github Dark theme",
-  "version": "4.1.0",
+  "version": "25.04.01.1",
   "publisher": "viniam",
   "scripts": {
     "publish": "vsce publish"

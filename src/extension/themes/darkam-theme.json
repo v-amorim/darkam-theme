@@ -69,11 +69,7 @@
   "tokenColors": [
     {
       "name": "Inserted Text and Diff Headers",
-      "scope": [
-        "markup.inserted",
-        "meta.diff.header.to-file",
-        "punctuation.definition.inserted"
-      ],
+      "scope": [ "markup.inserted", "meta.diff.header.to-file", "punctuation.definition.inserted" ],
       "settings": {
         "background": "#04260f",
         "foreground": "#7ef091"
@@ -88,10 +84,7 @@
     },
     {
       "name": "Modified Text and Diff Indicators",
-      "scope": [
-        "markup.changed",
-        "punctuation.definition.changed"
-      ],
+      "scope": [ "markup.changed", "punctuation.definition.changed" ],
       "settings": {
         "background": "#5a1e02",
         "foreground": "#ffa657"
@@ -99,30 +92,21 @@
     },
     {
       "name": "Italic Text",
-      "scope": [
-        "markup.italic",
-        "meta.lambda-function.python"
-      ],
+      "scope": [ "markup.italic", "meta.lambda-function.python" ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Bold Text",
-      "scope": [
-        "markup.bold",
-        "punctuation.definition.decorator.python"
-      ],
+      "scope": [ "markup.bold", "punctuation.definition.decorator.python" ],
       "settings": {
         "fontStyle": "bold"
       }
     },
     {
       "name": "Bold and Italic Text Combination",
-      "scope": [
-        "markup.bold markup.italic",
-        "markup.italic markup.bold"
-      ],
+      "scope": [ "markup.bold markup.italic", "markup.italic markup.bold" ],
       "settings": {
         "fontStyle": "bold italic"
       }
@@ -143,12 +127,7 @@
     },
     {
       "name": "Headings and Python Magic Methods",
-      "scope": [
-        "markup.heading entity.name",
-        "markup.heading",
-        "meta.separator",
-        "support.function.magic.python"
-      ],
+      "scope": [ "markup.heading entity.name", "markup.heading", "meta.separator", "support.function.magic.python" ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#79c0ff"
@@ -172,10 +151,7 @@
     },
     {
       "name": "Ignored or Untracked Text in Version Control",
-      "scope": [
-        "markup.ignored",
-        "markup.untracked"
-      ],
+      "scope": [ "markup.ignored", "markup.untracked" ],
       "settings": {
         "foreground": "#161b22",
         "background": "#79c0ff"
@@ -191,10 +167,7 @@
     },
     {
       "name": "Blockquotes and Markdown Italic Definitions",
-      "scope": [
-        "markup.quote.markdown",
-        "punctuation.definition.italic.markdown"
-      ],
+      "scope": [ "markup.quote.markdown", "punctuation.definition.italic.markdown" ],
       "settings": {
         "foreground": "#ACB9E6"
       }
@@ -227,10 +200,7 @@
     },
     {
       "name": "Markdown and LaTeX Link Titles",
-      "scope": [
-        "string.other.link.title.markdown",
-        "markup.underline.link.latex"
-      ],
+      "scope": [ "string.other.link.title.markdown", "markup.underline.link.latex" ],
       "settings": {
         "fontStyle": "underline",
         "foreground": "#7386d0"
@@ -259,10 +229,7 @@
     },
     {
       "name": "Unmatched Brackets and Error Messages",
-      "scope": [
-        "brackethighlighter.unmatched",
-        "message.error"
-      ],
+      "scope": [ "brackethighlighter.unmatched", "message.error" ],
       "settings": {
         "foreground": "#ffa198"
       }
@@ -322,10 +289,7 @@
     },
     {
       "name": "Raw String Literals in Python",
-      "scope": [
-        "string.quoted.docstring.raw.single.python",
-        "string.quoted.docstring.raw.multi.python"
-      ],
+      "scope": [ "string.quoted.docstring.raw.single.python", "string.quoted.docstring.raw.multi.python" ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#a5cfff"
@@ -383,7 +347,7 @@
     },
     {
       "name": "Accessed Variables in Python",
-      "scope": [ "meta.indexed-name.python" ],
+      "scope": [ "meta.indexed-name.python", "meta.function-call.arguments.python" ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F8EAF8"
@@ -566,9 +530,7 @@
     },
     {
       "name": "Python String Type Annotations (f/r-strings)",
-      "scope": [
-        "storage.type.string.python"
-      ],
+      "scope": [ "storage.type.string.python" ],
       "settings": {
         "foreground": "#ff6bab",
         "fontStyle": "italic"
@@ -576,10 +538,7 @@
     },
     {
       "name": "Numeric Constants and Values",
-      "scope": [
-        "constant.numeric",
-        "entity.name.constant"
-      ],
+      "scope": [ "constant.numeric", "entity.name.constant" ],
       "settings": {
         "foreground": "#79b8ff"
       }
@@ -626,7 +585,6 @@
         "constant.language.undefined.js",
         "entity.other.inherited-class.python variable.parameter.class.python",
         "meta.class.inheritance.python",
-        "meta.function-call.arguments.python",
         "meta.hashtable.assignment",
         "meta.object.member.js",
         "variable.parameter.attribute.powershell",
@@ -702,9 +660,7 @@
     },
     {
       "name": "Method Member Access",
-      "scope": [
-        "meta.member.access.python"
-      ],
+      "scope": [ "meta.member.access.python" ],
       "settings": {
         "foreground": "#698cff"
       }
