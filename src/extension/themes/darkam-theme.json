@@ -383,7 +383,10 @@
     },
     {
       "name": "Accessed Variables in Python",
-      "scope": [ "meta.indexed-name.python" ],
+      "scope": [
+        "meta.indexed-name.python",
+        "meta.function-call.arguments.python"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F8EAF8"
@@ -626,7 +629,6 @@
         "constant.language.undefined.js",
         "entity.other.inherited-class.python variable.parameter.class.python",
         "meta.class.inheritance.python",
-        "meta.function-call.arguments.python",
         "meta.hashtable.assignment",
         "meta.object.member.js",
         "variable.parameter.attribute.powershell",
