@@ -738,10 +738,15 @@
     "debugTokenExpression.value": "#a5cfff", // Foreground color for the token values shown in debug views.
     "debugToolBar.background": "#191726", // Debug toolbar background color.
     "descriptionForeground": "#8B949E", // Foreground color for description text providing additional information, for example for a label.
-    "diffEditor.insertedLineBackground": "#23863633", // Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.insertedTextBackground": "#2386364d", // Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.removedLineBackground": "#da363333", // Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.removedTextBackground": "#da36334d", // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.insertedLineBackground": "#49EF952a", // Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.insertedTextBackground": "#49EF954a", // Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.removedLineBackground": "#CA5F713a", // Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.removedTextBackground": "#CA5F714a", // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.unchangedRegionBackground": "#1F2335dd", // # The color of unchanged blocks in diff editor.
+    "diffEditorGutter.insertedLineBackground": "#49EF952a", // # Background color for the margin where lines got inserted.
+    "diffEditorGutter.removedLineBackground": "#CA5F713a", // # Background color for the margin where lines got removed.
+    "diffEditorOverview.insertedForeground": "#49EF954a", // # Diff overview ruler foreground for inserted content.
+    "diffEditorOverview.removedForeground": "#CA5F714a", // # Diff overview ruler foreground for removed content.
     "dropdown.background": "#0C0E17", // Dropdown background.
     "dropdown.border": "#22273d", // Dropdown border.
     "dropdown.foreground": "#F8EAF8", // Dropdown foreground.
@@ -864,7 +869,7 @@
     "editorSuggestWidget.selectedIconForeground": "#ACB9E6", // # Icon foreground color of the selected entry in the suggest widget.
     "editorUnnecessaryCode.opacity": "#000000a0", // # Opacity of unnecessary (unused) source code in the editor. For example, ""#000000c0"" will render the code with 75% opacity. For high contrast themes, use the ""editorUnnecessaryCode.border"" theme color to underline unnecessary code instead of fading it out.
     "editorWarning.background": "#FFCB6B30", // # Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.
-    "editorWatermark.foreground": "#5DABF3", // # Foreground color for the labels in the editor watermark.
+    "editorWatermark.foreground": "#7386D0", // # Foreground color for the labels in the editor watermark.
     "editorWhitespace.foreground": "#484f58", // Color of whitespace characters in the editor.
     "editorWidget.background": "#191726", // Background color of editor widgets, such as Find/Replace.
     "errorForeground": "#CA5F71", // Overall foreground color for error messages (this color is only used if not overridden by a component).
@@ -1135,6 +1140,12 @@
     "titleBar.inactiveBackground": "#010409", // Title Bar background when the window is inactive.
     "titleBar.inactiveForeground": "#8B949E", // Title Bar foreground when the window is inactive.
     "toolbar.hoverBackground": "#455180aa", // # Toolbar background when hovering over actions using the mouse
-    "tree.indentGuidesStroke": "#21262d" // Tree Widget's stroke color for indent guides.
+    "tree.indentGuidesStroke": "#7386D0aa", // Tree Widget's stroke color for indent guides.
+    "tree.inactiveIndentGuidesStroke": "#7386D040", // # Tree stroke color for the indentation guides that are not active.
+    "tree.tableColumnsBorder": "#7386D0aa", // # Tree stroke color for the indentation guides.
+    "tree.tableOddRowsBackground": "#7386D040", // # Background color for odd table rows.
+    "list.inactiveSelectionIconForeground": "#CBCFE7", // # List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+    "welcomePage.progress.background": "#22273D", // # Foreground color for the Welcome page progress bars.
+    "welcomePage.progress.foreground": "#7386D0" // # Background color for the Welcome page progress bars.
   }
 }
