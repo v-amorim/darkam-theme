@@ -752,10 +752,10 @@
     "dropdown.foreground": "#F8EAF8", // Dropdown foreground.
     "dropdown.listBackground": "#0C0E17", // Dropdown list background.
     "editor.background": "#0D0E17", // Editor background color.
-    "editor.findMatchBackground": "#AEA4BF60", // Color of the current search match.
-    "editor.findMatchForeground": "#FFAFAF", // Text color of the current search match.
-    "editor.findMatchHighlightBackground": "#d870a860", // Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
-    "editor.findMatchHighlightForeground": "#ACB9E6", // Foreground color of the other search matches.
+    "editor.findMatchBackground": "#d870a860", //d870a860 Color of the current search match.
+    "editor.findMatchForeground": "#ACB9E6", //ACB9E6 Text color of the current search match.
+    "editor.findMatchHighlightBackground": "#AEA4BF40", // Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
+    "editor.findMatchHighlightForeground": "#FFAFAF", // Foreground color of the other search matches.
     "editor.focusedStackFrameHighlightBackground": "#2ea04366", // Background color of the focused stack frame highlight in the editor.
     "editor.foldBackground": "#22273d50", // Background color for folded ranges. The color must not be opaque so as not to hide underlying decorations.
     "editor.foldPlaceholderForeground": "#5DABF3", // # Color of the collapsed text after the first line of a folded range.
@@ -849,7 +849,7 @@
     "editorOverviewRuler.currentContentForeground": "#0000", // # Current overview ruler foreground for inline merge conflicts.
     "editorOverviewRuler.deletedForeground": "#0000", // # Overview ruler marker color for deleted content.
     "editorOverviewRuler.errorForeground": "#0000", // # Overview ruler marker color for errors.
-    "editorOverviewRuler.findMatchForeground": "#0000", // # Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
+    "editorOverviewRuler.findMatchForeground": "#d870a860", // # Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
     "editorOverviewRuler.incomingContentForeground": "#0000", // # Incoming overview ruler foreground for inline merge conflicts.
     "editorOverviewRuler.infoForeground": "#0000", // # Overview ruler marker color for infos.
     "editorOverviewRuler.inlineChatInserted": "#0000", // # Overview ruler marker color for inline chat inserted content.
@@ -1116,8 +1116,8 @@
     "terminal.background": "#030409", // # The background of the Integrated Terminal's viewport.
     "terminal.border": "#30363D", // # The color of the border that separates split panes within the terminal. This defaults to panel.border.
     "terminal.dropBackground": "#282E46aa", // # The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through.
-    "terminal.findMatchBackground": "#ACB9E6", // # Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content.
-    "terminal.findMatchHighlightBackground": "#d870a860", // # Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+    "terminal.findMatchBackground": "#503636", // # Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+    "terminal.findMatchHighlightBackground": "#444c6a", // # Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content.
     "terminal.foreground": "#F8EAF8", // The default foreground color of the Integrated Terminal.
     "terminal.inactiveSelectionBackground": "#282e4680", // # The selection background color of the terminal when it does not have focus.
     "terminal.selectionBackground": "#282e46bc", // # The selection background color of the terminal.
