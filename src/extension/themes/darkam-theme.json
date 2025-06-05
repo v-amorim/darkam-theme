@@ -1087,7 +1087,7 @@
     "tab.border": "#30363D", // Border to separate Tabs from each other.
     "tab.dragAndDropBorder": "#5DABF3", // # Border between tabs to indicate that a tab can be inserted between two tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
     "tab.hoverBackground": "#0C0E17", // Tab background color when hovering
-    "tab.hoverBorder": "#ACB9E6", // # Border to highlight tabs when hovering
+    "tab.hoverBorder": "#7386D0", // # Border to highlight tabs when hovering
     "tab.hoverForeground": "#AEA4BF", // # Tab foreground color when hovering
     "tab.inactiveBackground": "#0C0E17", // Inactive Tab background color.
     "tab.inactiveForeground": "#8B949E", // Inactive Tab foreground color in an active group.
