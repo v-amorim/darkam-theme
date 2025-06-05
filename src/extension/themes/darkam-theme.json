@@ -925,12 +925,12 @@
     "notebook.cellHoverBackground": "#2D365470", // # The background color of a cell when the cell is hovered.
     "notebook.cellInsertionIndicator": "#5DABF3", // # The color of the notebook cell insertion indicator.
     "notebook.cellToolbarSeparator": "#282E46", // # The color of the separator in the cell bottom toolbar
-    "notebook.editorBackground": "#0C0E17", // # Notebook background color.
+    "notebook.editorBackground": "#191726", // # Notebook background color.
     "notebook.focusedCellBackground": "#2D365450", // # The background color of a cell when the cell is focused.
     "notebook.focusedCellBorder": "#ACB9E6", // # The color of the cell's focus indicator borders when the cell is focused.
     "notebook.focusedEditorBorder": "#7386D080", // # The color of the notebook cell editor border.
     "notebook.inactiveFocusedCellBorder": "#ACB9E670", // # The color of the cell's top and bottom border when a cell is focused while the primary focus is outside of the editor.
-    "notebook.outputContainerBackgroundColor": "#191726", // # The Color of the notebook output container background.
+    "notebook.outputContainerBackgroundColor": "#030409", // # The Color of the notebook output container background.
     "notebookEditorOverviewRuler.runningCellForeground": "#0000", // # The color of the running cell decoration in the notebook editor overview ruler.
     "notebookScrollbarSlider.activeBackground": "#2D3654aa", // # Notebook scrollbar slider background color when clicked on.
     "notebookScrollbarSlider.background": "#2D365470", // # Notebook scrollbar slider background color.
@@ -1043,9 +1043,9 @@
     "statusBarItem.remoteForeground": "#F8EAF8", // Foreground color for the remote indicator on the status bar.
     "statusBarItem.remoteHoverBackground": "#7c90df", // # Background color for the remote indicator on the status bar when hovering.
     "statusBarItem.remoteHoverForeground": "#F0F6FC", // # Foreground color for the remote indicator on the status bar when hovering.
-    "statusBarItem.warningBackground": "#FFCB6B", // # Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.warningBackground": "#7386D0", // # Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
     "statusBarItem.warningForeground": "#F8EAF8", // # Status bar warning items foreground color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
-    "statusBarItem.warningHoverBackground": "#fdd17f", // # Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.warningHoverBackground": "#7386D0", // # Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
     "statusBarItem.warningHoverForeground": "#F0F6FC", // # Status bar warning items foreground color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
     "symbolIcon.arrayForeground": "#fab387", // The foreground color for array symbols.
     "symbolIcon.booleanForeground": "#cba6f7", // The foreground color for boolean symbols.
