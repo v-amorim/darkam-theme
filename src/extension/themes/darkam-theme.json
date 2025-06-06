@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.json",
   "name": "Darkam Theme",
   "type": "dark",
   "semanticHighlighting": true,
@@ -327,7 +328,7 @@
       "settings": {
         "fontStyle": "italic underline",
         "background": "#ff7b72",
-        "foreground": "#F0F6FC",
+        "foreground": "#F8EAF8",
         "content": "^M"
       }
     },
@@ -689,463 +690,467 @@
     }
   ],
   "colors": {
-    "activityBar.activeBackground": "#1F2335", // # Activity Bar optional background color for the active element.
-    "activityBar.activeBorder": "#7386D0", // Activity Bar active indicator border color.
-    "activityBar.background": "#0C0E17", // Activity Bar background color.
-    "activityBar.border": "#30363D", // Activity Bar border color with the Side Bar.
-    "activityBar.dropBorder": "#5DABF3", // # Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
-    "activityBar.foreground": "#B8C3E4", // Activity Bar foreground color (for example used for the icons).
-    "activityBar.inactiveForeground": "#8B949E", // Activity Bar item foreground color when it is inactive.
-    "activityBarBadge.background": "#7386D0", // Activity notification badge background color.
-    "activityBarBadge.foreground": "#F0F6FC", // Activity notification badge foreground color.
-    "activityBarTop.activeBackground": "#1F2335", // # Background color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
-    "activityBarTop.activeBorder": "#7386D0", // # Focus border color for the active item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    "activityBarTop.background": "#0C0E17", // # Background color of the activity bar when set to top / bottom.
-    "activityBarTop.dropBorder": "#5DABF3", // # Drag and drop feedback color for the items in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    "activityBarTop.foreground": "#B8C3E4", // # Active foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    "activityBarTop.inactiveForeground": "#8B949E", // # Inactive foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    "badge.background": "#7386D0", // Badge background color.
-    "badge.foreground": "#F0F6FC", // Badge foreground color.
-    "breadcrumb.activeSelectionForeground": "#ACB9E6", // Color of selected breadcrumb items.
-    "breadcrumb.focusForeground": "#7386D0", // Color of focused breadcrumb items.
-    "breadcrumb.foreground": "#8B949E", // Color of breadcrumb items.
-    "breadcrumbPicker.background": "#0C0E17", // Background color of breadcrumb item picker.
-    "button.background": "#3c466f", // Button background color.
-    "button.foreground": "#F0F6FC", // Button foreground color.
-    "button.hoverBackground": "#455180", // Button background color when hovering.
-    "button.secondaryBackground": "#282E46", //3c466f Secondary button background color.
-    "button.secondaryForeground": "#F0F6FC", // Secondary button foreground color.
-    "button.secondaryHoverBackground": "#2D3654", // Secondary button background color when hovering.
-    "button.separator": "#F0F6FC", // # Button separator color.
-    "checkbox.background": "#282E46", // Background color of checkbox widget.
-    "checkbox.border": "#22273d", // Border color of checkbox widget.
-    "checkbox.disabled.background": "#1F2335", // # Background of a disabled checkbox.
-    "checkbox.disabled.foreground": "#CBCFE7", // # Foreground of a disabled checkbox.
-    "checkbox.foreground": "#CED9FF", // # Foreground color of checkbox widget.
-    "checkbox.selectBackground": "#2D3654", // # Background color of checkbox widget when the element it's in is selected.
-    "checkbox.selectBorder": "#22273d", // # Border color of checkbox widget when the element it's in is selected.
-    "debugConsole.errorForeground": "#ffa198", // Foreground color for error messages in debug REPL console.
-    "debugConsole.infoForeground": "#8B949E", // Foreground color for info messages in debug REPL console.
-    "debugConsole.sourceForeground": "#e3b341", // Foreground color for source filenames in debug REPL console.
-    "debugConsole.warningForeground": "#d29922", // Foreground color for warning messages in debug REPL console.
-    "debugConsoleInputIcon.foreground": "#bc8cff", // Foreground color for debug console input marker icon.
-    "debugIcon.breakpointForeground": "#f85149", // Icon color for breakpoints.
-    "debugTokenExpression.boolean": "#56d364", // Foreground color for booleans in debug views.
-    "debugTokenExpression.error": "#ffa198", // Foreground color for expression errors in debug views.
-    "debugTokenExpression.name": "#79c0ff", // Foreground color for the token names shown in debug views (such as in the Variables or Watch view).
-    "debugTokenExpression.number": "#56d364", // Foreground color for numbers in debug views.
-    "debugTokenExpression.string": "#a5cfff", // Foreground color for strings in debug views.
-    "debugTokenExpression.value": "#a5cfff", // Foreground color for the token values shown in debug views.
-    "debugToolBar.background": "#191726", // Debug toolbar background color.
-    "descriptionForeground": "#8B949E", // Foreground color for description text providing additional information, for example for a label.
-    "diffEditor.insertedLineBackground": "#49EF952a", // Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.insertedTextBackground": "#49EF954a", // Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.removedLineBackground": "#CA5F713a", // Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.removedTextBackground": "#CA5F714a", // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.unchangedRegionBackground": "#1F2335dd", // # The color of unchanged blocks in diff editor.
-    "diffEditorGutter.insertedLineBackground": "#49EF952a", // # Background color for the margin where lines got inserted.
-    "diffEditorGutter.removedLineBackground": "#CA5F713a", // # Background color for the margin where lines got removed.
-    "diffEditorOverview.insertedForeground": "#49EF954a", // # Diff overview ruler foreground for inserted content.
-    "diffEditorOverview.removedForeground": "#CA5F714a", // # Diff overview ruler foreground for removed content.
-    "dropdown.background": "#0C0E17", // Dropdown background.
-    "dropdown.border": "#22273d", // Dropdown border.
-    "dropdown.foreground": "#F8EAF8", // Dropdown foreground.
-    "dropdown.listBackground": "#0C0E17", // Dropdown list background.
-    "editor.background": "#0D0E17", // Editor background color.
-    "editor.findMatchBackground": "#d870a860", //d870a860 Color of the current search match.
-    "editor.findMatchForeground": "#ACB9E6", //ACB9E6 Text color of the current search match.
-    "editor.findMatchHighlightBackground": "#AEA4BF40", // Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
-    "editor.findMatchHighlightForeground": "#FFAFAF", // Foreground color of the other search matches.
-    "editor.focusedStackFrameHighlightBackground": "#2ea04366", // Background color of the focused stack frame highlight in the editor.
-    "editor.foldBackground": "#22273d50", // Background color for folded ranges. The color must not be opaque so as not to hide underlying decorations.
-    "editor.foldPlaceholderForeground": "#5DABF3", // # Color of the collapsed text after the first line of a folded range.
-    "editor.foreground": "#F8EAF8", // Editor default foreground color.
-    "editor.hoverHighlightBackground": "#22273D", // # Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.
-    "editor.lineHighlightBackground": "#22273d40", // Background color for the highlight of line at the cursor position.
-    "editor.linkedEditingBackground": "#58a6ff12", // Background color when the editor is in linked editing mode.
-    "editor.selectionBackground": "#5b86c199", // Color of the editor selection.
-    "editor.selectionForeground": "#ffffff", // Color of the selected text for high contrast.
-    "editor.selectionHighlightBackground": "#3fb95040", // Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
-    "editor.stackFrameHighlightBackground": "#bb800966", // Background color of the top stack frame highlight in the editor.
-    "editor.wordHighlightBackground": "#ffffff03", // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide underlying decorations.
-    "editor.wordHighlightBorder": "#5b86c199", // Border color of a symbol during read-access, for example when reading a variable.
-    "editor.wordHighlightStrongBackground": "#6e76814d", // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.
-    "editor.wordHighlightStrongBorder": "#6e768199", // Border color of a symbol during write-access, for example when writing to a variable.
-    "editorBracketHighlight.foreground1": "#79c0ff", // Foreground color of brackets (1). Requires enabling bracket pair colorization.
-    "editorBracketHighlight.foreground2": "#b0dbb6", // Foreground color of brackets (2). Requires enabling bracket pair colorization.
-    "editorBracketHighlight.foreground3": "#e3b341", // Foreground color of brackets (3). Requires enabling bracket pair colorization.
-    "editorBracketHighlight.foreground4": "#ffa198", // Foreground color of brackets (4). Requires enabling bracket pair colorization.
-    "editorBracketHighlight.foreground5": "#ff9bce", // Foreground color of brackets (5). Requires enabling bracket pair colorization.
-    "editorBracketHighlight.foreground6": "#d2a8ff", // Foreground color of brackets (6). Requires enabling bracket pair colorization.
-    "editorBracketHighlight.unexpectedBracket.foreground": "#CA5F71", // Foreground color of unexpected brackets.
-    "editorBracketMatch.background": "#2D3654", // Background color behind matching brackets.
-    "editorBracketMatch.border": "#7386D0", // Color for matching brackets boxes.
-    "editorBracketPairGuide.activeBackground1": "#79c0ff", // # Background color of active bracket pair guides (1). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.activeBackground2": "#b0dbb6", // # Background color of active bracket pair guides (2). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.activeBackground3": "#e3b341", // # Background color of active bracket pair guides (3). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.activeBackground4": "#ffa198", // # Background color of active bracket pair guides (4). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.activeBackground5": "#ff9bce", // # Background color of active bracket pair guides (5). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.activeBackground6": "#d2a8ff", // # Background color of active bracket pair guides (6). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.background1": "#79c0ff90", // # Background color of inactive bracket pair guides (1). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.background2": "#b0dbb690", // # Background color of inactive bracket pair guides (2). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.background3": "#e3b34190", // # Background color of inactive bracket pair guides (3). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.background4": "#ffa19890", // # Background color of inactive bracket pair guides (4). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.background5": "#ff9bce90", // # Background color of inactive bracket pair guides (5). Requires enabling bracket pair guides.
-    "editorBracketPairGuide.background6": "#d2a8ff90", // # Background color of inactive bracket pair guides (6). Requires enabling bracket pair guides.
-    "editorCodeLens.foreground": "#AEA4BF", // # Foreground color of an editor CodeLens.
-    "editorCursor.foreground": "#79C0FF", // Color of the editor cursor.
-    "editorError.background": "#FF72B030", // # Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.
-    "editorGroup.border": "#2D3654", // Color to separate multiple editor groups from each other.
-    "editorGroup.dropBackground": "#282E46aa", // # Background color when dragging editors around.
-    "editorGroupHeader.tabsBackground": "#010409", // Background color of the Tabs container.
-    "editorGroupHeader.tabsBorder": "#30363D", // Border color below the editor tabs control when tabs are enabled.
-    "editorGutter.addedBackground": "#49EF9560", // Editor gutter background color for lines that are added.
-    "editorGutter.deletedBackground": "#CA5F71", // Editor gutter background color for lines that are deleted.
-    "editorGutter.modifiedBackground": "#F2B19960", // Editor gutter background color for lines that are modified.
-    "editorHoverWidget.background": "#191726", // # Background color of the editor hover.
-    "editorHoverWidget.border": "#2D3654", // # Border color of the editor hover.
-    "editorHoverWidget.highlightForeground": "#FFAFAF", // # Foreground color of the active item in the parameter hint.
-    "editorIndentGuide.activeBackground": "#5DABF3", // Color of the active editor indentation guide.
-    "editorIndentGuide.activeBackground1": "#79c1ff98", // # Color of the active editor indentation guides (1).
-    "editorIndentGuide.activeBackground2": "#b0dbb698", // # Color of the active editor indentation guides (2).
-    "editorIndentGuide.activeBackground3": "#e3b34198", // # Color of the active editor indentation guides (3).
-    "editorIndentGuide.activeBackground4": "#ffa19898", // # Color of the active editor indentation guides (4).
-    "editorIndentGuide.activeBackground5": "#ff9bce98", // # Color of the active editor indentation guides (5).
-    "editorIndentGuide.activeBackground6": "#d2a8ff98", // # Color of the active editor indentation guides (6).
-    "editorIndentGuide.background": "#c9d1d91f", // Color of the editor indentation guides.
-    "editorIndentGuide.background1": "#79c0ff20", // # Color of the editor indentation guides (1).
-    "editorIndentGuide.background2": "#b0dbb620", // # Color of the editor indentation guides (2).
-    "editorIndentGuide.background3": "#e3b34120", // # Color of the editor indentation guides (3).
-    "editorIndentGuide.background4": "#ffa19820", // # Color of the editor indentation guides (4).
-    "editorIndentGuide.background5": "#ff9bce20", // # Color of the editor indentation guides (5).
-    "editorIndentGuide.background6": "#d2a8ff20", // # Color of the editor indentation guides (6).
-    "editorInlayHint.background": "#8B949E33", // Background color of inline hints.
-    "editorInlayHint.foreground": "#AEA4BF90", // Foreground color of inline hints.
-    "editorInlayHint.parameterBackground": "#8B949E33", // # Background color of inline hints for parameters
-    "editorInlayHint.parameterForeground": "#FFAFAF90", // # Foreground color of inline hints for parameters
-    "editorInlayHint.typeBackground": "#8B949E33", // Background color of inline hints for types
-    "editorInlayHint.typeForeground": "#A5A1E990", // Foreground color of inline hints for types
-    "editorLightBulb.foreground": "#FFCB6B", // # The color used for the lightbulb actions icon.
-    "editorLightBulbAi.foreground": "#FFCB6B", // # The color used for the lightbulb AI icon.
-    "editorLightBulbAutoFix.foreground": "#FFCB6B", // # The color used for the lightbulb auto fix actions icon.
-    "editorLineNumber.activeForeground": "#c3cff8", // Color of the active editor line number.
-    "editorLineNumber.foreground": "#6e7681", // Color of editor line numbers.
-    "editorMarkerNavigation.background": "#191726", // # Editor marker navigation widget background.
-    "editorMarkerNavigationError.background": "#CA5F71", // # Editor marker navigation widget error color.
-    "editorMarkerNavigationError.headerBackground": "#191726", // # Editor marker navigation widget error heading background.
-    "editorMarkerNavigationInfo.background": "#ACB9E6", // # Editor marker navigation widget info color.
-    "editorMarkerNavigationInfo.headerBackground": "#191726", // # Editor marker navigation widget info heading background.
-    "editorMarkerNavigationWarning.background": "#FFCB6B", // # Editor marker navigation widget warning color.
-    "editorMarkerNavigationWarning.headerBackground": "#191726", // # Editor marker navigation widget warning heading background.
-    "editorMultiCursor.primary.foreground": "#79C0FF", // # Color of the primary editor cursor when multiple cursors are present.
-    "editorMultiCursor.secondary.foreground": "#7386D0", // # Color of secondary editor cursors when multiple cursors are present.
-    "editorOverviewRuler.addedForeground": "#0000", // # Overview ruler marker color for added content.
-    "editorOverviewRuler.background": "#0000", // # Background color of the editor overview ruler. Only used when the minimap is enabled and placed on the right side of the editor.
-    "editorOverviewRuler.border": "#0000", // Color of the overview ruler border.
-    "editorOverviewRuler.bracketMatchForeground": "#0000", // # Overview ruler marker color for matching brackets.
-    "editorOverviewRuler.commentForeground": "#0000", // # Editor overview ruler decoration color for resolved comments. This color should be opaque.
-    "editorOverviewRuler.commentUnresolvedForeground": "#0000", // # Editor overview ruler decoration color for unresolved comments. This color should be opaque.
-    "editorOverviewRuler.commonContentForeground": "#0000", // # Common ancestor overview ruler foreground for inline merge conflicts.
-    "editorOverviewRuler.currentContentForeground": "#0000", // # Current overview ruler foreground for inline merge conflicts.
-    "editorOverviewRuler.deletedForeground": "#0000", // # Overview ruler marker color for deleted content.
-    "editorOverviewRuler.errorForeground": "#0000", // # Overview ruler marker color for errors.
-    "editorOverviewRuler.findMatchForeground": "#d870a860", // # Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
-    "editorOverviewRuler.incomingContentForeground": "#0000", // # Incoming overview ruler foreground for inline merge conflicts.
-    "editorOverviewRuler.infoForeground": "#0000", // # Overview ruler marker color for infos.
-    "editorOverviewRuler.inlineChatInserted": "#0000", // # Overview ruler marker color for inline chat inserted content.
-    "editorOverviewRuler.inlineChatRemoved": "#0000", // # Overview ruler marker color for inline chat removed content.
-    "editorOverviewRuler.modifiedForeground": "#0000", // # Overview ruler marker color for modified content.
-    "editorOverviewRuler.rangeHighlightForeground": "#0000", // # Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
-    "editorOverviewRuler.selectionHighlightForeground": "#0000", // # Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.
-    "editorOverviewRuler.warningForeground": "#0000", // # Overview ruler marker color for warnings.
-    "editorOverviewRuler.wordHighlightForeground": "#0000", // # Overview ruler marker color for symbol highlights. The color must not be opaque so as not to hide underlying decorations.
-    "editorOverviewRuler.wordHighlightStrongForeground": "#0000", // # Overview ruler marker color for write-access symbol highlights. The color must not be opaque so as not to hide underlying decorations.
-    "editorOverviewRuler.wordHighlightTextForeground": "#0000", // # Overview ruler marker color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations.
-    "editorPane.background": "#0C0E17", // # Background color of the editor pane visible on the left and right side of the centered editor layout.
-    "editorRuler.foreground": "#ff72af1e", // Color of the editor rulers.
-    "editorSuggestWidget.background": "#0C0E17", // # Background color of the suggestion widget.
-    "editorSuggestWidget.border": "#2D3654", // # Border color of the suggestion widget.
-    "editorSuggestWidget.selectedBackground": "#1F2335", // # Background color of the selected entry in the suggestion widget.
-    "editorSuggestWidget.selectedIconForeground": "#ACB9E6", // # Icon foreground color of the selected entry in the suggest widget.
-    "editorUnnecessaryCode.opacity": "#000000a0", // # Opacity of unnecessary (unused) source code in the editor. For example, ""#000000c0"" will render the code with 75% opacity. For high contrast themes, use the ""editorUnnecessaryCode.border"" theme color to underline unnecessary code instead of fading it out.
-    "editorWarning.background": "#FFCB6B30", // # Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.
-    "editorWatermark.foreground": "#7386D0", // # Foreground color for the labels in the editor watermark.
-    "editorWhitespace.foreground": "#484f58", // Color of whitespace characters in the editor.
-    "editorWidget.background": "#191726", // Background color of editor widgets, such as Find/Replace.
-    "errorForeground": "#CA5F71", // Overall foreground color for error messages (this color is only used if not overridden by a component).
-    "extensionButton.prominentBackground": "#FF72B0", // # Extension view button background color.
-    "extensionIcon.preReleaseForeground": "#B58EE8", // # The icon color for pre-release extension.
-    "extensionIcon.starForeground": "#ACB9E6", // # The icon color for extension ratings.
-    "extensionIcon.verifiedForeground": "#5DABF3", // # The icon color for extension verified publisher.
-    "focusBorder": "#1f6feb", // Overall border color for focused elements. This color is only used if not overridden by a component.
-    "foreground": "#F8EAF8", // Overall foreground color. This color is only used if not overridden by a component.
-    "gitDecoration.addedResourceForeground": "#3fb950", // Color for added Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.conflictingResourceForeground": "#db6d28", // Color for conflicting Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.deletedResourceForeground": "#f85149", // Color for deleted Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.ignoredResourceForeground": "#484f58", // Color for ignored Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.modifiedResourceForeground": "#d29922", // Color for modified Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.submoduleResourceForeground": "#8B949E", // Color for submodule resources.
-    "gitDecoration.untrackedResourceForeground": "#3fb950", // Color for untracked Git resources. Used for file labels and the SCM viewlet.
-    "icon.foreground": "#8B949E", // The default color for icons in the workbench.
-    "input.background": "#0C0E17", // Input box background.
-    "input.border": "#30363D", // Input box border.
-    "input.foreground": "#F8EAF8", // Input box foreground.
-    "input.placeholderForeground": "#484f58", // Input box foreground color for placeholder text.
-    "keybindingLabel.background": "#2D3654", // # Keybinding label background color. The keybinding label is used to represent a keyboard shortcut.
-    "keybindingLabel.bottomBorder": "#7386D0", // # Keybinding label border bottom color. The keybinding label is used to represent a keyboard shortcut.
-    "keybindingLabel.foreground": "#F8EAF8", // Keybinding label foreground color. The keybinding label is used to represent a keyboard shortcut.
-    "keybindingTable.headerBackground": "#1F2335", // # Background color for the keyboard shortcuts table header.
-    "list.activeSelectionBackground": "#282E46", // List/Tree background color for the selected item when the list/tree is active.
-    "list.activeSelectionForeground": "#F8EAF8", // List/Tree foreground color for the selected item when the list/tree is active.
-    "list.dropBackground": "#282E46aa", // # List/Tree drag and drop background when moving items around using the mouse.
-    "list.dropBetweenBackground": "#282E46aa", // # List/Tree drag and drop border color when moving items between items when using the mouse.
-    "list.errorForeground": "#CA5F71", // # Foreground color of list items containing errors.
-    "list.focusBackground": "#388bfd26", // List/Tree background color for the focused item when the list/tree is active.
-    "list.focusForeground": "#F8EAF8", // List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
-    "list.focusOutline": "#7386D0", // # List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
-    "list.highlightForeground": "#58a6ff", // List/Tree foreground color of the match highlights when searching inside the list/tree.
-    "list.hoverBackground": "#6e76811a", // List/Tree background when hovering over items using the mouse.
-    "list.hoverForeground": "#F8EAF8", // List/Tree foreground when hovering over items using the mouse.
-    "list.inactiveFocusBackground": "#388afd0f", // List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists.
-    "list.inactiveFocusOutline": "#7386d0aa", // # List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-    "list.inactiveSelectionBackground": "#6e768166", // List/Tree background color for the selected item when the list/tree is inactive.
-    "list.inactiveSelectionForeground": "#F8EAF8", // List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-    "menu.background": "#0D0E17", // # Background color of menu items.
-    "menu.selectionBackground": "#282E46", // # Background color of the selected menu item in menus.
-    "menubar.selectionBackground": "#1F2335", // # Background color of the selected menu item in the menubar.
-    "minimap.errorHighlight": "#ca5f71aa", // # Highlight color for errors within the editor.
-    "minimap.findMatchHighlight": "#d870a8cc", // # Highlight color for matches from search within files.
-    "minimap.foregroundOpacity": "#00000070", // Opacity of foreground elements rendered in the minimap. For example, "#000000c0" will render the elements with 75% opacity.
-    "minimap.infoHighlight": "#ACB9E6aa", // # Minimap marker color for infos.
-    "minimap.selectionHighlight": "#282e46bc", // # Highlight color for the editor selection.
-    "minimap.warningHighlight": "#FFCB6Baa", // # Highlight color for warnings within the editor.
-    "minimapSlider.activeBackground": "#2D3654aa", // Minimap slider background color when clicked on.
-    "minimapSlider.background": "#2D365470", // Minimap slider background color.
-    "minimapSlider.hoverBackground": "#2D365490", // Minimap slider background color when hovering.
-    "minimapGutter.addedBackground": "#49EF9560", // # Minimap gutter color for added content.
-    "minimapGutter.deletedBackground": "#CA5F71", // # Minimap gutter color for deleted content.
-    "minimapGutter.modifiedBackground": "#F2B19960", // # Minimap gutter color for modified content.
-    "notebook.cellBorderColor": "#282E46aa", // # The border color for notebook cells.
-    "notebook.cellEditorBackground": "#0D0E17", // # The color of the notebook cell editor background
-    "notebook.cellHoverBackground": "#2D365470", // # The background color of a cell when the cell is hovered.
-    "notebook.cellInsertionIndicator": "#5DABF3", // # The color of the notebook cell insertion indicator.
-    "notebook.cellToolbarSeparator": "#282E46", // # The color of the separator in the cell bottom toolbar
-    "notebook.editorBackground": "#191726", // # Notebook background color.
-    "notebook.focusedCellBackground": "#2D365450", // # The background color of a cell when the cell is focused.
-    "notebook.focusedCellBorder": "#ACB9E6", // # The color of the cell's focus indicator borders when the cell is focused.
-    "notebook.focusedEditorBorder": "#7386D080", // # The color of the notebook cell editor border.
-    "notebook.inactiveFocusedCellBorder": "#ACB9E670", // # The color of the cell's top and bottom border when a cell is focused while the primary focus is outside of the editor.
-    "notebook.outputContainerBackgroundColor": "#030409", // # The Color of the notebook output container background.
-    "notebookEditorOverviewRuler.runningCellForeground": "#0000", // # The color of the running cell decoration in the notebook editor overview ruler.
-    "notebookScrollbarSlider.activeBackground": "#2D3654aa", // # Notebook scrollbar slider background color when clicked on.
-    "notebookScrollbarSlider.background": "#2D365470", // # Notebook scrollbar slider background color.
-    "notebookScrollbarSlider.hoverBackground": "#2D365490", // # Notebook scrollbar slider background color when hovering.
-    "notebookStatusErrorIcon.foreground": "#CA5F71", // # The error icon color of notebook cells in the cell status bar.
-    "notebookStatusRunningIcon.foreground": "#ACB9E6", // # The running icon color of notebook cells in the cell status bar.
-    "notebookStatusSuccessIcon.foreground": "#49EF95", // # The success icon color of notebook cells in the cell status bar.
-    "notificationCenterHeader.background": "#1F2335", // Notification Center header background color.
-    "notificationCenterHeader.foreground": "#F8EAF8", // Notification Center header foreground color.
-    "notifications.background": "#191726", // Notification background color.
-    "notifications.border": "#2D3654", // Notification border color separating from other notifications in the Notification Center.
-    "notifications.foreground": "#F8EAF8", // Notification foreground color.
-    "notificationsErrorIcon.foreground": "#CA5F71", // The color used for the notification error icon.
-    "notificationsInfoIcon.foreground": "#58a6ff", // The color used for the notification info icon.
-    "notificationsWarningIcon.foreground": "#d29922", // The color used for the notification warning icon.
-    "outputView.background": "#020409", // # Output view background color.
-    "panel.background": "#020409", // Panel background color.
-    "panel.border": "#2D3654", // Panel border color to separate the panel from the editor.
-    "panel.dropBorder": "#5DABF3", // # Drag and drop feedback color for the panel titles. Panels are shown below the editor area and contain views like output and integrated terminal.
-    "panelInput.border": "#30363D", // Input box border for inputs in the panel.
-    "panelSectionHeader.background": "#1F2335", // # Panel section header background color. Panels are shown below the editor area and contain views like output and integrated terminal.
-    "panelSectionHeader.foreground": "#F8EAF8", // # Panel section header foreground color. Panels are shown below the editor area and contain views like output and integrated terminal.
-    "panelTitle.activeBorder": "#A5CFFF", // Border color for the active panel title.
-    "panelTitle.activeForeground": "#F8EAF8", // Title color for the active panel.
-    "panelTitle.border": "#2D3654", // # Panel title border color on the bottom, separating the title from the views. Panels are shown below the editor area and contain views like output and integrated terminal.
-    "panelTitle.inactiveForeground": "#8B949E", // Title color for the inactive panel.
-    "peekView.border": "#7386D0", // # Color of the peek view borders and arrow.
-    "peekViewEditor.background": "#6e76811a", // Background color of the peek view editor.
-    "peekViewEditor.matchHighlightBackground": "#7386D040", // Match highlight color in the peek view editor.
-    "peekViewEditorGutter.background": "#181922", // # Background color of the gutter in the peek view editor.
-    "peekViewResult.background": "#0C0E17", // Background color of the peek view result list.
-    "peekViewResult.matchHighlightBackground": "#bb800966", // Match highlight color in the peek view result list.
-    "peekViewResult.selectionBackground": "#282e46bc", // # Background color of the selected entry in the peek view result list.
-    "peekViewTitle.background": "#1F2335", // # Background color of the peek view title area.
-    "peekViewTitleLabel.foreground": "#ACB9E6", // # Color of the peek view title.
-    "pickerGroup.border": "#7386D0", // Quick picker (Quick Open) color for grouping borders.
-    "pickerGroup.foreground": "#ACB9E6", // Quick picker (Quick Open) color for grouping labels.
-    "problemsErrorIcon.foreground": "#CA5F71", // # The color used for the problems error icon.
-    "problemsInfoIcon.foreground": "#58a6ff", // # The color used for the problems info icon.
-    "problemsWarningIcon.foreground": "#d29922", // # The color used for the problems warning icon.
-    "progressBar.background": "#5DABF3", // Background color of the progress bar shown for long running operations.
-    "quickInput.background": "#191726", // Quick input background color. The quick input widget is the container for views like the color theme picker.
-    "quickInput.foreground": "#F8EAF8", // Quick input foreground color. The quick input widget is the container for views like the color theme picker.
-    "quickInputList.focusBackground": "#282E46aa", // # Quick picker background color for the focused item.
-    "quickInputList.focusIconForeground": "#ACB9E6", // # Quick picker icon foreground color for the focused item.
-    "radio.activeBackground": "#282E46", // # Background color of active radio option.
-    "radio.activeBorder": "#22273d", // # Border color of the active radio option.
-    "radio.activeForeground": "#CED9FF", // # Foreground color of active radio option.
-    "radio.inactiveBackground": "#1F2335", // # Background color of inactive radio option.
-    "radio.inactiveBorder": "#22273dbb", // # Border color of the inactive radio option.
-    "radio.inactiveForeground": "#CBCFE7", // # Foreground color of inactive radio option.
-    "radio.inactiveHoverBackground": "#1f2335dd", // # Background color of inactive active radio option when hovering.
-    "scmGraph.foreground1": "#79c0ff", // # Source control graph foreground color (1).
-    "scmGraph.foreground2": "#b0dbb6", // # Source control graph foreground color (2).
-    "scmGraph.foreground3": "#e3b341", // # Source control graph foreground color (3).
-    "scmGraph.foreground4": "#ffa198", // # Source control graph foreground color (4).
-    "scmGraph.foreground5": "#ff9bce", // # Source control graph foreground color (5).
-    "scmGraph.historyItemRefColor": "#7386D0", // # History item reference color.
-    "scmGraph.historyItemRemoteRefColor": "#B58EE8", // # History item remote reference color.
-    "scrollbarSlider.activeBackground": "#2D3654aa", // Scrollbar slider background color when clicked on.
-    "scrollbarSlider.background": "#2D365470", // Scrollbar slider background color.
-    "scrollbarSlider.hoverBackground": "#2D365490", // Scrollbar slider background color when hovering.
-    "settings.checkboxBackground": "#282E46", // # Checkbox background.
-    "settings.checkboxBorder": "#22273d", // # Checkbox border.
-    "settings.checkboxForeground": "#CED9FF", // # Checkbox foreground.
-    "settings.dropdownBackground": "#0C0E17", // # Dropdown background.
-    "settings.dropdownBorder": "#22273d", // # Dropdown border.
-    "settings.dropdownForeground": "#F8EAF8", // # Dropdown foreground.
-    "settings.dropdownListBorder": "#0C0E17", // # Dropdown list border.
-    "settings.focusedRowBackground": "#282E46aa", // # Background color of a focused setting row.
-    "settings.headerBorder": "#7386D0", // # The color of the header container border.
-    "settings.headerForeground": "#8B949E", // The foreground color for a section header or active title.
-    "settings.modifiedItemIndicator": "#bb800966", // The line that indicates a modified setting.
-    "settings.numberInputBorder": "#2D3654", // # Number input box border.
-    "settings.sashBorder": "#2D3654", // # The color of the Settings editor splitview sash border.
-    "settings.settingsHeaderHoverForeground": "#ACB9E6", // # The foreground color for a section header or hovered title.
-    "settings.textInputBorder": "#2D3654", // # Text input box border.
-    "sideBar.background": "#010409", // Side Bar background color.
-    "sideBar.border": "#2D3654", // Side Bar border color on the side separating the editor.
-    "sideBar.dropBackground": "#5DABF3", // # Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through.
-    "sideBar.foreground": "#F8EAF8", // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
-    "sideBarActivityBarTop.border": "#2D3654", // # Border color between the activity bar at the top/bottom and the views.
-    "sideBarSectionHeader.background": "#010409", // Side Bar section header background color.
-    "sideBarSectionHeader.border": "#30363D", // Side bar section header border color.
-    "sideBarSectionHeader.foreground": "#F8EAF8", // Side Bar section header foreground color.
-    "sideBarTitle.background": "#1F2335dd", // # Side bar title background color. The side bar is the container for views like explorer and search.
-    "sideBarTitle.border": "#30363D", // # Side bar title border color on the bottom, separating the title from the views. The side bar is the container for views like explorer and search.
-    "sideBarTitle.foreground": "#F8EAF8", // Side Bar title foreground color.
-    "sideBySideEditor.horizontalBorder": "#30363D", // # Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
-    "sideBySideEditor.verticalBorder": "#30363D", // # Color to separate two editors from each other when shown side by side in an editor group from left to right.
-    "simpleFindWidget.sashBorder": "#2D3654", // # Border color of the sash border.
-    "statusBar.background": "#0C0E17", // Standard Status Bar background color.
-    "statusBar.border": "#30363D", // Status Bar border color separating the Status Bar and editor.
-    "statusBar.debuggingBackground": "#B58EE8", // Status Bar background color when a program is being debugged.
-    "statusBar.debuggingForeground": "#F0F6FC", // Status Bar foreground color when a program is being debugged.
-    "statusBar.focusBorder": "#1f6feb80", // Status bar border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
-    "statusBar.foreground": "#8B949E", // Status Bar foreground color.
-    "statusBar.noFolderBackground": "#0C0E17", // Status Bar background color when no folder is opened.
-    "statusBar.noFolderBorder": "#30363D", // # Status Bar border color separating the Status Bar and editor when no folder is opened.
-    "statusBarItem.activeBackground": "#c9d1d91f", // Status Bar item background color when clicking.
-    "statusBarItem.errorBackground": "#CA5F71", // # Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions.
-    "statusBarItem.errorForeground": "#F8EAF8", // # Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions.
-    "statusBarItem.errorHoverBackground": "#db697c", // # Status bar error items background color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
-    "statusBarItem.errorHoverForeground": "#F0F6FC", // # Status bar error items foreground color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
-    "statusBarItem.focusBorder": "#30363D", // Status bar item border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
-    "statusBarItem.hoverBackground": "#c9d1d914", // Status Bar item background color when hovering.
-    "statusBarItem.hoverForeground": "#ACB9E6", // # Status bar item foreground color when hovering. The status bar is shown in the bottom of the window.
-    "statusBarItem.prominentBackground": "#6e768166", // Status Bar prominent items background color.
-    "statusBarItem.remoteBackground": "#7386D0", // Background color for the remote indicator on the status bar.
-    "statusBarItem.remoteForeground": "#F8EAF8", // Foreground color for the remote indicator on the status bar.
-    "statusBarItem.remoteHoverBackground": "#7c90df", // # Background color for the remote indicator on the status bar when hovering.
-    "statusBarItem.remoteHoverForeground": "#F0F6FC", // # Foreground color for the remote indicator on the status bar when hovering.
-    "statusBarItem.warningBackground": "#7386D0", // # Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
-    "statusBarItem.warningForeground": "#F8EAF8", // # Status bar warning items foreground color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
-    "statusBarItem.warningHoverBackground": "#7386D0", // # Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
-    "statusBarItem.warningHoverForeground": "#F0F6FC", // # Status bar warning items foreground color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
-    "symbolIcon.arrayForeground": "#fab387", // The foreground color for array symbols.
-    "symbolIcon.booleanForeground": "#cba6f7", // The foreground color for boolean symbols.
-    "symbolIcon.classForeground": "#f9e2af", // The foreground color for class symbols.
-    "symbolIcon.colorForeground": "#f5c2e7", // The foreground color for color symbols.
-    "symbolIcon.constantForeground": "#fab387", // The foreground color for constant symbols.
-    "symbolIcon.constructorForeground": "#b4befe", // The foreground color for constructor symbols.
-    "symbolIcon.enumeratorForeground": "#f9e2af", // The foreground color for enumerator symbols.
-    "symbolIcon.enumeratorMemberForeground": "#f9e2af", // The foreground color for enumerator member symbols.
-    "symbolIcon.eventForeground": "#f5c2e7", // The foreground color for event symbols.
-    "symbolIcon.fieldForeground": "#cdd6f4", // The foreground color for field symbols.
-    "symbolIcon.fileForeground": "#8839ef", // The foreground color for file symbols.
-    "symbolIcon.folderForeground": "#8839ef", // The foreground color for folder symbols.
-    "symbolIcon.functionForeground": "#89b4fa", // The foreground color for function symbols.
-    "symbolIcon.interfaceForeground": "#f9e2af", // The foreground color for interface symbols.
-    "symbolIcon.keyForeground": "#94e2d5", // The foreground color for key symbols.
-    "symbolIcon.keywordForeground": "#cba6f7", // The foreground color for keyword symbols.
-    "symbolIcon.methodForeground": "#89b4fa", // The foreground color for method symbols.
-    "symbolIcon.moduleForeground": "#cdd6f4", // The foreground color for module symbols.
-    "symbolIcon.namespaceForeground": "#f9e2af", // The foreground color for namespace symbols.
-    "symbolIcon.nullForeground": "#eba0ac", // The foreground color for null symbols.
-    "symbolIcon.numberForeground": "#fab387", // The foreground color for number symbols.
-    "symbolIcon.objectForeground": "#f9e2af", // The foreground color for object symbols.
-    "symbolIcon.operatorForeground": "#94e2d5", // The foreground color for operator symbols.
-    "symbolIcon.packageForeground": "#f2cdcd", // The foreground color for package symbols.
-    "symbolIcon.propertyForeground": "#eba0ac", // The foreground color for property symbols.
-    "symbolIcon.referenceForeground": "#f9e2af", // The foreground color for reference symbols.
-    "symbolIcon.snippetForeground": "#f2cdcd", // The foreground color for snippet symbols.
-    "symbolIcon.stringForeground": "#a6e3a1", // The foreground color for string symbols.
-    "symbolIcon.structForeground": "#94e2d5", // The foreground color for struct symbols.
-    "symbolIcon.textForeground": "#cdd6f4", // The foreground color for text symbols.
-    "symbolIcon.typeParameterForeground": "#eba0ac", // The foreground color for type parameter symbols.
-    "symbolIcon.unitForeground": "#cdd6f4", // The foreground color for unit symbols.
-    "symbolIcon.variableForeground": "#cdd6f4", // The foreground color for variable symbols.
-    "tab.activeBackground": "#1F2335dd", // Active Tab background color in an active group.
-    "tab.activeBorder": "#30363D", // Bottom border for the active tab.
-    "tab.activeBorderTop": "#7386D0", // Top border for the active tab.
-    "tab.activeForeground": "#F8EAF8", // Active Tab foreground color in an active group.
-    "tab.border": "#30363D", // Border to separate Tabs from each other.
-    "tab.dragAndDropBorder": "#5DABF3", // # Border between tabs to indicate that a tab can be inserted between two tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    "tab.hoverBackground": "#0C0E17", // Tab background color when hovering
-    "tab.hoverBorder": "#7386D0", // # Border to highlight tabs when hovering
-    "tab.hoverForeground": "#AEA4BF", // # Tab foreground color when hovering
-    "tab.inactiveBackground": "#0C0E17", // Inactive Tab background color.
-    "tab.inactiveForeground": "#8B949E", // Inactive Tab foreground color in an active group.
-    "tab.lastPinnedBorder": "#7386D0", // # Border on the right of the last pinned editor to separate from unpinned editors.
-    "terminal.ansiBlack": "#191726", // 'Black' ANSI color in the terminal.
-    "terminal.ansiBlue": "#7386D0", // 'Blue' ANSI color in the terminal.
-    "terminal.ansiBrightBlack": "#4C4C4C", // 'BrightBlack' ANSI color in the terminal.
-    "terminal.ansiBrightBlue": "#79C0FF", // 'BrightBlue' ANSI color in the terminal.
-    "terminal.ansiBrightCyan": "#89DDFF", // 'BrightCyan' ANSI color in the terminal.
-    "terminal.ansiBrightGreen": "#99E6B3", // 'BrightGreen' ANSI color in the terminal.
-    "terminal.ansiBrightMagenta": "#B58EE8", // 'BrightMagenta' ANSI color in the terminal.
-    "terminal.ansiBrightRed": "#E83974", // 'BrightRed' ANSI color in the terminal.
-    "terminal.ansiBrightWhite": "#F8EAF8", // 'BrightWhite' ANSI color in the terminal.
-    "terminal.ansiBrightYellow": "#FFCB6B", // 'BrightYellow' ANSI color in the terminal.
-    "terminal.ansiCyan": "#A5CFFF", // 'Cyan' ANSI color in the terminal.
-    "terminal.ansiGreen": "#49EF95", // 'Green' ANSI color in the terminal.
-    "terminal.ansiMagenta": "#B86CB3", // 'Magenta' ANSI color in the terminal.
-    "terminal.ansiRed": "#CA5F71", // 'Red' ANSI color in the terminal.
-    "terminal.ansiWhite": "#F8EAF8", // 'White' ANSI color in the terminal.
-    "terminal.ansiYellow": "#fab958", // 'Yellow' ANSI color in the terminal.
-    "terminal.background": "#030409", // # The background of the Integrated Terminal's viewport.
-    "terminal.border": "#30363D", // # The color of the border that separates split panes within the terminal. This defaults to panel.border.
-    "terminal.dropBackground": "#282E46aa", // # The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through.
-    "terminal.findMatchBackground": "#503636", // # Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content.
-    "terminal.findMatchHighlightBackground": "#444c6a", // # Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content.
-    "terminal.foreground": "#F8EAF8", // The default foreground color of the Integrated Terminal.
-    "terminal.inactiveSelectionBackground": "#282e4680", // # The selection background color of the terminal when it does not have focus.
-    "terminal.selectionBackground": "#282e46bc", // # The selection background color of the terminal.
-    "terminal.tab.activeBorder": "#A5CFFF", // # Border on the side of the terminal tab in the panel. This defaults to "tab.activeBorder".
-    "terminalCommandDecoration.defaultBackground": "#7386D090", // # The default terminal command decoration background color.
-    "terminalCommandDecoration.errorBackground": "#CA5F7190", // # The terminal command decoration background color for error commands.
-    "terminalCommandDecoration.successBackground": "#99E6B390", // # The terminal command decoration background color for successful commands.
-    "terminalCursor.foreground": "#79C0FF", // # The foreground color of the terminal cursor.
-    "terminalOverviewRuler.findMatchForeground": "#ACB9E690", // # Overview ruler marker color for find matches in the terminal.
-    "textBlockQuote.background": "#010409", // Background color for block quotes in text.
-    "textBlockQuote.border": "#30363D", // Border color for block quotes in text.
-    "textCodeBlock.background": "#6e768166", // Background color for code blocks in text.
-    "textLink.activeForeground": "#58a6ff", // Foreground color for links in text when clicked on and on mouse hover.
-    "textLink.foreground": "#58a6ff", // Foreground color for links in text.
-    "textPreformat.foreground": "#8B949E", // Foreground color for preformatted text segments.
-    "textSeparator.foreground": "#21262d", // Color for text separators.
-    "titleBar.activeBackground": "#0C0E17", // Title Bar background when the window is active.
-    "titleBar.activeForeground": "#8B949E", // Title Bar foreground when the window is active.
-    "titleBar.border": "#30363D", // Title bar border color.
-    "titleBar.inactiveBackground": "#010409", // Title Bar background when the window is inactive.
-    "titleBar.inactiveForeground": "#8B949E", // Title Bar foreground when the window is inactive.
-    "toolbar.hoverBackground": "#455180aa", // # Toolbar background when hovering over actions using the mouse
-    "tree.indentGuidesStroke": "#7386D0aa", // Tree Widget's stroke color for indent guides.
-    "tree.inactiveIndentGuidesStroke": "#7386D040", // # Tree stroke color for the indentation guides that are not active.
-    "tree.tableColumnsBorder": "#7386D0aa", // # Tree stroke color for the indentation guides.
-    "tree.tableOddRowsBackground": "#7386D040", // # Background color for odd table rows.
-    "list.inactiveSelectionIconForeground": "#CBCFE7", // # List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-    "welcomePage.progress.background": "#22273D", // # Foreground color for the Welcome page progress bars.
-    "welcomePage.progress.foreground": "#7386D0" // # Background color for the Welcome page progress bars.
+    "activityBar.activeBackground": "#1F2335",
+    "activityBar.activeBorder": "#7386D0",
+    "activityBar.background": "#0C0E17",
+    "activityBar.border": "#30363D",
+    "activityBar.dropBorder": "#7386D0",
+    "activityBar.foreground": "#B8C3E4",
+    "activityBar.inactiveForeground": "#8B949E",
+    "activityBarBadge.background": "#7386D0",
+    "activityBarBadge.foreground": "#F8EAF8",
+    "activityBarTop.activeBackground": "#1F2335",
+    "activityBarTop.activeBorder": "#7386D0",
+    "activityBarTop.background": "#0C0E17",
+    "activityBarTop.dropBorder": "#7386D0",
+    "activityBarTop.foreground": "#B8C3E4",
+    "activityBarTop.inactiveForeground": "#8B949E",
+    "badge.background": "#7386D0",
+    "badge.foreground": "#F8EAF8",
+    "breadcrumb.activeSelectionForeground": "#ACB9E6",
+    "breadcrumb.focusForeground": "#7386D0",
+    "breadcrumb.foreground": "#8B949E",
+    "breadcrumbPicker.background": "#0C0E17",
+    "button.background": "#3c466f",
+    "button.foreground": "#F8EAF8",
+    "button.hoverBackground": "#455180",
+    "button.secondaryBackground": "#282E46",
+    "button.secondaryForeground": "#F8EAF8",
+    "button.secondaryHoverBackground": "#2D3654",
+    "button.separator": "#F8EAF8",
+    "checkbox.background": "#282E46",
+    "checkbox.border": "#22273d",
+    "checkbox.disabled.background": "#1F2335",
+    "checkbox.disabled.foreground": "#CBCFE7",
+    "checkbox.foreground": "#CED9FF",
+    "checkbox.selectBackground": "#2D3654",
+    "checkbox.selectBorder": "#22273d",
+    "debugConsole.errorForeground": "#ffa198",
+    "debugConsole.infoForeground": "#8B949E",
+    "debugConsole.sourceForeground": "#e3b341",
+    "debugConsole.warningForeground": "#d29922",
+    "debugConsoleInputIcon.foreground": "#bc8cff",
+    "debugIcon.breakpointForeground": "#f85149",
+    "debugTokenExpression.boolean": "#56d364",
+    "debugTokenExpression.error": "#ffa198",
+    "debugTokenExpression.name": "#79c0ff",
+    "debugTokenExpression.number": "#56d364",
+    "debugTokenExpression.string": "#a5cfff",
+    "debugTokenExpression.value": "#a5cfff",
+    "debugToolBar.background": "#191726",
+    "descriptionForeground": "#8B949E",
+    "diffEditor.insertedLineBackground": "#49EF952a",
+    "diffEditor.insertedTextBackground": "#49EF952a",
+    "diffEditor.removedLineBackground": "#CA5F713a",
+    "diffEditor.removedTextBackground": "#CA5F713a",
+    "diffEditor.unchangedRegionBackground": "#1F2335dd",
+    "diffEditorGutter.insertedLineBackground": "#49EF952a",
+    "diffEditorGutter.removedLineBackground": "#CA5F713a",
+    "diffEditorOverview.insertedForeground": "#49EF952a",
+    "diffEditorOverview.removedForeground": "#CA5F713a",
+    "dropdown.background": "#0C0E17",
+    "dropdown.border": "#22273d",
+    "dropdown.foreground": "#F8EAF8",
+    "dropdown.listBackground": "#0C0E17",
+    "editor.background": "#0D0E17",
+    "editor.findMatchBackground": "#d870a860",
+    "editor.findMatchForeground": "#ACB9E6",
+    "editor.findMatchHighlightBackground": "#AEA4BF40",
+    "editor.findMatchHighlightForeground": "#FFAFAF",
+    "editor.focusedStackFrameHighlightBackground": "#2ea04366",
+    "editor.foldBackground": "#22273d50",
+    "editor.foldPlaceholderForeground": "#5DABF3",
+    "editor.foreground": "#F8EAF8",
+    "editor.hoverHighlightBackground": "#22273D",
+    "editor.lineHighlightBackground": "#22273d40",
+    "editor.linkedEditingBackground": "#58a6ff12",
+    "editor.selectionBackground": "#5b86c199",
+    "editor.selectionForeground": "#ffffff",
+    "editor.selectionHighlightBackground": "#7386D080",
+    "editor.stackFrameHighlightBackground": "#bb800966",
+    "editor.wordHighlightBackground": "#ffffff03",
+    "editor.wordHighlightBorder": "#5b86c199",
+    "editor.wordHighlightStrongBackground": "#6e76814d",
+    "editor.wordHighlightStrongBorder": "#6e768199",
+    "editorBracketHighlight.foreground1": "#79c0ff",
+    "editorBracketHighlight.foreground2": "#b0dbb6",
+    "editorBracketHighlight.foreground3": "#e3b341",
+    "editorBracketHighlight.foreground4": "#ffa198",
+    "editorBracketHighlight.foreground5": "#ff9bce",
+    "editorBracketHighlight.foreground6": "#d2a8ff",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#CA5F71",
+    "editorBracketMatch.background": "#2D3654",
+    "editorBracketMatch.border": "#7386D0",
+    "editorBracketPairGuide.activeBackground1": "#79c0ff",
+    "editorBracketPairGuide.activeBackground2": "#b0dbb6",
+    "editorBracketPairGuide.activeBackground3": "#e3b341",
+    "editorBracketPairGuide.activeBackground4": "#ffa198",
+    "editorBracketPairGuide.activeBackground5": "#ff9bce",
+    "editorBracketPairGuide.activeBackground6": "#d2a8ff",
+    "editorBracketPairGuide.background1": "#79c0ff90",
+    "editorBracketPairGuide.background2": "#b0dbb690",
+    "editorBracketPairGuide.background3": "#e3b34190",
+    "editorBracketPairGuide.background4": "#ffa19890",
+    "editorBracketPairGuide.background5": "#ff9bce90",
+    "editorBracketPairGuide.background6": "#d2a8ff90",
+    "editorCodeLens.foreground": "#AEA4BF",
+    "editorCursor.foreground": "#79C0FF",
+    "editorError.background": "#FF72B01e",
+    "editorGroup.border": "#2D3654",
+    "editorGroup.dropBackground": "#282E46aa",
+    "editorGroupHeader.tabsBackground": "#010409",
+    "editorGroupHeader.tabsBorder": "#30363D",
+    "editorGutter.addedBackground": "#49EF9560",
+    "editorGutter.deletedBackground": "#CA5F71",
+    "editorGutter.modifiedBackground": "#F2B19960",
+    "editorHoverWidget.background": "#191726",
+    "editorHoverWidget.border": "#2D3654",
+    "editorHoverWidget.highlightForeground": "#FFAFAF",
+    "editorIndentGuide.activeBackground": "#5DABF3",
+    "editorIndentGuide.activeBackground1": "#79c1ff98",
+    "editorIndentGuide.activeBackground2": "#b0dbb698",
+    "editorIndentGuide.activeBackground3": "#e3b34198",
+    "editorIndentGuide.activeBackground4": "#ffa19898",
+    "editorIndentGuide.activeBackground5": "#ff9bce98",
+    "editorIndentGuide.activeBackground6": "#d2a8ff98",
+    "editorIndentGuide.background": "#c9d1d91f",
+    "editorIndentGuide.background1": "#79c0ff20",
+    "editorIndentGuide.background2": "#b0dbb620",
+    "editorIndentGuide.background3": "#e3b34120",
+    "editorIndentGuide.background4": "#ffa19820",
+    "editorIndentGuide.background5": "#ff9bce20",
+    "editorIndentGuide.background6": "#d2a8ff20",
+    "editorInlayHint.background": "#8B949E33",
+    "editorInlayHint.foreground": "#AEA4BF90",
+    "editorInlayHint.parameterBackground": "#8B949E33",
+    "editorInlayHint.parameterForeground": "#FFAFAF90",
+    "editorInlayHint.typeBackground": "#8B949E33",
+    "editorInlayHint.typeForeground": "#A5A1E990",
+    "editorLightBulb.foreground": "#FFCB6B",
+    "editorLightBulbAi.foreground": "#FFCB6B",
+    "editorLightBulbAutoFix.foreground": "#FFCB6B",
+    "editorLineNumber.activeForeground": "#c3cff8",
+    "editorLineNumber.foreground": "#6e7681",
+    "editorMarkerNavigation.background": "#191726",
+    "editorMarkerNavigationError.background": "#CA5F71",
+    "editorMarkerNavigationError.headerBackground": "#191726",
+    "editorMarkerNavigationInfo.background": "#ACB9E6",
+    "editorMarkerNavigationInfo.headerBackground": "#191726",
+    "editorMarkerNavigationWarning.background": "#FFCB6B",
+    "editorMarkerNavigationWarning.headerBackground": "#191726",
+    "editorMultiCursor.primary.foreground": "#79C0FF",
+    "editorMultiCursor.secondary.foreground": "#7386D0",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.background": "#0000",
+    "editorOverviewRuler.border": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.commentForeground": "#0000",
+    "editorOverviewRuler.commentUnresolvedForeground": "#0000",
+    "editorOverviewRuler.commonContentForeground": "#0000",
+    "editorOverviewRuler.currentContentForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#ACB9E650",
+    "editorOverviewRuler.incomingContentForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.inlineChatInserted": "#0000",
+    "editorOverviewRuler.inlineChatRemoved": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.wordHighlightTextForeground": "#0000",
+    "editorPane.background": "#0C0E17",
+    "editorRuler.foreground": "#ff72af1e",
+    "editorSuggestWidget.background": "#0C0E17",
+    "editorSuggestWidget.border": "#2D3654",
+    "editorSuggestWidget.selectedBackground": "#1F2335",
+    "editorSuggestWidget.selectedIconForeground": "#ACB9E6",
+    "editorUnnecessaryCode.opacity": "#000000a0",
+    "editorWarning.background": "#FFCB6B1e",
+    "editorWatermark.foreground": "#7386D0",
+    "editorWhitespace.foreground": "#484f58",
+    "editorWidget.background": "#191726",
+    "errorForeground": "#CA5F71",
+    "extensionButton.prominentBackground": "#FF72B0",
+    "extensionIcon.preReleaseForeground": "#B58EE8",
+    "extensionIcon.starForeground": "#ACB9E6",
+    "extensionIcon.verifiedForeground": "#5DABF3",
+    "focusBorder": "#1f6feb",
+    "foreground": "#F8EAF8",
+    "gitDecoration.addedResourceForeground": "#49EF95",
+    "gitDecoration.conflictingResourceForeground": "#F2B6B6",
+    "gitDecoration.deletedResourceForeground": "#CA5F71",
+    "gitDecoration.ignoredResourceForeground": "#72788C",
+    "gitDecoration.modifiedResourceForeground": "#ACB9E6",
+    "gitDecoration.renamedResourceForeground": "#7386D0",
+    "gitDecoration.stageDeletedResourceForeground": "#CA5F71",
+    "gitDecoration.stageModifiedResourceForeground": "#ACB9E6",
+    "gitDecoration.submoduleResourceForeground": "#D9CECC",
+    "gitDecoration.untrackedResourceForeground": "#99E6B3",
+    "icon.foreground": "#8B949E",
+    "input.background": "#0C0E17",
+    "input.border": "#30363D",
+    "input.foreground": "#F8EAF8",
+    "input.placeholderForeground": "#484f58",
+    "keybindingLabel.background": "#2D3654",
+    "keybindingLabel.bottomBorder": "#7386D0",
+    "keybindingLabel.foreground": "#F8EAF8",
+    "keybindingTable.headerBackground": "#1F2335",
+    "list.activeSelectionBackground": "#282E46",
+    "list.activeSelectionForeground": "#F8EAF8",
+    "list.dropBackground": "#282E46aa",
+    "list.dropBetweenBackground": "#282E46aa",
+    "list.errorForeground": "#CA5F71",
+    "list.focusBackground": "#388bfd26",
+    "list.focusForeground": "#F8EAF8",
+    "list.focusOutline": "#7386D0",
+    "list.highlightForeground": "#58a6ff",
+    "list.hoverBackground": "#6e76811a",
+    "list.hoverForeground": "#F8EAF8",
+    "list.inactiveFocusBackground": "#388afd0f",
+    "list.inactiveFocusOutline": "#7386d0aa",
+    "list.inactiveSelectionBackground": "#282E46dd",
+    "list.inactiveSelectionForeground": "#F8EAF8",
+    "list.inactiveSelectionIconForeground": "#CBCFE7",
+    "menu.background": "#0D0E17",
+    "menu.selectionBackground": "#282E46",
+    "menubar.selectionBackground": "#1F2335",
+    "minimap.errorHighlight": "#ca5f71aa",
+    "minimap.findMatchHighlight": "#ACB9E6aa",
+    "minimap.foregroundOpacity": "#00000070",
+    "minimap.infoHighlight": "#ACB9E6aa",
+    "minimap.selectionHighlight": "#282e46bb",
+    "minimap.selectionOccurrenceHighlight": "#7386D080",
+    "minimap.warningHighlight": "#FFCB6Baa",
+    "minimapGutter.addedBackground": "#49EF9560",
+    "minimapGutter.deletedBackground": "#CA5F71",
+    "minimapGutter.modifiedBackground": "#F2B19960",
+    "minimapSlider.activeBackground": "#2D3654aa",
+    "minimapSlider.background": "#2D365470",
+    "minimapSlider.hoverBackground": "#2D365490",
+    "notebook.cellBorderColor": "#282E46aa",
+    "notebook.cellEditorBackground": "#0D0E17",
+    "notebook.cellHoverBackground": "#2D365470",
+    "notebook.cellInsertionIndicator": "#5DABF3",
+    "notebook.cellToolbarSeparator": "#282E46",
+    "notebook.editorBackground": "#191726",
+    "notebook.focusedCellBackground": "#2D365450",
+    "notebook.focusedCellBorder": "#ACB9E6",
+    "notebook.focusedEditorBorder": "#7386D080",
+    "notebook.inactiveFocusedCellBorder": "#ACB9E670",
+    "notebook.outputContainerBackgroundColor": "#030409",
+    "notebookEditorOverviewRuler.runningCellForeground": "#0000",
+    "notebookScrollbarSlider.activeBackground": "#2D3654aa",
+    "notebookScrollbarSlider.background": "#2D365470",
+    "notebookScrollbarSlider.hoverBackground": "#2D365490",
+    "notebookStatusErrorIcon.foreground": "#CA5F71",
+    "notebookStatusRunningIcon.foreground": "#ACB9E6",
+    "notebookStatusSuccessIcon.foreground": "#49EF95",
+    "notificationCenterHeader.background": "#1F2335",
+    "notificationCenterHeader.foreground": "#F8EAF8",
+    "notifications.background": "#191726",
+    "notifications.border": "#2D3654",
+    "notifications.foreground": "#F8EAF8",
+    "notificationsErrorIcon.foreground": "#CA5F71",
+    "notificationsInfoIcon.foreground": "#58a6ff",
+    "notificationsWarningIcon.foreground": "#d29922",
+    "outputView.background": "#020409",
+    "panel.background": "#020409",
+    "panel.border": "#2D3654",
+    "panel.dropBorder": "#7386D0",
+    "panelInput.border": "#30363D",
+    "panelSectionHeader.background": "#1F2335",
+    "panelSectionHeader.foreground": "#F8EAF8",
+    "panelTitle.activeBorder": "#A5CFFF",
+    "panelTitle.activeForeground": "#F8EAF8",
+    "panelTitle.border": "#2D3654",
+    "panelTitle.inactiveForeground": "#8B949E",
+    "peekView.border": "#7386D0",
+    "peekViewEditor.background": "#6e76811a",
+    "peekViewEditor.matchHighlightBackground": "#7386D040",
+    "peekViewEditorGutter.background": "#181922",
+    "peekViewResult.background": "#0C0E17",
+    "peekViewResult.matchHighlightBackground": "#bb800966",
+    "peekViewResult.selectionBackground": "#282e46bc",
+    "peekViewTitle.background": "#1F2335",
+    "peekViewTitleLabel.foreground": "#ACB9E6",
+    "pickerGroup.border": "#7386D0",
+    "pickerGroup.foreground": "#ACB9E6",
+    "problemsErrorIcon.foreground": "#CA5F71",
+    "problemsInfoIcon.foreground": "#58a6ff",
+    "problemsWarningIcon.foreground": "#d29922",
+    "progressBar.background": "#5DABF3",
+    "quickInput.background": "#191726",
+    "quickInput.foreground": "#F8EAF8",
+    "quickInputList.focusBackground": "#282E46aa",
+    "quickInputList.focusIconForeground": "#ACB9E6",
+    "radio.activeBackground": "#282E46",
+    "radio.activeBorder": "#22273d",
+    "radio.activeForeground": "#CED9FF",
+    "radio.inactiveBackground": "#1F2335",
+    "radio.inactiveBorder": "#22273dbb",
+    "radio.inactiveForeground": "#CBCFE7",
+    "radio.inactiveHoverBackground": "#1f2335dd",
+    "scmGraph.foreground1": "#79c0ff",
+    "scmGraph.foreground2": "#b0dbb6",
+    "scmGraph.foreground3": "#e3b341",
+    "scmGraph.foreground4": "#ffa198",
+    "scmGraph.foreground5": "#ff9bce",
+    "scmGraph.historyItemRefColor": "#7386D0",
+    "scmGraph.historyItemRemoteRefColor": "#B58EE8",
+    "scrollbarSlider.activeBackground": "#2D3654aa",
+    "scrollbarSlider.background": "#2D365470",
+    "scrollbarSlider.hoverBackground": "#2D365490",
+    "settings.checkboxBackground": "#282E46",
+    "settings.checkboxBorder": "#22273d",
+    "settings.checkboxForeground": "#CED9FF",
+    "settings.dropdownBackground": "#0C0E17",
+    "settings.dropdownBorder": "#22273d",
+    "settings.dropdownForeground": "#F8EAF8",
+    "settings.dropdownListBorder": "#0C0E17",
+    "settings.focusedRowBackground": "#282E46aa",
+    "settings.headerBorder": "#7386D0",
+    "settings.headerForeground": "#8B949E",
+    "settings.modifiedItemIndicator": "#bb800966",
+    "settings.numberInputBorder": "#2D3654",
+    "settings.sashBorder": "#2D3654",
+    "settings.settingsHeaderHoverForeground": "#ACB9E6",
+    "settings.textInputBorder": "#2D3654",
+    "sideBar.background": "#010409",
+    "sideBar.border": "#2D3654",
+    "sideBar.dropBackground": "#7386D0",
+    "sideBar.foreground": "#F8EAF8",
+    "sideBarActivityBarTop.border": "#2D3654",
+    "sideBarSectionHeader.background": "#010409",
+    "sideBarSectionHeader.border": "#30363D",
+    "sideBarSectionHeader.foreground": "#F8EAF8",
+    "sideBarTitle.background": "#1F2335dd",
+    "sideBarTitle.border": "#30363D",
+    "sideBarTitle.foreground": "#F8EAF8",
+    "sideBySideEditor.horizontalBorder": "#30363D",
+    "sideBySideEditor.verticalBorder": "#30363D",
+    "simpleFindWidget.sashBorder": "#2D3654",
+    "statusBar.background": "#0C0E17",
+    "statusBar.border": "#30363D",
+    "statusBar.debuggingBackground": "#3c466f",
+    "statusBar.debuggingForeground": "#F8EAF8",
+    "statusBar.focusBorder": "#1f6feb80",
+    "statusBar.foreground": "#8B949E",
+    "statusBar.noFolderBackground": "#0C0E17",
+    "statusBar.noFolderBorder": "#30363D",
+    "statusBarItem.activeBackground": "#c9d1d91f",
+    "statusBarItem.errorBackground": "#CA5F71",
+    "statusBarItem.errorForeground": "#F8EAF8",
+    "statusBarItem.errorHoverBackground": "#db697c",
+    "statusBarItem.errorHoverForeground": "#F8EAF8",
+    "statusBarItem.focusBorder": "#30363D",
+    "statusBarItem.hoverBackground": "#c9d1d914",
+    "statusBarItem.hoverForeground": "#ACB9E6",
+    "statusBarItem.prominentBackground": "#6e768166",
+    "statusBarItem.remoteBackground": "#7386D0",
+    "statusBarItem.remoteForeground": "#F8EAF8",
+    "statusBarItem.remoteHoverBackground": "#7c90df",
+    "statusBarItem.remoteHoverForeground": "#F8EAF8",
+    "statusBarItem.warningBackground": "#7386D0",
+    "statusBarItem.warningForeground": "#F8EAF8",
+    "statusBarItem.warningHoverBackground": "#7386D0",
+    "statusBarItem.warningHoverForeground": "#F8EAF8",
+    "symbolIcon.arrayForeground": "#fab387",
+    "symbolIcon.booleanForeground": "#cba6f7",
+    "symbolIcon.classForeground": "#f9e2af",
+    "symbolIcon.colorForeground": "#f5c2e7",
+    "symbolIcon.constantForeground": "#fab387",
+    "symbolIcon.constructorForeground": "#b4befe",
+    "symbolIcon.enumeratorForeground": "#f9e2af",
+    "symbolIcon.enumeratorMemberForeground": "#f9e2af",
+    "symbolIcon.eventForeground": "#f5c2e7",
+    "symbolIcon.fieldForeground": "#cdd6f4",
+    "symbolIcon.fileForeground": "#8839ef",
+    "symbolIcon.folderForeground": "#8839ef",
+    "symbolIcon.functionForeground": "#89b4fa",
+    "symbolIcon.interfaceForeground": "#f9e2af",
+    "symbolIcon.keyForeground": "#94e2d5",
+    "symbolIcon.keywordForeground": "#cba6f7",
+    "symbolIcon.methodForeground": "#89b4fa",
+    "symbolIcon.moduleForeground": "#cdd6f4",
+    "symbolIcon.namespaceForeground": "#f9e2af",
+    "symbolIcon.nullForeground": "#eba0ac",
+    "symbolIcon.numberForeground": "#fab387",
+    "symbolIcon.objectForeground": "#f9e2af",
+    "symbolIcon.operatorForeground": "#94e2d5",
+    "symbolIcon.packageForeground": "#f2cdcd",
+    "symbolIcon.propertyForeground": "#eba0ac",
+    "symbolIcon.referenceForeground": "#f9e2af",
+    "symbolIcon.snippetForeground": "#f2cdcd",
+    "symbolIcon.stringForeground": "#a6e3a1",
+    "symbolIcon.structForeground": "#94e2d5",
+    "symbolIcon.textForeground": "#cdd6f4",
+    "symbolIcon.typeParameterForeground": "#eba0ac",
+    "symbolIcon.unitForeground": "#cdd6f4",
+    "symbolIcon.variableForeground": "#cdd6f4",
+    "tab.activeBackground": "#1F2335dd",
+    "tab.activeBorder": "#30363D",
+    "tab.activeBorderTop": "#7386D0",
+    "tab.activeForeground": "#F8EAF8",
+    "tab.border": "#30363D",
+    "tab.dragAndDropBorder": "#7386D0",
+    "tab.hoverBackground": "#0C0E17",
+    "tab.hoverBorder": "#7386D0",
+    "tab.hoverForeground": "#AEA4BF",
+    "tab.inactiveBackground": "#0C0E17",
+    "tab.inactiveForeground": "#8B949E",
+    "tab.lastPinnedBorder": "#30363D",
+    "terminal.ansiBlack": "#191726",
+    "terminal.ansiBlue": "#7386D0",
+    "terminal.ansiBrightBlack": "#4C4C4C",
+    "terminal.ansiBrightBlue": "#79C0FF",
+    "terminal.ansiBrightCyan": "#89DDFF",
+    "terminal.ansiBrightGreen": "#99E6B3",
+    "terminal.ansiBrightMagenta": "#B58EE8",
+    "terminal.ansiBrightRed": "#E83974",
+    "terminal.ansiBrightWhite": "#F8EAF8",
+    "terminal.ansiBrightYellow": "#FFCB6B",
+    "terminal.ansiCyan": "#A5CFFF",
+    "terminal.ansiGreen": "#49EF95",
+    "terminal.ansiMagenta": "#B86CB3",
+    "terminal.ansiRed": "#CA5F71",
+    "terminal.ansiWhite": "#F8EAF8",
+    "terminal.ansiYellow": "#fab958",
+    "terminal.background": "#030409",
+    "terminal.border": "#30363D",
+    "terminal.dropBackground": "#282E46aa",
+    "terminal.findMatchBackground": "#503636",
+    "terminal.findMatchHighlightBackground": "#444c6a",
+    "terminal.foreground": "#F8EAF8",
+    "terminal.inactiveSelectionBackground": "#282e4680",
+    "terminal.selectionBackground": "#282e46bc",
+    "terminal.tab.activeBorder": "#A5CFFF",
+    "terminalCommandDecoration.defaultBackground": "#7386D090",
+    "terminalCommandDecoration.errorBackground": "#CA5F7190",
+    "terminalCommandDecoration.successBackground": "#99E6B390",
+    "terminalCursor.foreground": "#79C0FF",
+    "terminalOverviewRuler.findMatchForeground": "#ACB9E690",
+    "textBlockQuote.background": "#010409",
+    "textBlockQuote.border": "#30363D",
+    "textCodeBlock.background": "#6e768166",
+    "textLink.activeForeground": "#58a6ff",
+    "textLink.foreground": "#58a6ff",
+    "textPreformat.foreground": "#8B949E",
+    "textSeparator.foreground": "#21262d",
+    "titleBar.activeBackground": "#0C0E17",
+    "titleBar.activeForeground": "#8B949E",
+    "titleBar.border": "#30363D",
+    "titleBar.inactiveBackground": "#010409",
+    "titleBar.inactiveForeground": "#8B949E",
+    "toolbar.hoverBackground": "#455180aa",
+    "tree.inactiveIndentGuidesStroke": "#7386D040",
+    "tree.indentGuidesStroke": "#7386D0aa",
+    "tree.tableColumnsBorder": "#7386D040",
+    "tree.tableOddRowsBackground": "#1F233580",
+    "welcomePage.progress.background": "#22273D",
+    "welcomePage.progress.foreground": "#7386D0"
   }
 }
