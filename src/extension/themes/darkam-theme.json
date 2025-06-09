@@ -128,7 +128,7 @@
     },
     {
       "name": "Headings and Python Magic Methods",
-      "scope": [ "markup.heading entity.name", "markup.heading", "meta.separator", "support.function.magic.python" ],
+      "scope": [ "entity.name.section.markdown", "meta.separator", "support.function.magic.python" ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#79c0ff"
@@ -178,11 +178,14 @@
       "name": "Punctuation and Symbol Definitions",
       "scope": [
         "comment.typehint.type.notation.python",
+        "entity.name.function.js",
+        "entity.name.function.ts",
         "fenced_code.block.language.attributes.markdown",
         "meta.function-call.generic.python",
         "meta.other.valid-ampersand.markdown",
         "meta.other.valid-bracket.markdown",
         "punctuation.definition.bold.markdown",
+        "punctuation.definition.heading",
         "punctuation.definition.link.description.begin.markdown",
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.list.end.markdown",
@@ -192,6 +195,12 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.separator.table.markdown",
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
+        "punctuation.terminator.rule.css",
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.ts",
+        "support.function.ahk",
         "support.function.builtin.python",
         "support.function.misc.css",
         "variable.legacy.builtin.python"
@@ -215,6 +224,7 @@
         "entity.name.function.target.makefile",
         "entity.name.section.group-title.ini",
         "entity.other.inherited-class.python",
+        "hotkeyline.ahk",
         "meta.function.python",
         "meta.table.toml",
         "support.function.attribute.powershell",
@@ -223,7 +233,8 @@
         "support.type.exception.python",
         "support.type.python",
         "variable.other.class.js",
-        "variable.other.class.ts"
+        "variable.other.class.ts",
+        "variable.other.readwrite.alias.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -308,7 +319,9 @@
         "string.unquoted.html",
         "support.function.general.tex",
         "variable.language.this.js",
-        "variable.other.object.property.js"
+        "variable.language.this.ts",
+        "variable.other.object.property.js",
+        "variable.other.object.property.ts"
       ],
       "settings": {
         "foreground": "#fdbaf2"
@@ -335,7 +348,6 @@
     {
       "name": "Unknown Changes in Code Structures",
       "scope": [
-        "meta.block",
         "meta.embedded.expression",
         "meta.jsx.children",
         "meta.object.member",
@@ -402,15 +414,19 @@
         "meta.selector.qss",
         "meta.tag.xml",
         "punctuation.accessor.js",
+        "punctuation.accessor.ts",
         "punctuation.eq.toml",
         "punctuation.section.function.begin.python",
         "punctuation.section.function.end.python",
         "punctuation.separator.colon.python",
         "punctuation.separator.dict.python",
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.key-value.html",
         "punctuation.separator.key-value.ini",
+        "punctuation.separator.key-value.js",
         "punctuation.separator.key-value.makefile",
         "punctuation.separator.key-value.mapping.yaml",
-        "punctuation.terminator.statement.js",
+        "punctuation.separator.key-value.ts",
         "storage",
         "storage.modifier.declaration.python",
         "storage.type",
@@ -428,7 +444,6 @@
       "name": "Symbolic Punctuation in Code",
       "scope": [
         "punctuation.definition.constant.hashkey.ruby",
-        "punctuation.definition.equals.colon",
         "punctuation.section.class.begin.python",
         "punctuation.section.class.begin.python",
         "punctuation.section.embedded",
@@ -460,9 +475,7 @@
         "punctuation.separator.element.python",
         "punctuation.separator.key-value.markdown",
         "punctuation.separator.parameters.python",
-        "punctuation.separator.slice.python",
-        "punctuation.terminator.rule.css",
-        "support.type.property-name.css"
+        "punctuation.separator.slice.python"
       ],
       "settings": {
         "foreground": "#cdcfe6"
@@ -472,12 +485,13 @@
       "name": "Language Keywords and Built-in Symbols",
       "scope": [
         "entity.name.function.ahk",
+        "entity.name.function.label.ahk",
         "entity.name.function.powershell",
         "entity.name.function.python",
         "entity.name.function.shell",
         "entity.name.type.class.python",
         "entity.name.type.js",
-        "entity.other.attribute-name.html",
+        "entity.name.type.ts",
         "markup.inline.raw",
         "markup.raw.block.markdown",
         "meta.diff.header",
@@ -492,10 +506,12 @@
         "punctuation.definition.variable.makefile",
         "storage.type.format.python",
         "storage.type.function.js",
+        "storage.type.function.ts",
         "storage.type.imaginary.number.python",
         "storage.type.number.python",
         "string variable",
         "support.constant",
+        "support.type.property-name.css",
         "support.variable"
         // "meta.indexed-name.python", // check later
         // "meta.item-access.python", // check later
@@ -524,9 +540,7 @@
         "punctuation.definition.string.end.python string.quoted.multi.python",
         "punctuation.definition.string.end.python string.quoted.raw.single.python",
         "punctuation.definition.string.end.python string.quoted.single.python",
-        "punctuation.separator.semicolon.python",
-        "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json"
+        "punctuation.separator.semicolon.python"
       ],
       "settings": {
         "foreground": "#faa4c9"
@@ -542,7 +556,12 @@
     },
     {
       "name": "Numeric Constants and Values",
-      "scope": [ "constant.numeric", "constant.other.color.rgb-value.hex.css", "entity.name.constant" ],
+      "scope": [
+        "constant.numeric",
+        "constant.other.color.rgb-value.hex.css",
+        "entity.name.constant",
+        "entity.other.keyframe-offset.percentage.css"
+      ],
       "settings": {
         "foreground": "#79b8ff"
       }
@@ -553,8 +572,10 @@
         "constant.character.format.placeholder.other.python",
         "constant.language.ahk",
         "constant.language.boolean.false.js",
+        "constant.language.boolean.false.ts",
         "constant.language.boolean.toml",
         "constant.language.boolean.true.js",
+        "constant.language.boolean.true.ts",
         "constant.language.boolean.yaml",
         "constant.language.json",
         "constant.language.powershell",
@@ -577,20 +598,16 @@
       }
     },
     {
-      "name": "AutoHotkey Hotkey Labels",
-      "scope": [ "entity.name.function.label.ahk" ],
-      "settings": {
-        "foreground": "#7ef0ca"
-      }
-    },
-    {
       "name": "Function Parameters and Attributes",
       "scope": [
         "constant.language.undefined.js",
+        "constant.language.undefined.ts",
+        "entity.other.attribute-name.html",
         "entity.other.inherited-class.python variable.parameter.class.python",
         "meta.class.inheritance.python",
         "meta.hashtable.assignment",
         "meta.object.member.js",
+        "meta.object.member.ts",
         "variable.argument.css",
         "variable.parameter.attribute.powershell",
         "variable.parameter.function.language.python"
@@ -621,7 +638,8 @@
         "keyword.other.definition.ini",
         "support.type.property-name.toml",
         "variable.other.makefile",
-        "variable.parameter.js"
+        "variable.parameter.js",
+        "variable.parameter.ts"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -632,18 +650,11 @@
       "name": "Function and Attribute Declarations",
       "scope": [
         "constant.other.table-name.sql",
-        "entity.name.function.js",
-        "entity.name.tag.html",
         "entity.name.tag.localname.xml",
-        "markup.heading",
-        "punctuation.definition.heading",
         "support.class.ruby",
-        "support.function.ahk",
         "support.function.general.latex",
         "support.function.kernel.ruby",
-        "support.function.url.latex",
-        "support.type.property-name.json",
-        "support.type.property-name.qss"
+        "support.function.url.latex"
       ],
       "settings": {
         "foreground": "#b58ee8"
@@ -652,12 +663,21 @@
     {
       "name": "XML Attributes and Python Decorators",
       "scope": [
+        "entity.name.tag.html",
+        "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
+        "markup.heading",
         "meta.attribute.python",
+        "meta.function-call.ts",
         "meta.function.decorator.python",
         "meta.selector.css",
-        "variable.other.property.js"
+        "meta.template-tag.end",
+        "meta.template-tag.start",
+        "support.type.property-name.json",
+        "support.type.property-name.qss",
+        "variable.other.property.js",
+        "variable.other.property.ts"
       ],
       "settings": {
         "foreground": "#9cb6ed"
@@ -681,6 +701,7 @@
         // "meta.function-call.arguments.python",
         // "meta.function-call.python",
         // "meta.member.access.python",
+        // "hotkeyline.ahk",
       ],
       "settings": {
         "fontStyle": "bold underline",
@@ -772,27 +793,27 @@
     "editor.wordHighlightBorder": "#5b86c199",
     "editor.wordHighlightStrongBackground": "#6e76814d",
     "editor.wordHighlightStrongBorder": "#6e768199",
-    "editorBracketHighlight.foreground1": "#79c0ff",
-    "editorBracketHighlight.foreground2": "#b0dbb6",
-    "editorBracketHighlight.foreground3": "#e3b341",
-    "editorBracketHighlight.foreground4": "#ffa198",
-    "editorBracketHighlight.foreground5": "#ff9bce",
-    "editorBracketHighlight.foreground6": "#d2a8ff",
+    "editorBracketHighlight.foreground1": "#5DABF3",
+    "editorBracketHighlight.foreground2": "#7386D0",
+    "editorBracketHighlight.foreground3": "#B86CB3",
+    "editorBracketHighlight.foreground4": "#FF72B0",
+    "editorBracketHighlight.foreground5": "#FFCB6B",
+    "editorBracketHighlight.foreground6": "#49EF95",
     "editorBracketHighlight.unexpectedBracket.foreground": "#CA5F71",
     "editorBracketMatch.background": "#2D3654",
     "editorBracketMatch.border": "#7386D0",
-    "editorBracketPairGuide.activeBackground1": "#79c0ff",
-    "editorBracketPairGuide.activeBackground2": "#b0dbb6",
-    "editorBracketPairGuide.activeBackground3": "#e3b341",
-    "editorBracketPairGuide.activeBackground4": "#ffa198",
-    "editorBracketPairGuide.activeBackground5": "#ff9bce",
-    "editorBracketPairGuide.activeBackground6": "#d2a8ff",
-    "editorBracketPairGuide.background1": "#79c0ff90",
-    "editorBracketPairGuide.background2": "#b0dbb690",
-    "editorBracketPairGuide.background3": "#e3b34190",
-    "editorBracketPairGuide.background4": "#ffa19890",
-    "editorBracketPairGuide.background5": "#ff9bce90",
-    "editorBracketPairGuide.background6": "#d2a8ff90",
+    "editorBracketPairGuide.activeBackground1": "#5DABF3",
+    "editorBracketPairGuide.activeBackground2": "#7386D0",
+    "editorBracketPairGuide.activeBackground3": "#B86CB3",
+    "editorBracketPairGuide.activeBackground4": "#FF72B0",
+    "editorBracketPairGuide.activeBackground5": "#FFCB6B",
+    "editorBracketPairGuide.activeBackground6": "#49EF95",
+    "editorBracketPairGuide.background1": "#5DABF390",
+    "editorBracketPairGuide.background2": "#7386D090",
+    "editorBracketPairGuide.background3": "#B86CB390",
+    "editorBracketPairGuide.background4": "#FF72B090",
+    "editorBracketPairGuide.background5": "#FFCB6B90",
+    "editorBracketPairGuide.background6": "#49EF9590",
     "editorCodeLens.foreground": "#AEA4BF",
     "editorCursor.foreground": "#79C0FF",
     "editorError.background": "#FF72B01e",
@@ -807,19 +828,19 @@
     "editorHoverWidget.border": "#2D3654",
     "editorHoverWidget.highlightForeground": "#FFAFAF",
     "editorIndentGuide.activeBackground": "#5DABF3",
-    "editorIndentGuide.activeBackground1": "#79c1ff98",
-    "editorIndentGuide.activeBackground2": "#b0dbb698",
-    "editorIndentGuide.activeBackground3": "#e3b34198",
-    "editorIndentGuide.activeBackground4": "#ffa19898",
-    "editorIndentGuide.activeBackground5": "#ff9bce98",
-    "editorIndentGuide.activeBackground6": "#d2a8ff98",
+    "editorIndentGuide.activeBackground1": "#5DABF398",
+    "editorIndentGuide.activeBackground2": "#7386D098",
+    "editorIndentGuide.activeBackground3": "#B86CB398",
+    "editorIndentGuide.activeBackground4": "#FF72B098",
+    "editorIndentGuide.activeBackground5": "#FFCB6B98",
+    "editorIndentGuide.activeBackground6": "#49EF9598",
     "editorIndentGuide.background": "#c9d1d91f",
-    "editorIndentGuide.background1": "#79c0ff20",
-    "editorIndentGuide.background2": "#b0dbb620",
-    "editorIndentGuide.background3": "#e3b34120",
-    "editorIndentGuide.background4": "#ffa19820",
-    "editorIndentGuide.background5": "#ff9bce20",
-    "editorIndentGuide.background6": "#d2a8ff20",
+    "editorIndentGuide.background1": "#5DABF320",
+    "editorIndentGuide.background2": "#7386D020",
+    "editorIndentGuide.background3": "#B86CB320",
+    "editorIndentGuide.background4": "#FF72B020",
+    "editorIndentGuide.background5": "#FFCB6B20",
+    "editorIndentGuide.background6": "#49EF9520",
     "editorInlayHint.background": "#8B949E33",
     "editorInlayHint.foreground": "#AEA4BF90",
     "editorInlayHint.parameterBackground": "#8B949E33",
@@ -994,11 +1015,11 @@
     "radio.inactiveBorder": "#22273dbb",
     "radio.inactiveForeground": "#CBCFE7",
     "radio.inactiveHoverBackground": "#1f2335dd",
-    "scmGraph.foreground1": "#79c0ff",
-    "scmGraph.foreground2": "#b0dbb6",
-    "scmGraph.foreground3": "#e3b341",
-    "scmGraph.foreground4": "#ffa198",
-    "scmGraph.foreground5": "#ff9bce",
+    "scmGraph.foreground1": "#5DABF3",
+    "scmGraph.foreground2": "#7386D0",
+    "scmGraph.foreground3": "#B86CB3",
+    "scmGraph.foreground4": "#FF72B0",
+    "scmGraph.foreground5": "#FFCB6B",
     "scmGraph.historyItemRefColor": "#7386D0",
     "scmGraph.historyItemRemoteRefColor": "#B58EE8",
     "scrollbarSlider.activeBackground": "#2D3654aa",
