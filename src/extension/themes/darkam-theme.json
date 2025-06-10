@@ -965,7 +965,7 @@
     "notebook.focusedEditorBorder": "#7386D080",
     "notebook.inactiveFocusedCellBorder": "#ACB9E670",
     "notebook.outputContainerBackgroundColor": "#030409",
-    "notebookEditorOverviewRuler.runningCellForeground": "#0000",
+    "notebookEditorOverviewRuler.runningCellForeground": "#5DABF3",
     "notebookScrollbarSlider.activeBackground": "#2D3654aa",
     "notebookScrollbarSlider.background": "#2D365470",
     "notebookScrollbarSlider.hoverBackground": "#2D365490",
