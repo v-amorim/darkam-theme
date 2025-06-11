@@ -1,5 +1,9 @@
 # moonlight-vscode-theme
 
+## [5.2.4] - 2025-06-11
+
+- Fixing screenshots
+
 ## [5.2.3] - 2025-06-11
 
 - Screenshots added to the README.md
