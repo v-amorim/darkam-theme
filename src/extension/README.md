@@ -25,6 +25,10 @@ Moonlight 🌌 is designed with developer comfort in mind, offering a consistent
 | ------------------------------------------------------------------------------------------------------------- |
 | ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/python.png) |
 
+| Python Notebook                                                                                              |
+| ------------------------------------------------------------------------------------------------------------ |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/ipynb.png) |
+
 | Markdown                                                                                                        |
 | --------------------------------------------------------------------------------------------------------------- |
 | ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/markdown.png) |

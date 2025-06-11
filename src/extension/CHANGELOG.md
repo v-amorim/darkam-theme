@@ -1,5 +1,9 @@
 # moonlight-vscode-theme
 
+## [5.2.5] - 2025-06-11
+
+- Add Python Notebook screenshot
+
 ## [5.2.4] - 2025-06-11
 
 - Fixing screenshots
