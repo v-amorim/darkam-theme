@@ -1,5 +1,9 @@
 # moonlight-vscode-theme
 
+## [5.2.3] - 2025-06-11
+
+- Screenshots added to the README.md
+
 ## [5.2.2] - 2025-06-11
 
 - Initial release of Moonlight 🌌, a brand new dark and blue theme for VS Code.
