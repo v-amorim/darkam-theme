@@ -1,6 +1,6 @@
 {
   "$schema": "../schema.json",
-  "name": "Darkam Theme",
+  "name": "Moonlight",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -513,8 +513,6 @@
         "support.constant",
         "support.type.property-name.css",
         "support.variable"
-        // "meta.indexed-name.python", // check later
-        // "meta.item-access.python", // check later
       ],
       "settings": {
         "fontStyle": "bold",
@@ -688,25 +686,6 @@
       "scope": [ "meta.member.access.python" ],
       "settings": {
         "foreground": "#698cff"
-      }
-    },
-    {
-      "name": "Testing Scope",
-      "scope": [
-        // "fstring.variable",
-        // "scope.scope.scope.scope.scope.scope.test2",
-        // "scope.scope.scope.scope.scope.scope.test3",
-        // "meta.attribute.python",
-        // "meta.member.access.python",
-        // "meta.function-call.arguments.python",
-        // "meta.function-call.python",
-        // "meta.member.access.python",
-        // "hotkeyline.ahk",
-      ],
-      "settings": {
-        "fontStyle": "bold underline",
-        "foreground": "#DDBC61",
-        "background": "#ffffff"
       }
     }
   ],

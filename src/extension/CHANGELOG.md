@@ -1,3 +1,11 @@
-## v1.0.1
+# moonlight-vscode-theme
 
-- Initial Release
+## [5.2.2] - 2025-06-11
+
+- Initial release of Moonlight 🌌, a brand new dark and blue theme for VS Code.
+- Designed to provide a comfortable, elegant, and focused coding experience with reduced eye strain.
+- Features a serene palette of deep blues and complementary dark tones for syntax highlighting and UI elements.
+
+## [previous versions]
+
+- Present on the github repo: https://github.com/v-amorim/moonlight-vscode-theme

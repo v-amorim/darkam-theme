@@ -1,30 +1,36 @@
 {
-  "name": "vscode-darkam-theme",
-  "displayName": "Darkam Theme",
-  "description": "A theme extension for VS Code based on Github Dark theme",
-  "version": "5.0.1",
-  "publisher": "vamorim",
-  "scripts": {
-    "publish": "vsce publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/viniam/darkam-theme"
-  },
-  "engines": {
-    "vscode": "*"
-  },
+  "name": "moonlight-vscode-theme",
+  "displayName": "Moonlight VSCode Theme 🌌",
+  "description": "Journey into the night with Moonlight 🌌, a dark and serene theme for VS Code, enhancing readability and reducing eye strain.",
+  "version": "5.2.2",
+  "icon": "icon.png",
+  "publisher": "v-amorim",
   "categories": [
     "Themes"
   ],
-  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Darkam Theme",
+        "label": "Moonlight",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkam-theme.json"
+        "path": "./themes/Moonlight-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v-amorim/moonlight-vscode-theme"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "icon.png",
+    "package.json",
+    "schema.json",
+    "themes/Moonlight-color-theme.json"
+  ]
 }

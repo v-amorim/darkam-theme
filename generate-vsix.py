@@ -22,7 +22,7 @@ def zipfolder():
     extension = "vsix"
     root_folder = Path.cwd()
     old_versions_folder = root_folder / "old_versions"
-    versioned_file = root_folder / f"darkam-theme-v{version}.{extension}"
+    versioned_file = root_folder / f"Moonlight-v{version}.{extension}"
 
     move_old_versions(root_folder, old_versions_folder, versioned_file)
     zip_folder(root_folder / "src", versioned_file)
