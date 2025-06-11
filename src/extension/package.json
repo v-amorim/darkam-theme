@@ -2,7 +2,7 @@
   "name": "moonlight-vscode-theme",
   "displayName": "Moonlight VSCode Theme 🌌",
   "description": "Journey into the night with Moonlight 🌌, a dark and serene theme for VS Code, enhancing readability and reducing eye strain.",
-  "version": "5.2.2",
+  "version": "5.2.3",
   "icon": "icon.png",
   "publisher": "v-amorim",
   "categories": [
@@ -14,7 +14,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Moonlight",
+        "label": "Moonlight 🌌",
         "uiTheme": "vs-dark",
         "path": "./themes/Moonlight-color-theme.json"
       }
