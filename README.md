@@ -37,6 +37,10 @@ Moonlight 🌌 is designed with developer comfort in mind, offering a consistent
 | ---------------------------------------------------------------------------------------------------------- |
 | ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/ahk.png) |
 
+| SQL                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/sql.png) |
+
 | Json                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------- |
 | ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/json.png) |
@@ -52,6 +56,30 @@ Moonlight 🌌 is designed with developer comfort in mind, offering a consistent
 | Javascript                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------- |
 | ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/javascript.png) |
+
+| C                                                                                                        |
+| -------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/c.png) |
+
+| C++                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/cplusplus.png) |
+
+| C#                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/csharp.png) |
+
+| Rust                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/rust.png) |
+
+| Ruby                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/ruby.png) |
+
+| Go                                                                                                        |
+| --------------------------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/v-amorim/moonlight-vscode-theme/refs/heads/main/assets/go.png) |
 
 | Diff and Terminal                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------------- |

@@ -61,7 +61,7 @@
       "fontStyle": "italic"
     },
     "variable.constant": {
-      "foreground": "#7ef091"
+      "foreground": "#e08adb"
     },
     "variable.defaultLibrary": {
       "foreground": "#f07178"
@@ -93,14 +93,22 @@
     },
     {
       "name": "Italic Text",
-      "scope": [ "markup.italic", "meta.lambda-function.python" ],
+      "scope": [
+        "markup.italic",
+        "meta.lambda-function",
+        "meta.lambda-function.python"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Bold Text",
-      "scope": [ "markup.bold", "punctuation.definition.decorator.python" ],
+      "scope": [
+        "markup.bold",
+        "punctuation.definition.decorator",
+        "punctuation.definition.decorator.python"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
@@ -128,7 +136,12 @@
     },
     {
       "name": "Headings and Python Magic Methods",
-      "scope": [ "entity.name.section.markdown", "meta.separator", "support.function.magic.python" ],
+      "scope": [
+        "entity.name.section.markdown",
+        "meta.separator",
+        "support.function.magic",
+        "support.function.magic.python"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#79c0ff"
@@ -139,10 +152,16 @@
       "scope": [
         "punctuation.definition.variable.powershell",
         "support.variable.automatic.powershell",
+        "support.variable.magic",
         "support.variable.magic.python",
+        "variable.language.special.cls",
         "variable.language.special.cls.python",
+        "variable.language.special.self",
         "variable.language.special.self.python",
+        "variable.language.self",
+        "variable.parameter.function.language.special.cls",
         "variable.parameter.function.language.special.cls.python",
+        "variable.parameter.function.language.special.self",
         "variable.parameter.function.language.special.self.python"
       ],
       "settings": {
@@ -177,10 +196,13 @@
     {
       "name": "Punctuation and Symbol Definitions",
       "scope": [
+        "comment.typehint.type.notation",
         "comment.typehint.type.notation.python",
         "entity.name.function.js",
         "entity.name.function.ts",
         "fenced_code.block.language.attributes.markdown",
+        "variable.other.object.property.java",
+        "meta.function-call.generic",
         "meta.function-call.generic.python",
         "meta.other.valid-ampersand.markdown",
         "meta.other.valid-bracket.markdown",
@@ -194,16 +216,31 @@
         "punctuation.definition.strikethrough.markdown",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "punctuation.semi.rust",
+        "punctuation.separator.semicolon",
+        "punctuation.separator.semicolon.python",
         "punctuation.separator.table.markdown",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json",
         "punctuation.terminator.rule.css",
         "punctuation.terminator.statement.js",
         "punctuation.terminator.statement.ts",
+        "punctuation.terminator.java",
+        "punctuation.terminator",
         "support.function.ahk",
+        "support.function.builtin",
         "support.function.builtin.python",
         "support.function.misc.css",
-        "variable.legacy.builtin.python"
+        "variable.legacy.builtin",
+        "variable.legacy.builtin.python",
+        "keyword.other.type.php",
+        "storage.type",
+        "storage.type.php",
+        "storage.type.primitive.java",
+        "storage.type.java",
+        "punctuation.separator.pointer-access.c",
+        "punctuation.definition.typeparameters.begin.cs",
+        "punctuation.definition.typeparameters.end.cs"
       ],
       "settings": {
         "foreground": "#A5A1E9"
@@ -211,7 +248,12 @@
     },
     {
       "name": "Markdown and LaTeX Link Titles",
-      "scope": [ "string.other.link.title.markdown", "markup.underline.link.latex" ],
+      "scope": [
+        "markup.underline.link",
+        "markup.underline.link.latex",
+        "string.other.link.title",
+        "string.other.link.title.markdown"
+      ],
       "settings": {
         "fontStyle": "underline",
         "foreground": "#7386D0"
@@ -223,18 +265,24 @@
         "entity.name.command.shell",
         "entity.name.function.target.makefile",
         "entity.name.section.group-title.ini",
+        "entity.other.inherited-class",
         "entity.other.inherited-class.python",
         "hotkeyline.ahk",
-        "meta.function.python",
         "meta.table.toml",
         "support.function.attribute.powershell",
         "support.function.calc.css",
         "support.function.powershell",
+        "support.type",
+        "support.type.exception",
         "support.type.exception.python",
         "support.type.python",
         "variable.other.class.js",
         "variable.other.class.ts",
-        "variable.other.readwrite.alias.ts"
+        "variable.other.readwrite.alias.ts",
+        "punctuation.section.embedded.begin.php",
+        "keyword.other.DML.sql",
+        "keyword.other.DML.II.sql",
+        "keyword.other.alias.sql"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -255,6 +303,7 @@
         "invalid.deprecated",
         "invalid.illegal",
         "invalid.unimplemented",
+        "keyword.illegal.name",
         "keyword.illegal.name.python"
       ],
       "settings": {
@@ -265,6 +314,7 @@
     {
       "name": "Deleted Text and Diff Indicators",
       "scope": [
+        "comment.typehint.variable.notation",
         "comment.typehint.variable.notation.python",
         "markup.deleted",
         "meta.diff.header.from-file",
@@ -278,24 +328,29 @@
     {
       "name": "String Literals and Regular Expressions",
       "scope": [
-        "string.regexp.character-class",
-        "string.regexp string.regexp.arbitrary-repitition",
-        "string.regexp source.ruby.embedded",
-        "string.regexp constant.character.escape",
-        "string.quoted.single.python",
-        "string.quoted.double.python",
-        "string.quoted.docstring.single.python",
-        "string.quoted.docstring.multi.python",
-        "string.other.link.description.title.markdown",
-        "string.other.link.description.markdown",
-        "string.interpolated.python",
-        "string",
-        "string punctuation.section.embedded source",
-        "source.regexp",
-        "source.makefile",
-        "source.ini",
+        "meta.group.batchfile",
         "meta.scope.recipe.makefile",
-        "meta.group.batchfile"
+        "source.ini",
+        "source.makefile",
+        "source.regexp",
+        "string punctuation.section.embedded source",
+        "string",
+        "string.interpolated",
+        "string.interpolated.python",
+        "string.other.link.description.markdown",
+        "string.other.link.description.title.markdown",
+        "string.quoted.docstring.multi",
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.single",
+        "string.quoted.docstring.single.python",
+        "string.quoted.double",
+        "string.quoted.double.python",
+        "string.quoted.single",
+        "string.quoted.single.python",
+        "string.regexp constant.character.escape",
+        "string.regexp source.ruby.embedded",
+        "string.regexp string.regexp.arbitrary-repitition",
+        "string.regexp.character-class"
       ],
       "settings": {
         "foreground": "#a5cfff"
@@ -303,7 +358,12 @@
     },
     {
       "name": "Raw String Literals in Python",
-      "scope": [ "string.quoted.docstring.raw.single.python", "string.quoted.docstring.raw.multi.python" ],
+      "scope": [
+        "string.quoted.docstring.raw.multi",
+        "string.quoted.docstring.raw.multi.python",
+        "string.quoted.docstring.raw.single",
+        "string.quoted.docstring.raw.single.python"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#a5cfff"
@@ -312,7 +372,6 @@
     {
       "name": "Entity and Variable Name References",
       "scope": [
-        "entity.name.function.ruby",
         "entity.name.namespace",
         "entity.other.attribute-name.namespace.xml",
         "punctuation.definition.variable.percent.ahk",
@@ -353,8 +412,7 @@
         "meta.object.member",
         "meta.tag.attributes",
         "storage.modifier.import",
-        "storage.modifier.package",
-        "storage.type.java"
+        "storage.modifier.package"
       ],
       "settings": {
         "foreground": "#F8EAF8"
@@ -362,7 +420,13 @@
     },
     {
       "name": "Accessed Variables in Python",
-      "scope": [ "meta.function-call.arguments.python", "meta.indexed-name.python", "variable.css" ],
+      "scope": [
+        "meta.function-call.arguments",
+        "meta.function-call.arguments.python",
+        "meta.indexed-name",
+        "meta.indexed-name.python",
+        "variable.css"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F8EAF8"
@@ -398,27 +462,42 @@
     {
       "name": "Programming Constructs and Operators",
       "scope": [
+        "comment.typehint.ignore.notation",
         "comment.typehint.ignore.notation.python",
+        "constant.other.ellipsis",
         "constant.other.ellipsis.python",
         "constant.other.option.dash.shell",
         "keyword",
+        "keyword.control.flow",
         "keyword.control.flow.python",
+        "keyword.control.import",
         "keyword.control.import.python",
         "keyword.operator",
+        "keyword.operator.arithmetic",
         "keyword.operator.arithmetic.python",
+        "keyword.operator.assignment",
         "keyword.operator.assignment.python",
+        "keyword.operator.bitwise",
         "keyword.operator.bitwise.python",
+        "keyword.operator.comparison",
         "keyword.operator.comparison.python",
+        "keyword.operator.logical",
         "keyword.operator.logical.python",
+        "keyword.operator.unpacking.arguments",
         "keyword.operator.unpacking.arguments.python",
         "meta.selector.qss",
         "meta.tag.xml",
+        "punctuation.accessor",
         "punctuation.accessor.js",
         "punctuation.accessor.ts",
         "punctuation.eq.toml",
+        "punctuation.section.function.begin",
         "punctuation.section.function.begin.python",
+        "punctuation.section.function.end",
         "punctuation.section.function.end.python",
+        "punctuation.separator.colon",
         "punctuation.separator.colon.python",
+        "punctuation.separator.dict",
         "punctuation.separator.dict.python",
         "punctuation.separator.key-value.css",
         "punctuation.separator.key-value.html",
@@ -428,9 +507,12 @@
         "punctuation.separator.key-value.mapping.yaml",
         "punctuation.separator.key-value.ts",
         "storage",
+        "storage.modifier.declaration",
         "storage.modifier.declaration.python",
-        "storage.type",
+        "storage.type.class",
         "storage.type.class.python",
+        "storage.type.function",
+        "storage.type.function.lambda",
         "storage.type.function.lambda.python",
         "storage.type.function.python",
         "support.function.be.latex",
@@ -444,15 +526,17 @@
       "name": "Symbolic Punctuation in Code",
       "scope": [
         "punctuation.definition.constant.hashkey.ruby",
-        "punctuation.section.class.begin.python",
+        "punctuation.section.class.begin",
         "punctuation.section.class.begin.python",
         "punctuation.section.embedded",
-        "punctuation.section.embedded",
+        "punctuation.section.function.lambda.begin",
         "punctuation.section.function.lambda.begin.python",
+        "punctuation.section.function.lambda.end",
         "punctuation.section.function.lambda.end.python",
         "punctuation.separator.method.ruby",
         "punctuation.separator.namespace.xml",
         "punctuation.separator.object.ruby",
+        "punctuation.separator.period",
         "punctuation.separator.period.python",
         "punctuation.separator.variable.ruby"
       ],
@@ -463,18 +547,27 @@
     {
       "name": "Miscellaneous Syntax Characters",
       "scope": [
+        "comment.typehint.directive.notation",
         "comment.typehint.directive.notation.python",
+        "comment.typehint.punctuation.notation",
         "comment.typehint.punctuation.notation.python",
         "entity.name.tag.css",
         "entity.name.type.qss",
         "punctuation.ahk",
         "punctuation.separator",
+        "punctuation.separator.annotation.result",
         "punctuation.separator.annotation.result.python",
+        "punctuation.separator.arguments",
         "punctuation.separator.arguments.python",
+        "punctuation.separator.continuation.line",
         "punctuation.separator.continuation.line.python",
+        "punctuation.separator.element",
         "punctuation.separator.element.python",
         "punctuation.separator.key-value.markdown",
+        "punctuation.separator.parameters",
         "punctuation.separator.parameters.python",
+        "punctuation.comma.rust",
+        "punctuation.separator.slice",
         "punctuation.separator.slice.python"
       ],
       "settings": {
@@ -484,17 +577,20 @@
     {
       "name": "Language Keywords and Built-in Symbols",
       "scope": [
+        "entity.name.function",
         "entity.name.function.ahk",
         "entity.name.function.label.ahk",
         "entity.name.function.powershell",
         "entity.name.function.python",
         "entity.name.function.shell",
+        "entity.name.type.class",
         "entity.name.type.class.python",
         "entity.name.type.js",
         "entity.name.type.ts",
         "markup.inline.raw",
         "markup.raw.block.markdown",
         "meta.diff.header",
+        "meta.item-access.arguments",
         "meta.item-access.arguments.python",
         "meta.module-reference",
         "meta.output",
@@ -504,15 +600,28 @@
         "punctuation.definition.subshell.single.shell",
         "punctuation.definition.table.markdown",
         "punctuation.definition.variable.makefile",
+        "storage.type.format",
         "storage.type.format.python",
+        "meta.interpolation.rust",
         "storage.type.function.js",
         "storage.type.function.ts",
+        "storage.type.imaginary.number",
         "storage.type.imaginary.number.python",
+        "storage.type.number",
         "storage.type.number.python",
         "string variable",
         "support.constant",
         "support.type.property-name.css",
-        "support.variable"
+        "entity.name.type.struct",
+        "entity.name.type.struct.rust",
+        "entity.name.type",
+        "support.variable",
+        "entity.name.function.ruby",
+        "punctuation.definition.variable.ruby",
+        "variable.other.readwrite.instance.ruby",
+        "keyword.operator.error-control.php",
+        "keyword.other.phpdoc.php",
+        "support.function.string.sql"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -523,22 +632,33 @@
       "name": "String Delimiters and Escape Characters",
       "scope": [
         "constant.character.escape",
+        "constant.character.escape",
         "constant.character.escape.markdown",
         "constant.character.escape.python",
         "punctuation.definition.markdown",
         "punctuation.definition.string.begin",
+        "punctuation.definition.string.rust",
+        "punctuation.definition.string.begin.python string.interpolated",
         "punctuation.definition.string.begin.python string.interpolated.python",
+        "punctuation.definition.string.begin.python string.quoted.double",
         "punctuation.definition.string.begin.python string.quoted.double.python",
+        "punctuation.definition.string.begin.python string.quoted.multi",
         "punctuation.definition.string.begin.python string.quoted.multi.python",
+        "punctuation.definition.string.begin.python string.quoted.raw.single",
         "punctuation.definition.string.begin.python string.quoted.raw.single.python",
+        "punctuation.definition.string.begin.python string.quoted.single",
         "punctuation.definition.string.begin.python string.quoted.single.python",
         "punctuation.definition.string.end",
+        "punctuation.definition.string.end.python string.interpolated",
         "punctuation.definition.string.end.python string.interpolated.python",
+        "punctuation.definition.string.end.python string.quoted.double",
         "punctuation.definition.string.end.python string.quoted.double.python",
+        "punctuation.definition.string.end.python string.quoted.multi",
         "punctuation.definition.string.end.python string.quoted.multi.python",
+        "punctuation.definition.string.end.python string.quoted.raw.single",
         "punctuation.definition.string.end.python string.quoted.raw.single.python",
-        "punctuation.definition.string.end.python string.quoted.single.python",
-        "punctuation.separator.semicolon.python"
+        "punctuation.definition.string.end.python string.quoted.single",
+        "punctuation.definition.string.end.python string.quoted.single.python"
       ],
       "settings": {
         "foreground": "#faa4c9"
@@ -546,7 +666,9 @@
     },
     {
       "name": "Python String Type Annotations (f/r-strings)",
-      "scope": [ "storage.type.string.python" ],
+      "scope": [
+        "storage.type.string.python"
+      ],
       "settings": {
         "foreground": "#ff6bab",
         "fontStyle": "italic"
@@ -556,9 +678,11 @@
       "name": "Numeric Constants and Values",
       "scope": [
         "constant.numeric",
+        "punctuation.separator.dot.decimal",
         "constant.other.color.rgb-value.hex.css",
         "entity.name.constant",
-        "entity.other.keyframe-offset.percentage.css"
+        "entity.other.keyframe-offset.percentage.css",
+        "keyword.other.DDL.create.II.sql"
       ],
       "settings": {
         "foreground": "#79b8ff"
@@ -567,10 +691,14 @@
     {
       "name": "Language Constants and Enums",
       "scope": [
+        "constant.character.format.placeholder.other",
         "constant.character.format.placeholder.other.python",
+        "constant.language",
         "constant.language.ahk",
+        "constant.language.boolean",
         "constant.language.boolean.false.js",
         "constant.language.boolean.false.ts",
+        "constant.language.boolean.ruby",
         "constant.language.boolean.toml",
         "constant.language.boolean.true.js",
         "constant.language.boolean.true.ts",
@@ -580,8 +708,11 @@
         "constant.language.python",
         "constant.language.symbol.hashkey.ruby",
         "constant.language.symbol.ruby",
+        "constant.other",
         "entity.name.tag",
+        "punctuation.definition.interpolation.rust",
         "support.class.component",
+        "variable.other.constant",
         "variable.other.enummember"
       ],
       "settings": {
@@ -590,9 +721,30 @@
     },
     {
       "name": "Uppercase Contants",
-      "scope": [ "constant.other.caps.python" ],
+      "scope": [
+        "constant.other.caps",
+        "constant.other.caps.python"
+      ],
       "settings": {
-        "foreground": "#eb5084"
+        "foreground": "#F279B2"
+      }
+    },
+    {
+      "name": "Function Parameters and Attributes",
+      "scope": [
+        "meta.function.parameters",
+        "meta.function.parameters.python",
+        "variable.parameter.function",
+        "variable.parameter.function.ruby",
+        "meta.function.definition.rust",
+        "variable.parameter.java",
+        "variable.parameter.go",
+        "meta.function-call.c",
+        "variable.other.object.access.c",
+        "keyword.other.pgsql"
+      ],
+      "settings": {
+        "foreground": "#ffafaf"
       }
     },
     {
@@ -601,16 +753,22 @@
         "constant.language.undefined.js",
         "constant.language.undefined.ts",
         "entity.other.attribute-name.html",
+        "entity.other.inherited-class.python variable.parameter.class",
         "entity.other.inherited-class.python variable.parameter.class.python",
+        "meta.class.inheritance",
         "meta.class.inheritance.python",
         "meta.hashtable.assignment",
         "meta.object.member.js",
         "meta.object.member.ts",
         "variable.argument.css",
         "variable.parameter.attribute.powershell",
-        "variable.parameter.function.language.python"
+        "variable.parameter.function.language",
+        "variable.parameter.function.language.python",
+        "variable.parameter.probably.c",
+        "entity.name.variable.parameter.cs"
       ],
       "settings": {
+        "fontStyle": "bold italic",
         "foreground": "#ffafaf"
       }
     },
@@ -621,6 +779,7 @@
         "support.constant.property-value.css",
         "support.constant.property-value.qss",
         "variable.other.block.ruby",
+        "variable.parameter.function-call",
         "variable.parameter.function-call.python"
       ],
       "settings": {
@@ -666,8 +825,11 @@
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
         "markup.heading",
+        "meta.attribute",
         "meta.attribute.python",
+        "meta.method.body.java",
         "meta.function-call.ts",
+        "meta.function.decorator",
         "meta.function.decorator.python",
         "meta.selector.css",
         "meta.template-tag.end",
@@ -675,15 +837,32 @@
         "support.type.property-name.json",
         "support.type.property-name.qss",
         "variable.other.property.js",
-        "variable.other.property.ts"
+        "variable.other.property.ts",
+        "keyword.operator.address.go",
+        "keyword.type"
       ],
       "settings": {
         "foreground": "#9cb6ed"
       }
     },
     {
+      "name": "XML Attributes and Python Decorators",
+      "scope": [
+        "keyword.other.sql"
+      ],
+      "settings": {
+        "foreground": "#97B7FA"
+      }
+    },
+    {
       "name": "Method Member Access",
-      "scope": [ "meta.member.access.python" ],
+      "scope": [
+        "meta.member.access",
+        "meta.member.access.python",
+        "variable.other.member.c",
+        "variable.other.object.property.cs",
+        "keyword.other.order.sql"
+      ],
       "settings": {
         "foreground": "#698cff"
       }
@@ -778,8 +957,8 @@
     "editorBracketHighlight.foreground2": "#7386D0",
     "editorBracketHighlight.foreground3": "#B86CB3",
     "editorBracketHighlight.foreground4": "#FF72B0",
-    "editorBracketHighlight.foreground5": "#FFCB6B",
-    "editorBracketHighlight.foreground6": "#49EF95",
+    "editorBracketHighlight.foreground5": "#DBB060",
+    "editorBracketHighlight.foreground6": "#43C97F",
     "editorBracketHighlight.unexpectedBracket.foreground": "#CA5F71",
     "editorBracketMatch.background": "#2D3654",
     "editorBracketMatch.border": "#7386D0",
@@ -787,14 +966,14 @@
     "editorBracketPairGuide.activeBackground2": "#7386D0",
     "editorBracketPairGuide.activeBackground3": "#B86CB3",
     "editorBracketPairGuide.activeBackground4": "#FF72B0",
-    "editorBracketPairGuide.activeBackground5": "#FFCB6B",
-    "editorBracketPairGuide.activeBackground6": "#49EF95",
+    "editorBracketPairGuide.activeBackground5": "#DBB060",
+    "editorBracketPairGuide.activeBackground6": "#43C97F",
     "editorBracketPairGuide.background1": "#5DABF390",
     "editorBracketPairGuide.background2": "#7386D090",
     "editorBracketPairGuide.background3": "#B86CB390",
     "editorBracketPairGuide.background4": "#FF72B090",
-    "editorBracketPairGuide.background5": "#FFCB6B90",
-    "editorBracketPairGuide.background6": "#49EF9590",
+    "editorBracketPairGuide.background5": "#DBB06090",
+    "editorBracketPairGuide.background6": "#43C97F90",
     "editorCodeLens.foreground": "#AEA4BF",
     "editorCursor.foreground": "#79C0FF",
     "editorError.background": "#FF72B01e",
@@ -813,8 +992,8 @@
     "editorIndentGuide.activeBackground2": "#7386D098",
     "editorIndentGuide.activeBackground3": "#B86CB398",
     "editorIndentGuide.activeBackground4": "#FF72B098",
-    "editorIndentGuide.activeBackground5": "#FFCB6B98",
-    "editorIndentGuide.activeBackground6": "#49EF9598",
+    "editorIndentGuide.activeBackground5": "#DBB06098",
+    "editorIndentGuide.activeBackground6": "#43C97F98",
     "editorIndentGuide.background": "#c9d1d91f",
     "editorIndentGuide.background1": "#5DABF320",
     "editorIndentGuide.background2": "#7386D020",
@@ -1000,7 +1179,7 @@
     "scmGraph.foreground2": "#7386D0",
     "scmGraph.foreground3": "#B86CB3",
     "scmGraph.foreground4": "#FF72B0",
-    "scmGraph.foreground5": "#FFCB6B",
+    "scmGraph.foreground5": "#DBB060",
     "scmGraph.historyItemRefColor": "#7386D0",
     "scmGraph.historyItemRemoteRefColor": "#B58EE8",
     "scrollbarSlider.activeBackground": "#2D3654aa",
